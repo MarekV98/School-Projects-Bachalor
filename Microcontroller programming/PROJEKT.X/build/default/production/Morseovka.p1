@@ -1,0 +1,1649 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"19352 T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 19352: extern volatile __bit PEIE __attribute__((address(0x7F96)));
+[v _PEIE `Vb ~T0 @X0 0 e@32662 ]
+"18491
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 18491: extern volatile __bit GIE __attribute__((address(0x7F97)));
+[v _GIE `Vb ~T0 @X0 0 e@32663 ]
+"19454
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 19454: extern volatile __bit RC1IE __attribute__((address(0x7CED)));
+[v _RC1IE `Vb ~T0 @X0 0 e@31981 ]
+"147
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 147: extern volatile unsigned char ANSELC __attribute__((address(0xF3A)));
+[v _ANSELC `Vuc ~T0 @X0 0 e@3898 ]
+"8726
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 8726: extern volatile unsigned char TRISD __attribute__((address(0xF95)));
+[v _TRISD `Vuc ~T0 @X0 0 e@3989 ]
+"8515
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 8515:     struct {
+[s S409 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S409 . TRISC0 TRISC1 TRISC2 TRISC3 TRISC4 TRISC5 TRISC6 TRISC7 ]
+"8525
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 8525:     struct {
+[s S410 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S410 . RC0 RC1 RC2 RC3 RC4 RC5 RC6 RC7 ]
+"8514
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 8514: typedef union {
+[u S408 `S409 1 `S410 1 ]
+[n S408 . . . ]
+"8536
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 8536: extern volatile TRISCbits_t TRISCbits __attribute__((address(0xF94)));
+[v _TRISCbits `VS408 ~T0 @X0 0 e@3988 ]
+"11366
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 11366: extern volatile unsigned char SPBRG1 __attribute__((address(0xFAF)));
+[v _SPBRG1 `Vuc ~T0 @X0 0 e@4015 ]
+"10394
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 10394:     struct {
+[s S484 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S484 . RX9D OERR FERR ADDEN CREN SREN RX9 SPEN ]
+"10404
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 10404:     struct {
+[s S485 :3 `uc 1 :1 `uc 1 ]
+[n S485 . . ADEN ]
+"10408
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 10408:     struct {
+[s S486 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S486 . RX9D1 OERR1 FERR1 ADDEN1 CREN1 SREN1 RX91 SPEN1 ]
+"10418
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 10418:     struct {
+[s S487 :1 `uc 1 :5 `uc 1 :1 `uc 1 ]
+[n S487 . RCD8 . RC8_9 ]
+"10423
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 10423:     struct {
+[s S488 :6 `uc 1 :1 `uc 1 ]
+[n S488 . . RC9 ]
+"10427
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 10427:     struct {
+[s S489 :5 `uc 1 :1 `uc 1 ]
+[n S489 . . SRENA ]
+"10393
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 10393: typedef union {
+[u S483 `S484 1 `S485 1 `S486 1 `S487 1 `S488 1 `S489 1 ]
+[n S483 . . . . . . . ]
+"10432
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 10432: extern volatile RCSTA1bits_t RCSTA1bits __attribute__((address(0xFAB)));
+[v _RCSTA1bits `VS483 ~T0 @X0 0 e@4011 ]
+"10850
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 10850:     struct {
+[s S505 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S505 . TX9D TRMT BRGH SENDB SYNC TXEN TX9 CSRC ]
+"10860
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 10860:     struct {
+[s S506 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S506 . TX9D1 TRMT1 BRGH1 SENDB1 SYNC1 TXEN1 TX91 CSRC1 ]
+"10870
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 10870:     struct {
+[s S507 :1 `uc 1 :5 `uc 1 :1 `uc 1 ]
+[n S507 . TXD8 . TX8_9 ]
+"10849
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 10849: typedef union {
+[u S504 `S505 1 `S506 1 `S507 1 ]
+[n S504 . . . . ]
+"10876
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 10876: extern volatile TXSTA1bits_t TXSTA1bits __attribute__((address(0xFAC)));
+[v _TXSTA1bits `VS504 ~T0 @X0 0 e@4012 ]
+[t ~ __interrupt . k ]
+[t T1 __interrupt ]
+"19457
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 19457: extern volatile __bit RC1IF __attribute__((address(0x7CF5)));
+[v _RC1IF `Vb ~T0 @X0 0 e@31989 ]
+"11288
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 11288: extern volatile unsigned char RCREG1 __attribute__((address(0xFAE)));
+[v _RCREG1 `Vuc ~T0 @X0 0 e@4014 ]
+[p mainexit ]
+"111 T:\Programy\MPLAB\XC  Compiler\pic\include\c99\stdio.h
+[v _printf `(i ~T0 @X0 0 ev`*Cuc ]
+"20585 T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 20585: extern volatile __bit TX1IF __attribute__((address(0x7CF4)));
+[v _TX1IF `Vb ~T0 @X0 0 e@31988 ]
+"11210
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 11210: extern volatile unsigned char TXREG1 __attribute__((address(0xFAD)));
+[v _TXREG1 `Vuc ~T0 @X0 0 e@4013 ]
+"1 Morseovka.c
+[p x FOSC = HSMP ]
+"2
+[p x PLLCFG = ON ]
+"3
+[p x WDTEN = OFF ]
+"4
+[p x FCMEN = ON ]
+"5
+[p x PRICLKEN = ON ]
+"54 T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 54: __asm("ANSELA equ 0F38h");
+[; <" ANSELA equ 0F38h ;# ">
+"99
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 99: __asm("ANSELB equ 0F39h");
+[; <" ANSELB equ 0F39h ;# ">
+"149
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 149: __asm("ANSELC equ 0F3Ah");
+[; <" ANSELC equ 0F3Ah ;# ">
+"200
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 200: __asm("ANSELD equ 0F3Bh");
+[; <" ANSELD equ 0F3Bh ;# ">
+"262
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 262: __asm("ANSELE equ 0F3Ch");
+[; <" ANSELE equ 0F3Ch ;# ">
+"294
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 294: __asm("PMD2 equ 0F3Dh");
+[; <" PMD2 equ 0F3Dh ;# ">
+"332
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 332: __asm("PMD1 equ 0F3Eh");
+[; <" PMD1 equ 0F3Eh ;# ">
+"397
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 397: __asm("PMD0 equ 0F3Fh");
+[; <" PMD0 equ 0F3Fh ;# ">
+"474
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 474: __asm("VREFCON2 equ 0F40h");
+[; <" VREFCON2 equ 0F40h ;# ">
+"479
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 479: __asm("DACCON1 equ 0F40h");
+[; <" DACCON1 equ 0F40h ;# ">
+"576
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 576: __asm("VREFCON1 equ 0F41h");
+[; <" VREFCON1 equ 0F41h ;# ">
+"581
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 581: __asm("DACCON0 equ 0F41h");
+[; <" DACCON0 equ 0F41h ;# ">
+"696
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 696: __asm("VREFCON0 equ 0F42h");
+[; <" VREFCON0 equ 0F42h ;# ">
+"701
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 701: __asm("FVRCON equ 0F42h");
+[; <" FVRCON equ 0F42h ;# ">
+"790
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 790: __asm("CTMUICON equ 0F43h");
+[; <" CTMUICON equ 0F43h ;# ">
+"795
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 795: __asm("CTMUICONH equ 0F43h");
+[; <" CTMUICONH equ 0F43h ;# ">
+"940
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 940: __asm("CTMUCONL equ 0F44h");
+[; <" CTMUCONL equ 0F44h ;# ">
+"945
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 945: __asm("CTMUCON1 equ 0F44h");
+[; <" CTMUCON1 equ 0F44h ;# ">
+"1094
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 1094: __asm("CTMUCONH equ 0F45h");
+[; <" CTMUCONH equ 0F45h ;# ">
+"1099
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 1099: __asm("CTMUCON0 equ 0F45h");
+[; <" CTMUCON0 equ 0F45h ;# ">
+"1206
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 1206: __asm("SRCON1 equ 0F46h");
+[; <" SRCON1 equ 0F46h ;# ">
+"1268
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 1268: __asm("SRCON0 equ 0F47h");
+[; <" SRCON0 equ 0F47h ;# ">
+"1339
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 1339: __asm("CCPTMRS1 equ 0F48h");
+[; <" CCPTMRS1 equ 0F48h ;# ">
+"1391
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 1391: __asm("CCPTMRS0 equ 0F49h");
+[; <" CCPTMRS0 equ 0F49h ;# ">
+"1465
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 1465: __asm("T6CON equ 0F4Ah");
+[; <" T6CON equ 0F4Ah ;# ">
+"1536
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 1536: __asm("PR6 equ 0F4Bh");
+[; <" PR6 equ 0F4Bh ;# ">
+"1556
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 1556: __asm("TMR6 equ 0F4Ch");
+[; <" TMR6 equ 0F4Ch ;# ">
+"1576
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 1576: __asm("T5GCON equ 0F4Dh");
+[; <" T5GCON equ 0F4Dh ;# ">
+"1671
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 1671: __asm("T5CON equ 0F4Eh");
+[; <" T5CON equ 0F4Eh ;# ">
+"1780
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 1780: __asm("TMR5 equ 0F4Fh");
+[; <" TMR5 equ 0F4Fh ;# ">
+"1787
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 1787: __asm("TMR5L equ 0F4Fh");
+[; <" TMR5L equ 0F4Fh ;# ">
+"1807
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 1807: __asm("TMR5H equ 0F50h");
+[; <" TMR5H equ 0F50h ;# ">
+"1827
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 1827: __asm("T4CON equ 0F51h");
+[; <" T4CON equ 0F51h ;# ">
+"1898
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 1898: __asm("PR4 equ 0F52h");
+[; <" PR4 equ 0F52h ;# ">
+"1918
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 1918: __asm("TMR4 equ 0F53h");
+[; <" TMR4 equ 0F53h ;# ">
+"1938
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 1938: __asm("CCP5CON equ 0F54h");
+[; <" CCP5CON equ 0F54h ;# ">
+"2002
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 2002: __asm("CCPR5 equ 0F55h");
+[; <" CCPR5 equ 0F55h ;# ">
+"2009
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 2009: __asm("CCPR5L equ 0F55h");
+[; <" CCPR5L equ 0F55h ;# ">
+"2029
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 2029: __asm("CCPR5H equ 0F56h");
+[; <" CCPR5H equ 0F56h ;# ">
+"2049
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 2049: __asm("CCP4CON equ 0F57h");
+[; <" CCP4CON equ 0F57h ;# ">
+"2113
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 2113: __asm("CCPR4 equ 0F58h");
+[; <" CCPR4 equ 0F58h ;# ">
+"2120
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 2120: __asm("CCPR4L equ 0F58h");
+[; <" CCPR4L equ 0F58h ;# ">
+"2140
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 2140: __asm("CCPR4H equ 0F59h");
+[; <" CCPR4H equ 0F59h ;# ">
+"2160
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 2160: __asm("PSTR3CON equ 0F5Ah");
+[; <" PSTR3CON equ 0F5Ah ;# ">
+"2236
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 2236: __asm("ECCP3AS equ 0F5Bh");
+[; <" ECCP3AS equ 0F5Bh ;# ">
+"2241
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 2241: __asm("CCP3AS equ 0F5Bh");
+[; <" CCP3AS equ 0F5Bh ;# ">
+"2478
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 2478: __asm("PWM3CON equ 0F5Ch");
+[; <" PWM3CON equ 0F5Ch ;# ">
+"2548
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 2548: __asm("CCP3CON equ 0F5Dh");
+[; <" CCP3CON equ 0F5Dh ;# ">
+"2630
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 2630: __asm("CCPR3 equ 0F5Eh");
+[; <" CCPR3 equ 0F5Eh ;# ">
+"2637
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 2637: __asm("CCPR3L equ 0F5Eh");
+[; <" CCPR3L equ 0F5Eh ;# ">
+"2657
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 2657: __asm("CCPR3H equ 0F5Fh");
+[; <" CCPR3H equ 0F5Fh ;# ">
+"2677
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 2677: __asm("SLRCON equ 0F60h");
+[; <" SLRCON equ 0F60h ;# ">
+"2721
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 2721: __asm("WPUB equ 0F61h");
+[; <" WPUB equ 0F61h ;# ">
+"2783
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 2783: __asm("IOCB equ 0F62h");
+[; <" IOCB equ 0F62h ;# ">
+"2822
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 2822: __asm("PSTR2CON equ 0F63h");
+[; <" PSTR2CON equ 0F63h ;# ">
+"2962
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 2962: __asm("ECCP2AS equ 0F64h");
+[; <" ECCP2AS equ 0F64h ;# ">
+"2967
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 2967: __asm("CCP2AS equ 0F64h");
+[; <" CCP2AS equ 0F64h ;# ">
+"3204
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 3204: __asm("PWM2CON equ 0F65h");
+[; <" PWM2CON equ 0F65h ;# ">
+"3274
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 3274: __asm("CCP2CON equ 0F66h");
+[; <" CCP2CON equ 0F66h ;# ">
+"3356
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 3356: __asm("CCPR2 equ 0F67h");
+[; <" CCPR2 equ 0F67h ;# ">
+"3363
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 3363: __asm("CCPR2L equ 0F67h");
+[; <" CCPR2L equ 0F67h ;# ">
+"3383
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 3383: __asm("CCPR2H equ 0F68h");
+[; <" CCPR2H equ 0F68h ;# ">
+"3403
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 3403: __asm("SSP2CON3 equ 0F69h");
+[; <" SSP2CON3 equ 0F69h ;# ">
+"3465
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 3465: __asm("SSP2MSK equ 0F6Ah");
+[; <" SSP2MSK equ 0F6Ah ;# ">
+"3535
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 3535: __asm("SSP2CON2 equ 0F6Bh");
+[; <" SSP2CON2 equ 0F6Bh ;# ">
+"3680
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 3680: __asm("SSP2CON1 equ 0F6Ch");
+[; <" SSP2CON1 equ 0F6Ch ;# ">
+"3800
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 3800: __asm("SSP2STAT equ 0F6Dh");
+[; <" SSP2STAT equ 0F6Dh ;# ">
+"4200
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 4200: __asm("SSP2ADD equ 0F6Eh");
+[; <" SSP2ADD equ 0F6Eh ;# ">
+"4270
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 4270: __asm("SSP2BUF equ 0F6Fh");
+[; <" SSP2BUF equ 0F6Fh ;# ">
+"4290
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 4290: __asm("BAUDCON2 equ 0F70h");
+[; <" BAUDCON2 equ 0F70h ;# ">
+"4295
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 4295: __asm("BAUD2CON equ 0F70h");
+[; <" BAUD2CON equ 0F70h ;# ">
+"4552
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 4552: __asm("RCSTA2 equ 0F71h");
+[; <" RCSTA2 equ 0F71h ;# ">
+"4557
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 4557: __asm("RC2STA equ 0F71h");
+[; <" RC2STA equ 0F71h ;# ">
+"4840
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 4840: __asm("TXSTA2 equ 0F72h");
+[; <" TXSTA2 equ 0F72h ;# ">
+"4845
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 4845: __asm("TX2STA equ 0F72h");
+[; <" TX2STA equ 0F72h ;# ">
+"5092
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 5092: __asm("TXREG2 equ 0F73h");
+[; <" TXREG2 equ 0F73h ;# ">
+"5097
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 5097: __asm("TX2REG equ 0F73h");
+[; <" TX2REG equ 0F73h ;# ">
+"5130
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 5130: __asm("RCREG2 equ 0F74h");
+[; <" RCREG2 equ 0F74h ;# ">
+"5135
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 5135: __asm("RC2REG equ 0F74h");
+[; <" RC2REG equ 0F74h ;# ">
+"5168
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 5168: __asm("SPBRG2 equ 0F75h");
+[; <" SPBRG2 equ 0F75h ;# ">
+"5173
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 5173: __asm("SP2BRG equ 0F75h");
+[; <" SP2BRG equ 0F75h ;# ">
+"5206
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 5206: __asm("SPBRGH2 equ 0F76h");
+[; <" SPBRGH2 equ 0F76h ;# ">
+"5211
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 5211: __asm("SP2BRGH equ 0F76h");
+[; <" SP2BRGH equ 0F76h ;# ">
+"5244
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 5244: __asm("CM2CON1 equ 0F77h");
+[; <" CM2CON1 equ 0F77h ;# ">
+"5249
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 5249: __asm("CM12CON equ 0F77h");
+[; <" CM12CON equ 0F77h ;# ">
+"5366
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 5366: __asm("CM2CON0 equ 0F78h");
+[; <" CM2CON0 equ 0F78h ;# ">
+"5371
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 5371: __asm("CM2CON equ 0F78h");
+[; <" CM2CON equ 0F78h ;# ">
+"5646
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 5646: __asm("CM1CON0 equ 0F79h");
+[; <" CM1CON0 equ 0F79h ;# ">
+"5651
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 5651: __asm("CM1CON equ 0F79h");
+[; <" CM1CON equ 0F79h ;# ">
+"6068
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 6068: __asm("PIE4 equ 0F7Ah");
+[; <" PIE4 equ 0F7Ah ;# ">
+"6100
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 6100: __asm("PIR4 equ 0F7Bh");
+[; <" PIR4 equ 0F7Bh ;# ">
+"6132
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 6132: __asm("IPR4 equ 0F7Ch");
+[; <" IPR4 equ 0F7Ch ;# ">
+"6172
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 6172: __asm("PIE5 equ 0F7Dh");
+[; <" PIE5 equ 0F7Dh ;# ">
+"6204
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 6204: __asm("PIR5 equ 0F7Eh");
+[; <" PIR5 equ 0F7Eh ;# ">
+"6236
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 6236: __asm("IPR5 equ 0F7Fh");
+[; <" IPR5 equ 0F7Fh ;# ">
+"6282
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 6282: __asm("PORTA equ 0F80h");
+[; <" PORTA equ 0F80h ;# ">
+"6567
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 6567: __asm("PORTB equ 0F81h");
+[; <" PORTB equ 0F81h ;# ">
+"6837
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 6837: __asm("PORTC equ 0F82h");
+[; <" PORTC equ 0F82h ;# ">
+"7144
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 7144: __asm("PORTD equ 0F83h");
+[; <" PORTD equ 0F83h ;# ">
+"7387
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 7387: __asm("PORTE equ 0F84h");
+[; <" PORTE equ 0F84h ;# ">
+"7562
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 7562: __asm("LATA equ 0F89h");
+[; <" LATA equ 0F89h ;# ">
+"7674
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 7674: __asm("LATB equ 0F8Ah");
+[; <" LATB equ 0F8Ah ;# ">
+"7786
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 7786: __asm("LATC equ 0F8Bh");
+[; <" LATC equ 0F8Bh ;# ">
+"7898
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 7898: __asm("LATD equ 0F8Ch");
+[; <" LATD equ 0F8Ch ;# ">
+"8010
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 8010: __asm("LATE equ 0F8Dh");
+[; <" LATE equ 0F8Dh ;# ">
+"8062
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 8062: __asm("TRISA equ 0F92h");
+[; <" TRISA equ 0F92h ;# ">
+"8067
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 8067: __asm("DDRA equ 0F92h");
+[; <" DDRA equ 0F92h ;# ">
+"8284
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 8284: __asm("TRISB equ 0F93h");
+[; <" TRISB equ 0F93h ;# ">
+"8289
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 8289: __asm("DDRB equ 0F93h");
+[; <" DDRB equ 0F93h ;# ">
+"8506
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 8506: __asm("TRISC equ 0F94h");
+[; <" TRISC equ 0F94h ;# ">
+"8511
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 8511: __asm("DDRC equ 0F94h");
+[; <" DDRC equ 0F94h ;# ">
+"8728
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 8728: __asm("TRISD equ 0F95h");
+[; <" TRISD equ 0F95h ;# ">
+"8733
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 8733: __asm("DDRD equ 0F95h");
+[; <" DDRD equ 0F95h ;# ">
+"8950
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 8950: __asm("TRISE equ 0F96h");
+[; <" TRISE equ 0F96h ;# ">
+"8955
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 8955: __asm("DDRE equ 0F96h");
+[; <" DDRE equ 0F96h ;# ">
+"9066
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 9066: __asm("OSCTUNE equ 0F9Bh");
+[; <" OSCTUNE equ 0F9Bh ;# ">
+"9136
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 9136: __asm("HLVDCON equ 0F9Ch");
+[; <" HLVDCON equ 0F9Ch ;# ">
+"9141
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 9141: __asm("LVDCON equ 0F9Ch");
+[; <" LVDCON equ 0F9Ch ;# ">
+"9416
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 9416: __asm("PIE1 equ 0F9Dh");
+[; <" PIE1 equ 0F9Dh ;# ">
+"9493
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 9493: __asm("PIR1 equ 0F9Eh");
+[; <" PIR1 equ 0F9Eh ;# ">
+"9570
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 9570: __asm("IPR1 equ 0F9Fh");
+[; <" IPR1 equ 0F9Fh ;# ">
+"9647
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 9647: __asm("PIE2 equ 0FA0h");
+[; <" PIE2 equ 0FA0h ;# ">
+"9733
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 9733: __asm("PIR2 equ 0FA1h");
+[; <" PIR2 equ 0FA1h ;# ">
+"9819
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 9819: __asm("IPR2 equ 0FA2h");
+[; <" IPR2 equ 0FA2h ;# ">
+"9905
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 9905: __asm("PIE3 equ 0FA3h");
+[; <" PIE3 equ 0FA3h ;# ">
+"10015
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 10015: __asm("PIR3 equ 0FA4h");
+[; <" PIR3 equ 0FA4h ;# ">
+"10093
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 10093: __asm("IPR3 equ 0FA5h");
+[; <" IPR3 equ 0FA5h ;# ">
+"10171
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 10171: __asm("EECON1 equ 0FA6h");
+[; <" EECON1 equ 0FA6h ;# ">
+"10237
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 10237: __asm("EECON2 equ 0FA7h");
+[; <" EECON2 equ 0FA7h ;# ">
+"10257
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 10257: __asm("EEDATA equ 0FA8h");
+[; <" EEDATA equ 0FA8h ;# ">
+"10277
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 10277: __asm("EEADR equ 0FA9h");
+[; <" EEADR equ 0FA9h ;# ">
+"10347
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 10347: __asm("EEADRH equ 0FAAh");
+[; <" EEADRH equ 0FAAh ;# ">
+"10381
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 10381: __asm("RCSTA1 equ 0FABh");
+[; <" RCSTA1 equ 0FABh ;# ">
+"10386
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 10386: __asm("RCSTA equ 0FABh");
+[; <" RCSTA equ 0FABh ;# ">
+"10390
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 10390: __asm("RC1STA equ 0FABh");
+[; <" RC1STA equ 0FABh ;# ">
+"10837
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 10837: __asm("TXSTA1 equ 0FACh");
+[; <" TXSTA1 equ 0FACh ;# ">
+"10842
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 10842: __asm("TXSTA equ 0FACh");
+[; <" TXSTA equ 0FACh ;# ">
+"10846
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 10846: __asm("TX1STA equ 0FACh");
+[; <" TX1STA equ 0FACh ;# ">
+"11212
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 11212: __asm("TXREG1 equ 0FADh");
+[; <" TXREG1 equ 0FADh ;# ">
+"11217
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 11217: __asm("TXREG equ 0FADh");
+[; <" TXREG equ 0FADh ;# ">
+"11221
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 11221: __asm("TX1REG equ 0FADh");
+[; <" TX1REG equ 0FADh ;# ">
+"11290
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 11290: __asm("RCREG1 equ 0FAEh");
+[; <" RCREG1 equ 0FAEh ;# ">
+"11295
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 11295: __asm("RCREG equ 0FAEh");
+[; <" RCREG equ 0FAEh ;# ">
+"11299
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 11299: __asm("RC1REG equ 0FAEh");
+[; <" RC1REG equ 0FAEh ;# ">
+"11368
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 11368: __asm("SPBRG1 equ 0FAFh");
+[; <" SPBRG1 equ 0FAFh ;# ">
+"11373
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 11373: __asm("SPBRG equ 0FAFh");
+[; <" SPBRG equ 0FAFh ;# ">
+"11377
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 11377: __asm("SP1BRG equ 0FAFh");
+[; <" SP1BRG equ 0FAFh ;# ">
+"11446
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 11446: __asm("SPBRGH1 equ 0FB0h");
+[; <" SPBRGH1 equ 0FB0h ;# ">
+"11451
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 11451: __asm("SPBRGH equ 0FB0h");
+[; <" SPBRGH equ 0FB0h ;# ">
+"11455
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 11455: __asm("SP1BRGH equ 0FB0h");
+[; <" SP1BRGH equ 0FB0h ;# ">
+"11524
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 11524: __asm("T3CON equ 0FB1h");
+[; <" T3CON equ 0FB1h ;# ">
+"11632
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 11632: __asm("TMR3 equ 0FB2h");
+[; <" TMR3 equ 0FB2h ;# ">
+"11639
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 11639: __asm("TMR3L equ 0FB2h");
+[; <" TMR3L equ 0FB2h ;# ">
+"11659
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 11659: __asm("TMR3H equ 0FB3h");
+[; <" TMR3H equ 0FB3h ;# ">
+"11679
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 11679: __asm("T3GCON equ 0FB4h");
+[; <" T3GCON equ 0FB4h ;# ">
+"11774
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 11774: __asm("ECCP1AS equ 0FB6h");
+[; <" ECCP1AS equ 0FB6h ;# ">
+"11779
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 11779: __asm("ECCPAS equ 0FB6h");
+[; <" ECCPAS equ 0FB6h ;# ">
+"12156
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 12156: __asm("PWM1CON equ 0FB7h");
+[; <" PWM1CON equ 0FB7h ;# ">
+"12161
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 12161: __asm("PWMCON equ 0FB7h");
+[; <" PWMCON equ 0FB7h ;# ">
+"12410
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 12410: __asm("BAUDCON1 equ 0FB8h");
+[; <" BAUDCON1 equ 0FB8h ;# ">
+"12415
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 12415: __asm("BAUDCON equ 0FB8h");
+[; <" BAUDCON equ 0FB8h ;# ">
+"12419
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 12419: __asm("BAUDCTL equ 0FB8h");
+[; <" BAUDCTL equ 0FB8h ;# ">
+"12423
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 12423: __asm("BAUD1CON equ 0FB8h");
+[; <" BAUD1CON equ 0FB8h ;# ">
+"13084
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 13084: __asm("PSTR1CON equ 0FB9h");
+[; <" PSTR1CON equ 0FB9h ;# ">
+"13089
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 13089: __asm("PSTRCON equ 0FB9h");
+[; <" PSTRCON equ 0FB9h ;# ">
+"13234
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 13234: __asm("T2CON equ 0FBAh");
+[; <" T2CON equ 0FBAh ;# ">
+"13305
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 13305: __asm("PR2 equ 0FBBh");
+[; <" PR2 equ 0FBBh ;# ">
+"13325
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 13325: __asm("TMR2 equ 0FBCh");
+[; <" TMR2 equ 0FBCh ;# ">
+"13345
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 13345: __asm("CCP1CON equ 0FBDh");
+[; <" CCP1CON equ 0FBDh ;# ">
+"13427
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 13427: __asm("CCPR1 equ 0FBEh");
+[; <" CCPR1 equ 0FBEh ;# ">
+"13434
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 13434: __asm("CCPR1L equ 0FBEh");
+[; <" CCPR1L equ 0FBEh ;# ">
+"13454
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 13454: __asm("CCPR1H equ 0FBFh");
+[; <" CCPR1H equ 0FBFh ;# ">
+"13474
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 13474: __asm("ADCON2 equ 0FC0h");
+[; <" ADCON2 equ 0FC0h ;# ">
+"13545
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 13545: __asm("ADCON1 equ 0FC1h");
+[; <" ADCON1 equ 0FC1h ;# ">
+"13613
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 13613: __asm("ADCON0 equ 0FC2h");
+[; <" ADCON0 equ 0FC2h ;# ">
+"13738
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 13738: __asm("ADRES equ 0FC3h");
+[; <" ADRES equ 0FC3h ;# ">
+"13745
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 13745: __asm("ADRESL equ 0FC3h");
+[; <" ADRESL equ 0FC3h ;# ">
+"13765
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 13765: __asm("ADRESH equ 0FC4h");
+[; <" ADRESH equ 0FC4h ;# ">
+"13785
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 13785: __asm("SSP1CON2 equ 0FC5h");
+[; <" SSP1CON2 equ 0FC5h ;# ">
+"13790
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 13790: __asm("SSPCON2 equ 0FC5h");
+[; <" SSPCON2 equ 0FC5h ;# ">
+"14139
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 14139: __asm("SSP1CON1 equ 0FC6h");
+[; <" SSP1CON1 equ 0FC6h ;# ">
+"14144
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 14144: __asm("SSPCON1 equ 0FC6h");
+[; <" SSPCON1 equ 0FC6h ;# ">
+"14377
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 14377: __asm("SSP1STAT equ 0FC7h");
+[; <" SSP1STAT equ 0FC7h ;# ">
+"14382
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 14382: __asm("SSPSTAT equ 0FC7h");
+[; <" SSPSTAT equ 0FC7h ;# ">
+"15007
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 15007: __asm("SSP1ADD equ 0FC8h");
+[; <" SSP1ADD equ 0FC8h ;# ">
+"15012
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 15012: __asm("SSPADD equ 0FC8h");
+[; <" SSPADD equ 0FC8h ;# ">
+"15261
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 15261: __asm("SSP1BUF equ 0FC9h");
+[; <" SSP1BUF equ 0FC9h ;# ">
+"15266
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 15266: __asm("SSPBUF equ 0FC9h");
+[; <" SSPBUF equ 0FC9h ;# ">
+"15315
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 15315: __asm("SSP1MSK equ 0FCAh");
+[; <" SSP1MSK equ 0FCAh ;# ">
+"15320
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 15320: __asm("SSPMSK equ 0FCAh");
+[; <" SSPMSK equ 0FCAh ;# ">
+"15453
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 15453: __asm("SSP1CON3 equ 0FCBh");
+[; <" SSP1CON3 equ 0FCBh ;# ">
+"15458
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 15458: __asm("SSPCON3 equ 0FCBh");
+[; <" SSPCON3 equ 0FCBh ;# ">
+"15575
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 15575: __asm("T1GCON equ 0FCCh");
+[; <" T1GCON equ 0FCCh ;# ">
+"15670
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 15670: __asm("T1CON equ 0FCDh");
+[; <" T1CON equ 0FCDh ;# ">
+"15783
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 15783: __asm("TMR1 equ 0FCEh");
+[; <" TMR1 equ 0FCEh ;# ">
+"15790
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 15790: __asm("TMR1L equ 0FCEh");
+[; <" TMR1L equ 0FCEh ;# ">
+"15810
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 15810: __asm("TMR1H equ 0FCFh");
+[; <" TMR1H equ 0FCFh ;# ">
+"15830
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 15830: __asm("RCON equ 0FD0h");
+[; <" RCON equ 0FD0h ;# ">
+"15963
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 15963: __asm("WDTCON equ 0FD1h");
+[; <" WDTCON equ 0FD1h ;# ">
+"15991
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 15991: __asm("OSCCON2 equ 0FD2h");
+[; <" OSCCON2 equ 0FD2h ;# ">
+"16048
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 16048: __asm("OSCCON equ 0FD3h");
+[; <" OSCCON equ 0FD3h ;# ">
+"16131
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 16131: __asm("T0CON equ 0FD5h");
+[; <" T0CON equ 0FD5h ;# ">
+"16201
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 16201: __asm("TMR0 equ 0FD6h");
+[; <" TMR0 equ 0FD6h ;# ">
+"16208
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 16208: __asm("TMR0L equ 0FD6h");
+[; <" TMR0L equ 0FD6h ;# ">
+"16228
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 16228: __asm("TMR0H equ 0FD7h");
+[; <" TMR0H equ 0FD7h ;# ">
+"16248
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 16248: __asm("STATUS equ 0FD8h");
+[; <" STATUS equ 0FD8h ;# ">
+"16319
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 16319: __asm("FSR2 equ 0FD9h");
+[; <" FSR2 equ 0FD9h ;# ">
+"16326
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 16326: __asm("FSR2L equ 0FD9h");
+[; <" FSR2L equ 0FD9h ;# ">
+"16346
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 16346: __asm("FSR2H equ 0FDAh");
+[; <" FSR2H equ 0FDAh ;# ">
+"16353
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 16353: __asm("PLUSW2 equ 0FDBh");
+[; <" PLUSW2 equ 0FDBh ;# ">
+"16373
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 16373: __asm("PREINC2 equ 0FDCh");
+[; <" PREINC2 equ 0FDCh ;# ">
+"16393
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 16393: __asm("POSTDEC2 equ 0FDDh");
+[; <" POSTDEC2 equ 0FDDh ;# ">
+"16413
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 16413: __asm("POSTINC2 equ 0FDEh");
+[; <" POSTINC2 equ 0FDEh ;# ">
+"16433
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 16433: __asm("INDF2 equ 0FDFh");
+[; <" INDF2 equ 0FDFh ;# ">
+"16453
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 16453: __asm("BSR equ 0FE0h");
+[; <" BSR equ 0FE0h ;# ">
+"16460
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 16460: __asm("FSR1 equ 0FE1h");
+[; <" FSR1 equ 0FE1h ;# ">
+"16467
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 16467: __asm("FSR1L equ 0FE1h");
+[; <" FSR1L equ 0FE1h ;# ">
+"16487
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 16487: __asm("FSR1H equ 0FE2h");
+[; <" FSR1H equ 0FE2h ;# ">
+"16494
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 16494: __asm("PLUSW1 equ 0FE3h");
+[; <" PLUSW1 equ 0FE3h ;# ">
+"16514
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 16514: __asm("PREINC1 equ 0FE4h");
+[; <" PREINC1 equ 0FE4h ;# ">
+"16534
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 16534: __asm("POSTDEC1 equ 0FE5h");
+[; <" POSTDEC1 equ 0FE5h ;# ">
+"16554
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 16554: __asm("POSTINC1 equ 0FE6h");
+[; <" POSTINC1 equ 0FE6h ;# ">
+"16574
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 16574: __asm("INDF1 equ 0FE7h");
+[; <" INDF1 equ 0FE7h ;# ">
+"16594
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 16594: __asm("WREG equ 0FE8h");
+[; <" WREG equ 0FE8h ;# ">
+"16632
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 16632: __asm("FSR0 equ 0FE9h");
+[; <" FSR0 equ 0FE9h ;# ">
+"16639
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 16639: __asm("FSR0L equ 0FE9h");
+[; <" FSR0L equ 0FE9h ;# ">
+"16659
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 16659: __asm("FSR0H equ 0FEAh");
+[; <" FSR0H equ 0FEAh ;# ">
+"16666
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 16666: __asm("PLUSW0 equ 0FEBh");
+[; <" PLUSW0 equ 0FEBh ;# ">
+"16686
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 16686: __asm("PREINC0 equ 0FECh");
+[; <" PREINC0 equ 0FECh ;# ">
+"16706
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 16706: __asm("POSTDEC0 equ 0FEDh");
+[; <" POSTDEC0 equ 0FEDh ;# ">
+"16726
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 16726: __asm("POSTINC0 equ 0FEEh");
+[; <" POSTINC0 equ 0FEEh ;# ">
+"16746
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 16746: __asm("INDF0 equ 0FEFh");
+[; <" INDF0 equ 0FEFh ;# ">
+"16766
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 16766: __asm("INTCON3 equ 0FF0h");
+[; <" INTCON3 equ 0FF0h ;# ">
+"16858
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 16858: __asm("INTCON2 equ 0FF1h");
+[; <" INTCON2 equ 0FF1h ;# ">
+"16928
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 16928: __asm("INTCON equ 0FF2h");
+[; <" INTCON equ 0FF2h ;# ">
+"17045
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 17045: __asm("PROD equ 0FF3h");
+[; <" PROD equ 0FF3h ;# ">
+"17052
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 17052: __asm("PRODL equ 0FF3h");
+[; <" PRODL equ 0FF3h ;# ">
+"17072
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 17072: __asm("PRODH equ 0FF4h");
+[; <" PRODH equ 0FF4h ;# ">
+"17092
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 17092: __asm("TABLAT equ 0FF5h");
+[; <" TABLAT equ 0FF5h ;# ">
+"17114
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 17114: __asm("TBLPTR equ 0FF6h");
+[; <" TBLPTR equ 0FF6h ;# ">
+"17121
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 17121: __asm("TBLPTRL equ 0FF6h");
+[; <" TBLPTRL equ 0FF6h ;# ">
+"17141
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 17141: __asm("TBLPTRH equ 0FF7h");
+[; <" TBLPTRH equ 0FF7h ;# ">
+"17161
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 17161: __asm("TBLPTRU equ 0FF8h");
+[; <" TBLPTRU equ 0FF8h ;# ">
+"17192
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 17192: __asm("PCLAT equ 0FF9h");
+[; <" PCLAT equ 0FF9h ;# ">
+"17199
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 17199: __asm("PC equ 0FF9h");
+[; <" PC equ 0FF9h ;# ">
+"17206
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 17206: __asm("PCL equ 0FF9h");
+[; <" PCL equ 0FF9h ;# ">
+"17226
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 17226: __asm("PCLATH equ 0FFAh");
+[; <" PCLATH equ 0FFAh ;# ">
+"17246
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 17246: __asm("PCLATU equ 0FFBh");
+[; <" PCLATU equ 0FFBh ;# ">
+"17253
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 17253: __asm("STKPTR equ 0FFCh");
+[; <" STKPTR equ 0FFCh ;# ">
+"17359
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 17359: __asm("TOS equ 0FFDh");
+[; <" TOS equ 0FFDh ;# ">
+"17366
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 17366: __asm("TOSL equ 0FFDh");
+[; <" TOSL equ 0FFDh ;# ">
+"17386
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 17386: __asm("TOSH equ 0FFEh");
+[; <" TOSH equ 0FFEh ;# ">
+"17406
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 17406: __asm("TOSU equ 0FFFh");
+[; <" TOSU equ 0FFFh ;# ">
+"14 Morseovka.c
+[; ;Morseovka.c: 14: void init(void){
+[v _init `(v ~T0 @X0 1 ef ]
+{
+[e :U _init ]
+[f ]
+"16
+[; ;Morseovka.c: 16:     PEIE = 1;
+[e = _PEIE -> -> 1 `i `b ]
+"17
+[; ;Morseovka.c: 17:     GIE = 1;
+[e = _GIE -> -> 1 `i `b ]
+"18
+[; ;Morseovka.c: 18:     RC1IE = 1;
+[e = _RC1IE -> -> 1 `i `b ]
+"20
+[; ;Morseovka.c: 20:     ANSELC = 0x00;
+[e = _ANSELC -> -> 0 `i `uc ]
+"21
+[; ;Morseovka.c: 21:     TRISD = 0x00;
+[e = _TRISD -> -> 0 `i `uc ]
+"22
+[; ;Morseovka.c: 22:     TRISCbits.TRISC6 = 1;
+[e = . . _TRISCbits 0 6 -> -> 1 `i `uc ]
+"23
+[; ;Morseovka.c: 23:     TRISCbits.TRISC7 = 1;
+[e = . . _TRISCbits 0 7 -> -> 1 `i `uc ]
+"25
+[; ;Morseovka.c: 25:     SPBRG1 = 51;
+[e = _SPBRG1 -> -> 51 `i `uc ]
+"26
+[; ;Morseovka.c: 26:     RCSTA1bits.SPEN = 1;
+[e = . . _RCSTA1bits 0 7 -> -> 1 `i `uc ]
+"27
+[; ;Morseovka.c: 27:     TXSTA1bits.SYNC = 0;
+[e = . . _TXSTA1bits 0 4 -> -> 0 `i `uc ]
+"28
+[; ;Morseovka.c: 28:     TXSTA1bits.TXEN = 1;
+[e = . . _TXSTA1bits 0 5 -> -> 1 `i `uc ]
+"29
+[; ;Morseovka.c: 29:     RCSTA1bits.CREN = 1;
+[e = . . _RCSTA1bits 0 4 -> -> 1 `i `uc ]
+"31
+[; ;Morseovka.c: 31: }
+[e :UE 856 ]
+}
+"33
+[; ;Morseovka.c: 33: char text[50];
+[v _text `uc ~T0 @X0 -> 50 `i e ]
+"34
+[; ;Morseovka.c: 34: volatile uint24_t n = 0;
+[v _n `Vum ~T0 @X0 1 e ]
+[i _n
+-> -> -> 0 `i `m `um
+]
+"35
+[; ;Morseovka.c: 35: int i = 0;
+[v _i `i ~T0 @X0 1 e ]
+[i _i
+-> 0 `i
+]
+"36
+[; ;Morseovka.c: 36: int j = 0;
+[v _j `i ~T0 @X0 1 e ]
+[i _j
+-> 0 `i
+]
+[v $root$_ISR `(v ~T0 @X0 0 e ]
+"39
+[; ;Morseovka.c: 39: void __attribute__((picinterrupt(("")))) ISR(void) {
+[v _ISR `(v ~T1 @X0 1 ef ]
+{
+[e :U _ISR ]
+[f ]
+"41
+[; ;Morseovka.c: 41:     if(RC1IE && RC1IF){
+[e $ ! && _RC1IE _RC1IF 858  ]
+{
+"42
+[; ;Morseovka.c: 42:            text[n] = RCREG1;
+[e = *U + &U _text * -> _n `ux -> -> # *U &U _text `ui `ux -> _RCREG1 `uc ]
+"43
+[; ;Morseovka.c: 43:            n++;
+[e ++ _n -> -> 1 `i `Vum ]
+"45
+[; ;Morseovka.c: 45:     }
+}
+[e :U 858 ]
+"46
+[; ;Morseovka.c: 46: }
+[e :UE 857 ]
+}
+[v $root$_main `(v ~T0 @X0 0 e ]
+"48
+[; ;Morseovka.c: 48: void main(void){
+[v _main `(v ~T0 @X0 1 ef ]
+{
+[e :U _main ]
+[f ]
+"49
+[; ;Morseovka.c: 49:     init();
+[e ( _init ..  ]
+"51
+[; ;Morseovka.c: 51:     while(1){
+[e :U 861 ]
+{
+"52
+[; ;Morseovka.c: 52:         if (n!=0){
+[e $ ! != _n -> -> -> 0 `i `m `um 863  ]
+{
+"53
+[; ;Morseovka.c: 53:         printf("\nPREKLAD:  ");
+[e ( _printf :s 1C ]
+"54
+[; ;Morseovka.c: 54:         for(i=0;i<n;i++){
+{
+[e = _i -> 0 `i ]
+[e $U 867  ]
+[e :U 864 ]
+{
+"57
+[; ;Morseovka.c: 57:             if ((text[i]=='A') || (text[i]=='a')){
+[e $ ! || == -> *U + &U _text * -> -> _i `ui `ux -> -> # *U &U _text `ui `ux `ui -> 65 `ui == -> *U + &U _text * -> -> _i `ui `ux -> -> # *U &U _text `ui `ux `ui -> 97 `ui 868  ]
+{
+"58
+[; ;Morseovka.c: 58:             printf(" . - |");
+[e ( _printf :s 2C ]
+"59
+[; ;Morseovka.c: 59:             }
+}
+[e $U 869  ]
+"60
+[; ;Morseovka.c: 60:             else if ((text[i]=='B') || (text[i]=='b')){
+[e :U 868 ]
+[e $ ! || == -> *U + &U _text * -> -> _i `ui `ux -> -> # *U &U _text `ui `ux `ui -> 66 `ui == -> *U + &U _text * -> -> _i `ui `ux -> -> # *U &U _text `ui `ux `ui -> 98 `ui 870  ]
+{
+"61
+[; ;Morseovka.c: 61:             printf(" - . . . |");
+[e ( _printf :s 3C ]
+"62
+[; ;Morseovka.c: 62:             }
+}
+[e $U 871  ]
+"63
+[; ;Morseovka.c: 63:             else if ((text[i]=='C') || (text[i]=='c')){
+[e :U 870 ]
+[e $ ! || == -> *U + &U _text * -> -> _i `ui `ux -> -> # *U &U _text `ui `ux `ui -> 67 `ui == -> *U + &U _text * -> -> _i `ui `ux -> -> # *U &U _text `ui `ux `ui -> 99 `ui 872  ]
+{
+"64
+[; ;Morseovka.c: 64:             printf(" - . - . |");
+[e ( _printf :s 4C ]
+"65
+[; ;Morseovka.c: 65:             }
+}
+[e $U 873  ]
+"66
+[; ;Morseovka.c: 66:             else if ((text[i]=='D') || (text[i]=='d')){
+[e :U 872 ]
+[e $ ! || == -> *U + &U _text * -> -> _i `ui `ux -> -> # *U &U _text `ui `ux `ui -> 68 `ui == -> *U + &U _text * -> -> _i `ui `ux -> -> # *U &U _text `ui `ux `ui -> 100 `ui 874  ]
+{
+"67
+[; ;Morseovka.c: 67:             printf(" - . . |");
+[e ( _printf :s 5C ]
+"68
+[; ;Morseovka.c: 68:             }
+}
+[e $U 875  ]
+"69
+[; ;Morseovka.c: 69:             else if ((text[i]=='E') || (text[i]=='e')){
+[e :U 874 ]
+[e $ ! || == -> *U + &U _text * -> -> _i `ui `ux -> -> # *U &U _text `ui `ux `ui -> 69 `ui == -> *U + &U _text * -> -> _i `ui `ux -> -> # *U &U _text `ui `ux `ui -> 101 `ui 876  ]
+{
+"70
+[; ;Morseovka.c: 70:             printf(" . |");
+[e ( _printf :s 6C ]
+"71
+[; ;Morseovka.c: 71:              }
+}
+[e $U 877  ]
+"72
+[; ;Morseovka.c: 72:             else if ((text[i]=='F') || (text[i]=='f')){
+[e :U 876 ]
+[e $ ! || == -> *U + &U _text * -> -> _i `ui `ux -> -> # *U &U _text `ui `ux `ui -> 70 `ui == -> *U + &U _text * -> -> _i `ui `ux -> -> # *U &U _text `ui `ux `ui -> 102 `ui 878  ]
+{
+"73
+[; ;Morseovka.c: 73:             printf(" . . - . |");
+[e ( _printf :s 7C ]
+"74
+[; ;Morseovka.c: 74:              }
+}
+[e $U 879  ]
+"75
+[; ;Morseovka.c: 75:             else if ((text[i]=='G') || (text[i]=='g')){
+[e :U 878 ]
+[e $ ! || == -> *U + &U _text * -> -> _i `ui `ux -> -> # *U &U _text `ui `ux `ui -> 71 `ui == -> *U + &U _text * -> -> _i `ui `ux -> -> # *U &U _text `ui `ux `ui -> 103 `ui 880  ]
+{
+"76
+[; ;Morseovka.c: 76:             printf(" - - . |");
+[e ( _printf :s 8C ]
+"77
+[; ;Morseovka.c: 77:              }
+}
+[e $U 881  ]
+"78
+[; ;Morseovka.c: 78:              else if ((text[i]=='H') || (text[i]=='h')){
+[e :U 880 ]
+[e $ ! || == -> *U + &U _text * -> -> _i `ui `ux -> -> # *U &U _text `ui `ux `ui -> 72 `ui == -> *U + &U _text * -> -> _i `ui `ux -> -> # *U &U _text `ui `ux `ui -> 104 `ui 882  ]
+{
+"79
+[; ;Morseovka.c: 79:             printf(" . . . . |");
+[e ( _printf :s 9C ]
+"80
+[; ;Morseovka.c: 80:              }
+}
+[e $U 883  ]
+"81
+[; ;Morseovka.c: 81:             else if ((text[i]=='I') || (text[i]=='i')){
+[e :U 882 ]
+[e $ ! || == -> *U + &U _text * -> -> _i `ui `ux -> -> # *U &U _text `ui `ux `ui -> 73 `ui == -> *U + &U _text * -> -> _i `ui `ux -> -> # *U &U _text `ui `ux `ui -> 105 `ui 884  ]
+{
+"82
+[; ;Morseovka.c: 82:             printf(" . . |");
+[e ( _printf :s 10C ]
+"83
+[; ;Morseovka.c: 83:              }
+}
+[e $U 885  ]
+"84
+[; ;Morseovka.c: 84:             else if ((text[i]=='J') || (text[i]=='j')){
+[e :U 884 ]
+[e $ ! || == -> *U + &U _text * -> -> _i `ui `ux -> -> # *U &U _text `ui `ux `ui -> 74 `ui == -> *U + &U _text * -> -> _i `ui `ux -> -> # *U &U _text `ui `ux `ui -> 106 `ui 886  ]
+{
+"85
+[; ;Morseovka.c: 85:             printf(" . - - - |");
+[e ( _printf :s 11C ]
+"86
+[; ;Morseovka.c: 86:              }
+}
+[e $U 887  ]
+"87
+[; ;Morseovka.c: 87:             else if ((text[i]=='K') || (text[i]=='k')){
+[e :U 886 ]
+[e $ ! || == -> *U + &U _text * -> -> _i `ui `ux -> -> # *U &U _text `ui `ux `ui -> 75 `ui == -> *U + &U _text * -> -> _i `ui `ux -> -> # *U &U _text `ui `ux `ui -> 107 `ui 888  ]
+{
+"88
+[; ;Morseovka.c: 88:             printf(" - . - |");
+[e ( _printf :s 12C ]
+"89
+[; ;Morseovka.c: 89:              }
+}
+[e $U 889  ]
+"90
+[; ;Morseovka.c: 90:            else if ((text[i]=='L') || (text[i]=='l')){
+[e :U 888 ]
+[e $ ! || == -> *U + &U _text * -> -> _i `ui `ux -> -> # *U &U _text `ui `ux `ui -> 76 `ui == -> *U + &U _text * -> -> _i `ui `ux -> -> # *U &U _text `ui `ux `ui -> 108 `ui 890  ]
+{
+"91
+[; ;Morseovka.c: 91:             printf(" . - . . |");
+[e ( _printf :s 13C ]
+"92
+[; ;Morseovka.c: 92:              }
+}
+[e $U 891  ]
+"93
+[; ;Morseovka.c: 93:              else if ((text[i]=='M') || (text[i]=='m')){
+[e :U 890 ]
+[e $ ! || == -> *U + &U _text * -> -> _i `ui `ux -> -> # *U &U _text `ui `ux `ui -> 77 `ui == -> *U + &U _text * -> -> _i `ui `ux -> -> # *U &U _text `ui `ux `ui -> 109 `ui 892  ]
+{
+"94
+[; ;Morseovka.c: 94:             printf(" - - |");
+[e ( _printf :s 14C ]
+"95
+[; ;Morseovka.c: 95:              }
+}
+[e $U 893  ]
+"96
+[; ;Morseovka.c: 96:            else if ((text[i]=='N') || (text[i]=='n')){
+[e :U 892 ]
+[e $ ! || == -> *U + &U _text * -> -> _i `ui `ux -> -> # *U &U _text `ui `ux `ui -> 78 `ui == -> *U + &U _text * -> -> _i `ui `ux -> -> # *U &U _text `ui `ux `ui -> 110 `ui 894  ]
+{
+"97
+[; ;Morseovka.c: 97:             printf(" - . |");
+[e ( _printf :s 15C ]
+"98
+[; ;Morseovka.c: 98:              }
+}
+[e $U 895  ]
+"99
+[; ;Morseovka.c: 99:              else if ((text[i]=='O') || (text[i]=='o')){
+[e :U 894 ]
+[e $ ! || == -> *U + &U _text * -> -> _i `ui `ux -> -> # *U &U _text `ui `ux `ui -> 79 `ui == -> *U + &U _text * -> -> _i `ui `ux -> -> # *U &U _text `ui `ux `ui -> 111 `ui 896  ]
+{
+"100
+[; ;Morseovka.c: 100:             printf(" - - - |");
+[e ( _printf :s 16C ]
+"101
+[; ;Morseovka.c: 101:              }
+}
+[e $U 897  ]
+"102
+[; ;Morseovka.c: 102:             else if ((text[i]=='P') || (text[i]=='p')){
+[e :U 896 ]
+[e $ ! || == -> *U + &U _text * -> -> _i `ui `ux -> -> # *U &U _text `ui `ux `ui -> 80 `ui == -> *U + &U _text * -> -> _i `ui `ux -> -> # *U &U _text `ui `ux `ui -> 112 `ui 898  ]
+{
+"103
+[; ;Morseovka.c: 103:             printf(" . - - . |");
+[e ( _printf :s 17C ]
+"104
+[; ;Morseovka.c: 104:              }
+}
+[e $U 899  ]
+"105
+[; ;Morseovka.c: 105:             else if ((text[i]=='Q') || (text[i]=='q')){
+[e :U 898 ]
+[e $ ! || == -> *U + &U _text * -> -> _i `ui `ux -> -> # *U &U _text `ui `ux `ui -> 81 `ui == -> *U + &U _text * -> -> _i `ui `ux -> -> # *U &U _text `ui `ux `ui -> 113 `ui 900  ]
+{
+"106
+[; ;Morseovka.c: 106:             printf(" - - . - |");
+[e ( _printf :s 18C ]
+"107
+[; ;Morseovka.c: 107:              }
+}
+[e $U 901  ]
+"108
+[; ;Morseovka.c: 108:              else if ((text[i]=='R') || (text[i]=='r')){
+[e :U 900 ]
+[e $ ! || == -> *U + &U _text * -> -> _i `ui `ux -> -> # *U &U _text `ui `ux `ui -> 82 `ui == -> *U + &U _text * -> -> _i `ui `ux -> -> # *U &U _text `ui `ux `ui -> 114 `ui 902  ]
+{
+"109
+[; ;Morseovka.c: 109:             printf(" . - . |");
+[e ( _printf :s 19C ]
+"110
+[; ;Morseovka.c: 110:              }
+}
+[e $U 903  ]
+"111
+[; ;Morseovka.c: 111:             else if ((text[i]=='S') || (text[i]=='s')){
+[e :U 902 ]
+[e $ ! || == -> *U + &U _text * -> -> _i `ui `ux -> -> # *U &U _text `ui `ux `ui -> 83 `ui == -> *U + &U _text * -> -> _i `ui `ux -> -> # *U &U _text `ui `ux `ui -> 115 `ui 904  ]
+{
+"112
+[; ;Morseovka.c: 112:             printf(" . . . |");
+[e ( _printf :s 20C ]
+"113
+[; ;Morseovka.c: 113:              }
+}
+[e $U 905  ]
+"114
+[; ;Morseovka.c: 114:             else if ((text[i]=='T') || (text[i]=='t')){
+[e :U 904 ]
+[e $ ! || == -> *U + &U _text * -> -> _i `ui `ux -> -> # *U &U _text `ui `ux `ui -> 84 `ui == -> *U + &U _text * -> -> _i `ui `ux -> -> # *U &U _text `ui `ux `ui -> 116 `ui 906  ]
+{
+"115
+[; ;Morseovka.c: 115:             printf(" - |");
+[e ( _printf :s 21C ]
+"116
+[; ;Morseovka.c: 116:              }
+}
+[e $U 907  ]
+"117
+[; ;Morseovka.c: 117:              else if ((text[i]=='U') || (text[i]=='u')){
+[e :U 906 ]
+[e $ ! || == -> *U + &U _text * -> -> _i `ui `ux -> -> # *U &U _text `ui `ux `ui -> 85 `ui == -> *U + &U _text * -> -> _i `ui `ux -> -> # *U &U _text `ui `ux `ui -> 117 `ui 908  ]
+{
+"118
+[; ;Morseovka.c: 118:             printf(" . . - |");
+[e ( _printf :s 22C ]
+"119
+[; ;Morseovka.c: 119:              }
+}
+[e $U 909  ]
+"120
+[; ;Morseovka.c: 120:              else if ((text[i]=='V') || (text[i]=='v')){
+[e :U 908 ]
+[e $ ! || == -> *U + &U _text * -> -> _i `ui `ux -> -> # *U &U _text `ui `ux `ui -> 86 `ui == -> *U + &U _text * -> -> _i `ui `ux -> -> # *U &U _text `ui `ux `ui -> 118 `ui 910  ]
+{
+"121
+[; ;Morseovka.c: 121:             printf(" . . . - |");
+[e ( _printf :s 23C ]
+"122
+[; ;Morseovka.c: 122:              }
+}
+[e $U 911  ]
+"123
+[; ;Morseovka.c: 123:             else if ((text[i]=='W') || (text[i]=='w')){
+[e :U 910 ]
+[e $ ! || == -> *U + &U _text * -> -> _i `ui `ux -> -> # *U &U _text `ui `ux `ui -> 87 `ui == -> *U + &U _text * -> -> _i `ui `ux -> -> # *U &U _text `ui `ux `ui -> 119 `ui 912  ]
+{
+"124
+[; ;Morseovka.c: 124:             printf(" . - - |");
+[e ( _printf :s 24C ]
+"125
+[; ;Morseovka.c: 125:              }
+}
+[e $U 913  ]
+"126
+[; ;Morseovka.c: 126:             else if ((text[i]=='X') || (text[i]=='x')){
+[e :U 912 ]
+[e $ ! || == -> *U + &U _text * -> -> _i `ui `ux -> -> # *U &U _text `ui `ux `ui -> 88 `ui == -> *U + &U _text * -> -> _i `ui `ux -> -> # *U &U _text `ui `ux `ui -> 120 `ui 914  ]
+{
+"127
+[; ;Morseovka.c: 127:             printf(" - . . - |");
+[e ( _printf :s 25C ]
+"128
+[; ;Morseovka.c: 128:              }
+}
+[e $U 915  ]
+"129
+[; ;Morseovka.c: 129:              else if ((text[i]=='Y') || (text[i]=='y')){
+[e :U 914 ]
+[e $ ! || == -> *U + &U _text * -> -> _i `ui `ux -> -> # *U &U _text `ui `ux `ui -> 89 `ui == -> *U + &U _text * -> -> _i `ui `ux -> -> # *U &U _text `ui `ux `ui -> 121 `ui 916  ]
+{
+"130
+[; ;Morseovka.c: 130:             printf(" - . - - |");
+[e ( _printf :s 26C ]
+"131
+[; ;Morseovka.c: 131:              }
+}
+[e $U 917  ]
+"132
+[; ;Morseovka.c: 132:               else if ((text[i]=='Z') || (text[i]=='z')){
+[e :U 916 ]
+[e $ ! || == -> *U + &U _text * -> -> _i `ui `ux -> -> # *U &U _text `ui `ux `ui -> 90 `ui == -> *U + &U _text * -> -> _i `ui `ux -> -> # *U &U _text `ui `ux `ui -> 122 `ui 918  ]
+{
+"133
+[; ;Morseovka.c: 133:             printf(" - - . . |");
+[e ( _printf :s 27C ]
+"134
+[; ;Morseovka.c: 134:              }
+}
+[e $U 919  ]
+"135
+[; ;Morseovka.c: 135:               else if (text[i]=='0'){
+[e :U 918 ]
+[e $ ! == -> *U + &U _text * -> -> _i `ui `ux -> -> # *U &U _text `ui `ux `ui -> 48 `ui 920  ]
+{
+"136
+[; ;Morseovka.c: 136:             printf(" - - - - - |");
+[e ( _printf :s 28C ]
+"137
+[; ;Morseovka.c: 137:              }
+}
+[e $U 921  ]
+"138
+[; ;Morseovka.c: 138:              else if (text[i]=='1'){
+[e :U 920 ]
+[e $ ! == -> *U + &U _text * -> -> _i `ui `ux -> -> # *U &U _text `ui `ux `ui -> 49 `ui 922  ]
+{
+"139
+[; ;Morseovka.c: 139:             printf(" . - - - - |");
+[e ( _printf :s 29C ]
+"140
+[; ;Morseovka.c: 140:             }
+}
+[e $U 923  ]
+"141
+[; ;Morseovka.c: 141:             else if (text[i]=='2'){
+[e :U 922 ]
+[e $ ! == -> *U + &U _text * -> -> _i `ui `ux -> -> # *U &U _text `ui `ux `ui -> 50 `ui 924  ]
+{
+"142
+[; ;Morseovka.c: 142:             printf(" . . - - - |");
+[e ( _printf :s 30C ]
+"143
+[; ;Morseovka.c: 143:             }
+}
+[e $U 925  ]
+"144
+[; ;Morseovka.c: 144:              else if (text[i]=='3'){
+[e :U 924 ]
+[e $ ! == -> *U + &U _text * -> -> _i `ui `ux -> -> # *U &U _text `ui `ux `ui -> 51 `ui 926  ]
+{
+"145
+[; ;Morseovka.c: 145:             printf(" . . . - - |");
+[e ( _printf :s 31C ]
+"146
+[; ;Morseovka.c: 146:             }
+}
+[e $U 927  ]
+"147
+[; ;Morseovka.c: 147:             else if (text[i]=='4'){
+[e :U 926 ]
+[e $ ! == -> *U + &U _text * -> -> _i `ui `ux -> -> # *U &U _text `ui `ux `ui -> 52 `ui 928  ]
+{
+"148
+[; ;Morseovka.c: 148:             printf(" . . . . - |");
+[e ( _printf :s 32C ]
+"149
+[; ;Morseovka.c: 149:             }
+}
+[e $U 929  ]
+"150
+[; ;Morseovka.c: 150:             else if (text[i]=='5'){
+[e :U 928 ]
+[e $ ! == -> *U + &U _text * -> -> _i `ui `ux -> -> # *U &U _text `ui `ux `ui -> 53 `ui 930  ]
+{
+"151
+[; ;Morseovka.c: 151:             printf(" . . . . . |");
+[e ( _printf :s 33C ]
+"152
+[; ;Morseovka.c: 152:             }
+}
+[e $U 931  ]
+"153
+[; ;Morseovka.c: 153:            else if (text[i]=='6'){
+[e :U 930 ]
+[e $ ! == -> *U + &U _text * -> -> _i `ui `ux -> -> # *U &U _text `ui `ux `ui -> 54 `ui 932  ]
+{
+"154
+[; ;Morseovka.c: 154:             printf(" - . . . . |");
+[e ( _printf :s 34C ]
+"155
+[; ;Morseovka.c: 155:             }
+}
+[e $U 933  ]
+"156
+[; ;Morseovka.c: 156:              else if (text[i]=='7'){
+[e :U 932 ]
+[e $ ! == -> *U + &U _text * -> -> _i `ui `ux -> -> # *U &U _text `ui `ux `ui -> 55 `ui 934  ]
+{
+"157
+[; ;Morseovka.c: 157:             printf(" - - . . . |");
+[e ( _printf :s 35C ]
+"158
+[; ;Morseovka.c: 158:             }
+}
+[e $U 935  ]
+"159
+[; ;Morseovka.c: 159:             else if (text[i]=='8'){
+[e :U 934 ]
+[e $ ! == -> *U + &U _text * -> -> _i `ui `ux -> -> # *U &U _text `ui `ux `ui -> 56 `ui 936  ]
+{
+"160
+[; ;Morseovka.c: 160:             printf(" - - - . . |");
+[e ( _printf :s 36C ]
+"161
+[; ;Morseovka.c: 161:             }
+}
+[e $U 937  ]
+"162
+[; ;Morseovka.c: 162:              else if (text[i]=='9'){
+[e :U 936 ]
+[e $ ! == -> *U + &U _text * -> -> _i `ui `ux -> -> # *U &U _text `ui `ux `ui -> 57 `ui 938  ]
+{
+"163
+[; ;Morseovka.c: 163:             printf(" - - - - . |");
+[e ( _printf :s 37C ]
+"164
+[; ;Morseovka.c: 164:             }
+}
+[e $U 939  ]
+"165
+[; ;Morseovka.c: 165:             else if (text[i]=='.'){
+[e :U 938 ]
+[e $ ! == -> *U + &U _text * -> -> _i `ui `ux -> -> # *U &U _text `ui `ux `ui -> 46 `ui 940  ]
+{
+"166
+[; ;Morseovka.c: 166:             printf(" . - . - . - . |");
+[e ( _printf :s 38C ]
+"167
+[; ;Morseovka.c: 167:            }
+}
+[e $U 941  ]
+"168
+[; ;Morseovka.c: 168:              else if (text[i]==','){
+[e :U 940 ]
+[e $ ! == -> *U + &U _text * -> -> _i `ui `ux -> -> # *U &U _text `ui `ux `ui -> 44 `ui 942  ]
+{
+"169
+[; ;Morseovka.c: 169:             printf(" - - . . - - |");
+[e ( _printf :s 39C ]
+"170
+[; ;Morseovka.c: 170:             }
+}
+[e $U 943  ]
+"171
+[; ;Morseovka.c: 171:             else if (text[i]=='!'){
+[e :U 942 ]
+[e $ ! == -> *U + &U _text * -> -> _i `ui `ux -> -> # *U &U _text `ui `ux `ui -> 33 `ui 944  ]
+{
+"172
+[; ;Morseovka.c: 172:             printf(" - - . . - |");
+[e ( _printf :s 40C ]
+"173
+[; ;Morseovka.c: 173:             }
+}
+[e $U 945  ]
+"174
+[; ;Morseovka.c: 174:             else if (text[i]=='?'){
+[e :U 944 ]
+[e $ ! == -> *U + &U _text * -> -> _i `ui `ux -> -> # *U &U _text `ui `ux `ui -> 63 `ui 946  ]
+{
+"175
+[; ;Morseovka.c: 175:             printf(" . . - - . . |");
+[e ( _printf :s 41C ]
+"176
+[; ;Morseovka.c: 176:             }
+}
+[e $U 947  ]
+"177
+[; ;Morseovka.c: 177:             else if (text[i]==' '){
+[e :U 946 ]
+[e $ ! == -> *U + &U _text * -> -> _i `ui `ux -> -> # *U &U _text `ui `ux `ui -> 32 `ui 948  ]
+{
+"178
+[; ;Morseovka.c: 178:             printf("|");
+[e ( _printf :s 42C ]
+"179
+[; ;Morseovka.c: 179:             }
+}
+[e $U 949  ]
+"180
+[; ;Morseovka.c: 180:             else if (text[i]=='NULL'){
+[e :U 948 ]
+[e $ ! == -> *U + &U _text * -> -> _i `ui `ux -> -> # *U &U _text `ui `ux `ui -> 19532 `ui 950  ]
+{
+"181
+[; ;Morseovka.c: 181:             printf(" ");
+[e ( _printf :s 43C ]
+"182
+[; ;Morseovka.c: 182:             }
+}
+[e $U 951  ]
+"183
+[; ;Morseovka.c: 183:             else {
+[e :U 950 ]
+{
+"184
+[; ;Morseovka.c: 184:               printf("Invalid character");
+[e ( _printf :s 44C ]
+"185
+[; ;Morseovka.c: 185:               n=0;
+[e = _n -> -> -> 0 `i `m `um ]
+"186
+[; ;Morseovka.c: 186:               break;
+[e $U 865  ]
+"187
+[; ;Morseovka.c: 187:                 }
+}
+[e :U 951 ]
+[e :U 949 ]
+[e :U 947 ]
+[e :U 945 ]
+[e :U 943 ]
+[e :U 941 ]
+[e :U 939 ]
+[e :U 937 ]
+[e :U 935 ]
+[e :U 933 ]
+[e :U 931 ]
+[e :U 929 ]
+[e :U 927 ]
+[e :U 925 ]
+[e :U 923 ]
+[e :U 921 ]
+[e :U 919 ]
+[e :U 917 ]
+[e :U 915 ]
+[e :U 913 ]
+[e :U 911 ]
+[e :U 909 ]
+[e :U 907 ]
+[e :U 905 ]
+[e :U 903 ]
+[e :U 901 ]
+[e :U 899 ]
+[e :U 897 ]
+[e :U 895 ]
+[e :U 893 ]
+[e :U 891 ]
+[e :U 889 ]
+[e :U 887 ]
+[e :U 885 ]
+[e :U 883 ]
+[e :U 881 ]
+[e :U 879 ]
+[e :U 877 ]
+[e :U 875 ]
+[e :U 873 ]
+[e :U 871 ]
+[e :U 869 ]
+"188
+[; ;Morseovka.c: 188:         }
+}
+[e ++ _i -> 1 `i ]
+[e :U 867 ]
+[e $ < -> -> _i `m `um _n 864  ]
+[e :U 865 ]
+}
+"191
+[; ;Morseovka.c: 191:         n=0;
+[e = _n -> -> -> 0 `i `m `um ]
+"192
+[; ;Morseovka.c: 192:         i=0;
+[e = _i -> 0 `i ]
+"193
+[; ;Morseovka.c: 193:         printf("\n\n");
+[e ( _printf :s 45C ]
+"194
+[; ;Morseovka.c: 194:         }
+}
+[e :U 863 ]
+"196
+[; ;Morseovka.c: 196:     }
+}
+[e :U 860 ]
+[e $U 861  ]
+[e :U 862 ]
+"198
+[; ;Morseovka.c: 198: }
+[e :UE 859 ]
+}
+"199
+[; ;Morseovka.c: 199: void putch(unsigned char data){
+[v _putch `(v ~T0 @X0 1 ef1`uc ]
+{
+[e :U _putch ]
+[v _data `uc ~T0 @X0 1 r1 ]
+[f ]
+"200
+[; ;Morseovka.c: 200:     while(!TX1IF);
+[e $U 953  ]
+[e :U 954 ]
+[e :U 953 ]
+[e $ ! _TX1IF 954  ]
+[e :U 955 ]
+"201
+[; ;Morseovka.c: 201:     TXREG1 = data;
+[e = _TXREG1 _data ]
+"202
+[; ;Morseovka.c: 202: }
+[e :UE 952 ]
+}
+[p f _printf 8388608 ]
+[a 33C 32 46 32 46 32 46 32 46 32 46 32 124 0 ]
+[a 34C 32 45 32 46 32 46 32 46 32 46 32 124 0 ]
+[a 9C 32 46 32 46 32 46 32 46 32 124 0 ]
+[a 35C 32 45 32 45 32 46 32 46 32 46 32 124 0 ]
+[a 3C 32 45 32 46 32 46 32 46 32 124 0 ]
+[a 20C 32 46 32 46 32 46 32 124 0 ]
+[a 13C 32 46 32 45 32 46 32 46 32 124 0 ]
+[a 41C 32 46 32 46 32 45 32 45 32 46 32 46 32 124 0 ]
+[a 36C 32 45 32 45 32 45 32 46 32 46 32 124 0 ]
+[a 27C 32 45 32 45 32 46 32 46 32 124 0 ]
+[a 5C 32 45 32 46 32 46 32 124 0 ]
+[a 10C 32 46 32 46 32 124 0 ]
+[a 7C 32 46 32 46 32 45 32 46 32 124 0 ]
+[a 38C 32 46 32 45 32 46 32 45 32 46 32 45 32 46 32 124 0 ]
+[a 4C 32 45 32 46 32 45 32 46 32 124 0 ]
+[a 19C 32 46 32 45 32 46 32 124 0 ]
+[a 17C 32 46 32 45 32 45 32 46 32 124 0 ]
+[a 37C 32 45 32 45 32 45 32 45 32 46 32 124 0 ]
+[a 8C 32 45 32 45 32 46 32 124 0 ]
+[a 15C 32 45 32 46 32 124 0 ]
+[a 6C 32 46 32 124 0 ]
+[a 32C 32 46 32 46 32 46 32 46 32 45 32 124 0 ]
+[a 23C 32 46 32 46 32 46 32 45 32 124 0 ]
+[a 40C 32 45 32 45 32 46 32 46 32 45 32 124 0 ]
+[a 25C 32 45 32 46 32 46 32 45 32 124 0 ]
+[a 22C 32 46 32 46 32 45 32 124 0 ]
+[a 18C 32 45 32 45 32 46 32 45 32 124 0 ]
+[a 12C 32 45 32 46 32 45 32 124 0 ]
+[a 2C 32 46 32 45 32 124 0 ]
+[a 31C 32 46 32 46 32 46 32 45 32 45 32 124 0 ]
+[a 39C 32 45 32 45 32 46 32 46 32 45 32 45 32 124 0 ]
+[a 26C 32 45 32 46 32 45 32 45 32 124 0 ]
+[a 24C 32 46 32 45 32 45 32 124 0 ]
+[a 30C 32 46 32 46 32 45 32 45 32 45 32 124 0 ]
+[a 11C 32 46 32 45 32 45 32 45 32 124 0 ]
+[a 29C 32 46 32 45 32 45 32 45 32 45 32 124 0 ]
+[a 28C 32 45 32 45 32 45 32 45 32 45 32 124 0 ]
+[a 16C 32 45 32 45 32 45 32 124 0 ]
+[a 14C 32 45 32 45 32 124 0 ]
+[a 21C 32 45 32 124 0 ]
+[a 42C 124 0 ]
+[a 44C 73 110 118 97 108 105 100 32 99 104 97 114 97 99 116 101 114 0 ]
+[a 1C 10 80 82 69 75 76 65 68 58 32 32 0 ]
+[a 43C 32 0 ]
+[a 45C 10 10 0 ]

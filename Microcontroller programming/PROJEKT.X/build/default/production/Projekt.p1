@@ -1,0 +1,4738 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"11 ./lcd.h
+[; ;./lcd.h: 11: void LCD_Init(void);
+[v _LCD_Init `(v ~T0 @X0 0 ef ]
+"8515 T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 8515:     struct {
+[s S407 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S407 . TRISC0 TRISC1 TRISC2 TRISC3 TRISC4 TRISC5 TRISC6 TRISC7 ]
+"8525
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 8525:     struct {
+[s S408 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S408 . RC0 RC1 RC2 RC3 RC4 RC5 RC6 RC7 ]
+"8514
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 8514: typedef union {
+[u S406 `S407 1 `S408 1 ]
+[n S406 . . . ]
+"8536
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 8536: extern volatile TRISCbits_t TRISCbits __attribute__((address(0xF94)));
+[v _TRISCbits `VS406 ~T0 @X0 0 e@3988 ]
+"8071
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 8071:     struct {
+[s S395 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S395 . TRISA0 TRISA1 TRISA2 TRISA3 TRISA4 TRISA5 TRISA6 TRISA7 ]
+"8081
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 8081:     struct {
+[s S396 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S396 . RA0 RA1 RA2 RA3 RA4 RA5 RA6 RA7 ]
+"8070
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 8070: typedef union {
+[u S394 `S395 1 `S396 1 ]
+[n S394 . . . ]
+"8092
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 8092: extern volatile TRISAbits_t TRISAbits __attribute__((address(0xF92)));
+[v _TRISAbits `VS394 ~T0 @X0 0 e@3986 ]
+"52
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 52: extern volatile unsigned char ANSELA __attribute__((address(0xF38)));
+[v _ANSELA `Vuc ~T0 @X0 0 e@3896 ]
+"6286
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 6286:     struct {
+[s S332 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S332 . RA0 RA1 RA2 RA3 RA4 RA5 RA6 RA7 ]
+"6296
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 6296:     struct {
+[s S333 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S333 . AN0 AN1 AN2 AN3 . AN4 ]
+"6304
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 6304:     struct {
+[s S334 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S334 . C12IN0M C12IN1M C2INP C1INP C1OUT C2OUT ]
+"6312
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 6312:     struct {
+[s S335 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S335 . C12IN0N C12IN1N VREFM VREFP T0CKI SS ]
+"6320
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 6320:     struct {
+[s S336 :5 `uc 1 :1 `uc 1 ]
+[n S336 . . NOT_SS ]
+"6324
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 6324:     struct {
+[s S337 :2 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S337 . . VREFN . SRQ nSS ]
+"6331
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 6331:     struct {
+[s S338 :2 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 ]
+[n S338 . . CVREF . LVDIN ]
+"6337
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 6337:     struct {
+[s S339 :2 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 ]
+[n S339 . . DACOUT . HLVDIN ]
+"6343
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 6343:     struct {
+[s S340 :5 `uc 1 :1 `uc 1 ]
+[n S340 . . SS1 ]
+"6347
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 6347:     struct {
+[s S341 :5 `uc 1 :1 `uc 1 ]
+[n S341 . . NOT_SS1 ]
+"6351
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 6351:     struct {
+[s S342 :5 `uc 1 :1 `uc 1 ]
+[n S342 . . nSS1 ]
+"6355
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 6355:     struct {
+[s S343 :5 `uc 1 :1 `uc 1 ]
+[n S343 . . SRNQ ]
+"6359
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 6359:     struct {
+[s S344 :1 `uc 1 :6 `uc 1 :1 `uc 1 ]
+[n S344 . ULPWUIN . RJPU ]
+"6285
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 6285: typedef union {
+[u S331 `S332 1 `S333 1 `S334 1 `S335 1 `S336 1 `S337 1 `S338 1 `S339 1 `S340 1 `S341 1 `S342 1 `S343 1 `S344 1 ]
+[n S331 . . . . . . . . . . . . . . ]
+"6365
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 6365: extern volatile PORTAbits_t PORTAbits __attribute__((address(0xF80)));
+[v _PORTAbits `VS331 ~T0 @X0 0 e@3968 ]
+"6841
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 6841:     struct {
+[s S355 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S355 . RC0 RC1 RC2 RC3 RC4 RC5 RC6 RC7 ]
+"6851
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 6851:     struct {
+[s S356 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S356 . T1OSO T1OSI T5CKI SCK SDI SDO TX RX ]
+"6861
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 6861:     struct {
+[s S357 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S357 . P2B P2A P1A SCL SDA . CK DT ]
+"6871
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 6871:     struct {
+[s S358 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S358 . T1CKI CCP2 CCP1 SCK1 SDI1 SDO1 TX1 RX1 ]
+"6881
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 6881:     struct {
+[s S359 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S359 . T3CKI . CTPLS SCL1 SDA1 . CK1 DT1 ]
+"6891
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 6891:     struct {
+[s S360 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S360 . T3G . AN14 AN15 AN16 AN17 AN18 AN19 ]
+"6901
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 6901:     struct {
+[s S361 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S361 . . PA2 PA1 ]
+"6840
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 6840: typedef union {
+[u S354 `S355 1 `S356 1 `S357 1 `S358 1 `S359 1 `S360 1 `S361 1 ]
+[n S354 . . . . . . . . ]
+"6907
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 6907: extern volatile PORTCbits_t PORTCbits __attribute__((address(0xF82)));
+[v _PORTCbits `VS354 ~T0 @X0 0 e@3970 ]
+"113 T:\Programy\MPLAB\XC  Compiler\pic\include\c99\stdio.h
+[v _sprintf `(i ~T0 @X0 0 e1v`*uc`*Cuc ]
+"12 ./lcd.h
+[; ;./lcd.h: 12: void LCD_ShowString(char line, char a[]);
+[v _LCD_ShowString `(v ~T0 @X0 0 ef2`uc`*uc ]
+"51 Projekt.c
+[; ;Projekt.c: 51: void Knight_rider_2000(void);
+[v _Knight_rider_2000 `(v ~T0 @X0 0 ef ]
+"52
+[; ;Projekt.c: 52: void Knight_rider_3000(void);
+[v _Knight_rider_3000 `(v ~T0 @X0 0 ef ]
+[v F5956 `(v ~T0 @X0 1 tf1`ul ]
+"187 T:\Programy\MPLAB\XC  Compiler\pic\include\pic18.h
+[v __delay `JF5956 ~T0 @X0 0 e ]
+[p i __delay ]
+"19352 T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 19352: extern volatile __bit PEIE __attribute__((address(0x7F96)));
+[v _PEIE `Vb ~T0 @X0 0 e@32662 ]
+"18491
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 18491: extern volatile __bit GIE __attribute__((address(0x7F97)));
+[v _GIE `Vb ~T0 @X0 0 e@32663 ]
+"19454
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 19454: extern volatile __bit RC1IE __attribute__((address(0x7CED)));
+[v _RC1IE `Vb ~T0 @X0 0 e@31981 ]
+"147
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 147: extern volatile unsigned char ANSELC __attribute__((address(0xF3A)));
+[v _ANSELC `Vuc ~T0 @X0 0 e@3898 ]
+"11366
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 11366: extern volatile unsigned char SPBRG1 __attribute__((address(0xFAF)));
+[v _SPBRG1 `Vuc ~T0 @X0 0 e@4015 ]
+"10394
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 10394:     struct {
+[s S482 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S482 . RX9D OERR FERR ADDEN CREN SREN RX9 SPEN ]
+"10404
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 10404:     struct {
+[s S483 :3 `uc 1 :1 `uc 1 ]
+[n S483 . . ADEN ]
+"10408
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 10408:     struct {
+[s S484 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S484 . RX9D1 OERR1 FERR1 ADDEN1 CREN1 SREN1 RX91 SPEN1 ]
+"10418
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 10418:     struct {
+[s S485 :1 `uc 1 :5 `uc 1 :1 `uc 1 ]
+[n S485 . RCD8 . RC8_9 ]
+"10423
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 10423:     struct {
+[s S486 :6 `uc 1 :1 `uc 1 ]
+[n S486 . . RC9 ]
+"10427
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 10427:     struct {
+[s S487 :5 `uc 1 :1 `uc 1 ]
+[n S487 . . SRENA ]
+"10393
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 10393: typedef union {
+[u S481 `S482 1 `S483 1 `S484 1 `S485 1 `S486 1 `S487 1 ]
+[n S481 . . . . . . . ]
+"10432
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 10432: extern volatile RCSTA1bits_t RCSTA1bits __attribute__((address(0xFAB)));
+[v _RCSTA1bits `VS481 ~T0 @X0 0 e@4011 ]
+"10850
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 10850:     struct {
+[s S503 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S503 . TX9D TRMT BRGH SENDB SYNC TXEN TX9 CSRC ]
+"10860
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 10860:     struct {
+[s S504 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S504 . TX9D1 TRMT1 BRGH1 SENDB1 SYNC1 TXEN1 TX91 CSRC1 ]
+"10870
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 10870:     struct {
+[s S505 :1 `uc 1 :5 `uc 1 :1 `uc 1 ]
+[n S505 . TXD8 . TX8_9 ]
+"10849
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 10849: typedef union {
+[u S502 `S503 1 `S504 1 `S505 1 ]
+[n S502 . . . . ]
+"10876
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 10876: extern volatile TXSTA1bits_t TXSTA1bits __attribute__((address(0xFAC)));
+[v _TXSTA1bits `VS502 ~T0 @X0 0 e@4012 ]
+"8726
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 8726: extern volatile unsigned char TRISD __attribute__((address(0xF95)));
+[v _TRISD `Vuc ~T0 @X0 0 e@3989 ]
+"8737
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 8737:     struct {
+[s S413 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S413 . TRISD0 TRISD1 TRISD2 TRISD3 TRISD4 TRISD5 TRISD6 TRISD7 ]
+"8747
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 8747:     struct {
+[s S414 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S414 . RD0 RD1 RD2 RD3 RD4 RD5 RD6 RD7 ]
+"8736
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 8736: typedef union {
+[u S412 `S413 1 `S414 1 ]
+[n S412 . . . ]
+"8758
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 8758: extern volatile TRISDbits_t TRISDbits __attribute__((address(0xF95)));
+[v _TRISDbits `VS412 ~T0 @X0 0 e@3989 ]
+"13093
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 13093:     struct {
+[s S621 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S621 . STR1A STR1B STR1C STR1D STR1SYNC ]
+"13100
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 13100:     struct {
+[s S622 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S622 . STRA STRB STRC STRD STRSYNC ]
+"13092
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 13092: typedef union {
+[u S620 `S621 1 `S622 1 ]
+[n S620 . . . ]
+"13108
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 13108: extern volatile PSTR1CONbits_t PSTR1CONbits __attribute__((address(0xFB9)));
+[v _PSTR1CONbits `VS620 ~T0 @X0 0 e@4025 ]
+"1395
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 1395:     struct {
+[s S67 :2 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 :2 `uc 1 ]
+[n S67 . C1TSEL . C2TSEL . C3TSEL ]
+"1402
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 1402:     struct {
+[s S68 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S68 . C1TSEL0 C1TSEL1 . C2TSEL0 C2TSEL1 . C3TSEL0 C3TSEL1 ]
+"1394
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 1394: typedef union {
+[u S66 `S67 1 `S68 1 ]
+[n S66 . . . ]
+"1413
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 1413: extern volatile CCPTMRS0bits_t CCPTMRS0bits __attribute__((address(0xF49)));
+[v _CCPTMRS0bits `VS66 ~T0 @X0 0 e@3913 ]
+"13303
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 13303: extern volatile unsigned char PR2 __attribute__((address(0xFBB)));
+[v _PR2 `Vuc ~T0 @X0 0 e@4027 ]
+"13349
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 13349:     struct {
+[s S634 :4 `uc 1 :2 `uc 1 :2 `uc 1 ]
+[n S634 . CCP1M DC1B P1M ]
+"13354
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 13354:     struct {
+[s S635 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S635 . CCP1M0 CCP1M1 CCP1M2 CCP1M3 DC1B0 DC1B1 P1M0 P1M1 ]
+"13348
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 13348: typedef union {
+[u S633 `S634 1 `S635 1 ]
+[n S633 . . . ]
+"13365
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 13365: extern volatile CCP1CONbits_t CCP1CONbits __attribute__((address(0xFBD)));
+[v _CCP1CONbits `VS633 ~T0 @X0 0 e@4029 ]
+"13432
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 13432: extern volatile unsigned char CCPR1L __attribute__((address(0xFBE)));
+[v _CCPR1L `Vuc ~T0 @X0 0 e@4030 ]
+"13238
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 13238:     struct {
+[s S627 :2 `uc 1 :1 `uc 1 :4 `uc 1 ]
+[n S627 . T2CKPS TMR2ON T2OUTPS ]
+"13243
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 13243:     struct {
+[s S628 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S628 . T2CKPS0 T2CKPS1 . T2OUTPS0 T2OUTPS1 T2OUTPS2 T2OUTPS3 ]
+"13237
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 13237: typedef union {
+[u S626 `S627 1 `S628 1 ]
+[n S626 . . . ]
+"13253
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 13253: extern volatile T2CONbits_t T2CONbits __attribute__((address(0xFBA)));
+[v _T2CONbits `VS626 ~T0 @X0 0 e@4026 ]
+"20333
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 20333: extern volatile __bit TMR2IF __attribute__((address(0x7CF1)));
+[v _TMR2IF `Vb ~T0 @X0 0 e@31985 ]
+"20342
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 20342: extern volatile __bit TMR2ON __attribute__((address(0x7DD2)));
+[v _TMR2ON `Vb ~T0 @X0 0 e@32210 ]
+"260
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 260: extern volatile unsigned char ANSELE __attribute__((address(0xF3C)));
+[v _ANSELE `Vuc ~T0 @X0 0 e@3900 ]
+"13478
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 13478:     struct {
+[s S641 :3 `uc 1 :3 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S641 . ADCS ACQT . ADFM ]
+"13484
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 13484:     struct {
+[s S642 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S642 . ADCS0 ADCS1 ADCS2 ACQT0 ACQT1 ACQT2 ]
+"13477
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 13477: typedef union {
+[u S640 `S641 1 `S642 1 ]
+[n S640 . . . ]
+"13493
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 13493: extern volatile ADCON2bits_t ADCON2bits __attribute__((address(0xFC0)));
+[v _ADCON2bits `VS640 ~T0 @X0 0 e@4032 ]
+"13617
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 13617:     struct {
+[s S648 :1 `uc 1 :1 `uc 1 ]
+[n S648 . . GO_NOT_DONE ]
+"13621
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 13621:     struct {
+[s S649 :1 `uc 1 :1 `uc 1 :5 `uc 1 ]
+[n S649 . ADON GO_nDONE CHS ]
+"13626
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 13626:     struct {
+[s S650 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S650 . . GO CHS0 CHS1 CHS2 CHS3 CHS4 ]
+"13635
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 13635:     struct {
+[s S651 :1 `uc 1 :1 `uc 1 ]
+[n S651 . . DONE ]
+"13639
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 13639:     struct {
+[s S652 :1 `uc 1 :1 `uc 1 ]
+[n S652 . . NOT_DONE ]
+"13643
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 13643:     struct {
+[s S653 :1 `uc 1 :1 `uc 1 ]
+[n S653 . . nDONE ]
+"13647
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 13647:     struct {
+[s S654 :1 `uc 1 :1 `uc 1 ]
+[n S654 . . GO_DONE ]
+"13651
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 13651:     struct {
+[s S655 :1 `uc 1 :1 `uc 1 ]
+[n S655 . . GODONE ]
+"13616
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 13616: typedef union {
+[u S647 `S648 1 `S649 1 `S650 1 `S651 1 `S652 1 `S653 1 `S654 1 `S655 1 ]
+[n S647 . . . . . . . . . ]
+"13656
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 13656: extern volatile ADCON0bits_t ADCON0bits __attribute__((address(0xFC2)));
+[v _ADCON0bits `VS647 ~T0 @X0 0 e@4034 ]
+"17483
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 17483: extern volatile __bit ADIF __attribute__((address(0x7CF6)));
+[v _ADIF `Vb ~T0 @X0 0 e@31990 ]
+"17480
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 17480: extern volatile __bit ADIE __attribute__((address(0x7CEE)));
+[v _ADIE `Vb ~T0 @X0 0 e@31982 ]
+"58
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 58:     struct {
+[s S7 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S7 . ANSA0 ANSA1 ANSA2 ANSA3 . ANSA5 ]
+"57
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 57: typedef union {
+[u S6 `S7 1 ]
+[n S6 . . ]
+"67
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 67: extern volatile ANSELAbits_t ANSELAbits __attribute__((address(0xF38)));
+[v _ANSELAbits `VS6 ~T0 @X0 0 e@3896 ]
+[t ~ __interrupt . k ]
+[t T1 __interrupt ]
+"13763
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 13763: extern volatile unsigned char ADRESH __attribute__((address(0xFC4)));
+[v _ADRESH `Vuc ~T0 @X0 0 e@4036 ]
+"13743
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 13743: extern volatile unsigned char ADRESL __attribute__((address(0xFC3)));
+[v _ADRESL `Vuc ~T0 @X0 0 e@4035 ]
+"19457
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 19457: extern volatile __bit RC1IF __attribute__((address(0x7CF5)));
+[v _RC1IF `Vb ~T0 @X0 0 e@31989 ]
+"11288
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 11288: extern volatile unsigned char RCREG1 __attribute__((address(0xFAE)));
+[v _RCREG1 `Vuc ~T0 @X0 0 e@4014 ]
+[p mainexit ]
+"14 ./lcd.h
+[; ;./lcd.h: 14: void LCD_Clear(void);
+[v _LCD_Clear `(v ~T0 @X0 0 ef ]
+"48 Projekt.c
+[; ;Projekt.c: 48: void Morseovka(void);
+[v _Morseovka `(v ~T0 @X0 0 ef ]
+"45
+[; ;Projekt.c: 45: void PWM_motor_led(void);
+[v _PWM_motor_led `(v ~T0 @X0 0 ef ]
+"54
+[; ;Projekt.c: 54: void Bargraph(void);
+[v _Bargraph `(v ~T0 @X0 0 ef ]
+"57
+[; ;Projekt.c: 57: void Pong(void);
+[v _Pong `(v ~T0 @X0 0 ef ]
+"111 T:\Programy\MPLAB\XC  Compiler\pic\include\c99\stdio.h
+[v _printf `(i ~T0 @X0 0 ev`*Cuc ]
+"7902 T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 7902:     struct {
+[s S389 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S389 . LATD0 LATD1 LATD2 LATD3 LATD4 LATD5 LATD6 LATD7 ]
+"7912
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 7912:     struct {
+[s S390 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S390 . LD0 LD1 LD2 LD3 LD4 LD5 LD6 LD7 ]
+"7901
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 7901: typedef union {
+[u S388 `S389 1 `S390 1 ]
+[n S388 . . . ]
+"7923
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 7923: extern volatile LATDbits_t LATDbits __attribute__((address(0xF8C)));
+[v _LATDbits `VS388 ~T0 @X0 0 e@3980 ]
+"7790
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 7790:     struct {
+[s S386 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S386 . LATC0 LATC1 LATC2 LATC3 LATC4 LATC5 LATC6 LATC7 ]
+"7800
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 7800:     struct {
+[s S387 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S387 . LC0 LC1 LC2 LC3 LC4 LC5 LC6 LC7 ]
+"7789
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 7789: typedef union {
+[u S385 `S386 1 `S387 1 ]
+[n S385 . . . ]
+"7811
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 7811: extern volatile LATCbits_t LATCbits __attribute__((address(0xF8B)));
+[v _LATCbits `VS385 ~T0 @X0 0 e@3979 ]
+"18506
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 18506: extern volatile __bit GODONE __attribute__((address(0x7E11)));
+[v _GODONE `Vb ~T0 @X0 0 e@32273 ]
+"20585
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 20585: extern volatile __bit TX1IF __attribute__((address(0x7CF4)));
+[v _TX1IF `Vb ~T0 @X0 0 e@31988 ]
+"11210
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 11210: extern volatile unsigned char TXREG1 __attribute__((address(0xFAD)));
+[v _TXREG1 `Vuc ~T0 @X0 0 e@4013 ]
+"1 Projekt.c
+[p x FOSC = HSMP ]
+"2
+[p x PLLCFG = ON ]
+"3
+[p x PRICLKEN = ON ]
+"4
+[p x WDTEN = OFF ]
+"54 T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 54: __asm("ANSELA equ 0F38h");
+[; <" ANSELA equ 0F38h ;# ">
+"99
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 99: __asm("ANSELB equ 0F39h");
+[; <" ANSELB equ 0F39h ;# ">
+"149
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 149: __asm("ANSELC equ 0F3Ah");
+[; <" ANSELC equ 0F3Ah ;# ">
+"200
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 200: __asm("ANSELD equ 0F3Bh");
+[; <" ANSELD equ 0F3Bh ;# ">
+"262
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 262: __asm("ANSELE equ 0F3Ch");
+[; <" ANSELE equ 0F3Ch ;# ">
+"294
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 294: __asm("PMD2 equ 0F3Dh");
+[; <" PMD2 equ 0F3Dh ;# ">
+"332
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 332: __asm("PMD1 equ 0F3Eh");
+[; <" PMD1 equ 0F3Eh ;# ">
+"397
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 397: __asm("PMD0 equ 0F3Fh");
+[; <" PMD0 equ 0F3Fh ;# ">
+"474
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 474: __asm("VREFCON2 equ 0F40h");
+[; <" VREFCON2 equ 0F40h ;# ">
+"479
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 479: __asm("DACCON1 equ 0F40h");
+[; <" DACCON1 equ 0F40h ;# ">
+"576
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 576: __asm("VREFCON1 equ 0F41h");
+[; <" VREFCON1 equ 0F41h ;# ">
+"581
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 581: __asm("DACCON0 equ 0F41h");
+[; <" DACCON0 equ 0F41h ;# ">
+"696
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 696: __asm("VREFCON0 equ 0F42h");
+[; <" VREFCON0 equ 0F42h ;# ">
+"701
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 701: __asm("FVRCON equ 0F42h");
+[; <" FVRCON equ 0F42h ;# ">
+"790
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 790: __asm("CTMUICON equ 0F43h");
+[; <" CTMUICON equ 0F43h ;# ">
+"795
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 795: __asm("CTMUICONH equ 0F43h");
+[; <" CTMUICONH equ 0F43h ;# ">
+"940
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 940: __asm("CTMUCONL equ 0F44h");
+[; <" CTMUCONL equ 0F44h ;# ">
+"945
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 945: __asm("CTMUCON1 equ 0F44h");
+[; <" CTMUCON1 equ 0F44h ;# ">
+"1094
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 1094: __asm("CTMUCONH equ 0F45h");
+[; <" CTMUCONH equ 0F45h ;# ">
+"1099
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 1099: __asm("CTMUCON0 equ 0F45h");
+[; <" CTMUCON0 equ 0F45h ;# ">
+"1206
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 1206: __asm("SRCON1 equ 0F46h");
+[; <" SRCON1 equ 0F46h ;# ">
+"1268
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 1268: __asm("SRCON0 equ 0F47h");
+[; <" SRCON0 equ 0F47h ;# ">
+"1339
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 1339: __asm("CCPTMRS1 equ 0F48h");
+[; <" CCPTMRS1 equ 0F48h ;# ">
+"1391
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 1391: __asm("CCPTMRS0 equ 0F49h");
+[; <" CCPTMRS0 equ 0F49h ;# ">
+"1465
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 1465: __asm("T6CON equ 0F4Ah");
+[; <" T6CON equ 0F4Ah ;# ">
+"1536
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 1536: __asm("PR6 equ 0F4Bh");
+[; <" PR6 equ 0F4Bh ;# ">
+"1556
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 1556: __asm("TMR6 equ 0F4Ch");
+[; <" TMR6 equ 0F4Ch ;# ">
+"1576
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 1576: __asm("T5GCON equ 0F4Dh");
+[; <" T5GCON equ 0F4Dh ;# ">
+"1671
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 1671: __asm("T5CON equ 0F4Eh");
+[; <" T5CON equ 0F4Eh ;# ">
+"1780
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 1780: __asm("TMR5 equ 0F4Fh");
+[; <" TMR5 equ 0F4Fh ;# ">
+"1787
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 1787: __asm("TMR5L equ 0F4Fh");
+[; <" TMR5L equ 0F4Fh ;# ">
+"1807
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 1807: __asm("TMR5H equ 0F50h");
+[; <" TMR5H equ 0F50h ;# ">
+"1827
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 1827: __asm("T4CON equ 0F51h");
+[; <" T4CON equ 0F51h ;# ">
+"1898
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 1898: __asm("PR4 equ 0F52h");
+[; <" PR4 equ 0F52h ;# ">
+"1918
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 1918: __asm("TMR4 equ 0F53h");
+[; <" TMR4 equ 0F53h ;# ">
+"1938
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 1938: __asm("CCP5CON equ 0F54h");
+[; <" CCP5CON equ 0F54h ;# ">
+"2002
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 2002: __asm("CCPR5 equ 0F55h");
+[; <" CCPR5 equ 0F55h ;# ">
+"2009
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 2009: __asm("CCPR5L equ 0F55h");
+[; <" CCPR5L equ 0F55h ;# ">
+"2029
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 2029: __asm("CCPR5H equ 0F56h");
+[; <" CCPR5H equ 0F56h ;# ">
+"2049
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 2049: __asm("CCP4CON equ 0F57h");
+[; <" CCP4CON equ 0F57h ;# ">
+"2113
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 2113: __asm("CCPR4 equ 0F58h");
+[; <" CCPR4 equ 0F58h ;# ">
+"2120
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 2120: __asm("CCPR4L equ 0F58h");
+[; <" CCPR4L equ 0F58h ;# ">
+"2140
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 2140: __asm("CCPR4H equ 0F59h");
+[; <" CCPR4H equ 0F59h ;# ">
+"2160
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 2160: __asm("PSTR3CON equ 0F5Ah");
+[; <" PSTR3CON equ 0F5Ah ;# ">
+"2236
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 2236: __asm("ECCP3AS equ 0F5Bh");
+[; <" ECCP3AS equ 0F5Bh ;# ">
+"2241
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 2241: __asm("CCP3AS equ 0F5Bh");
+[; <" CCP3AS equ 0F5Bh ;# ">
+"2478
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 2478: __asm("PWM3CON equ 0F5Ch");
+[; <" PWM3CON equ 0F5Ch ;# ">
+"2548
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 2548: __asm("CCP3CON equ 0F5Dh");
+[; <" CCP3CON equ 0F5Dh ;# ">
+"2630
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 2630: __asm("CCPR3 equ 0F5Eh");
+[; <" CCPR3 equ 0F5Eh ;# ">
+"2637
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 2637: __asm("CCPR3L equ 0F5Eh");
+[; <" CCPR3L equ 0F5Eh ;# ">
+"2657
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 2657: __asm("CCPR3H equ 0F5Fh");
+[; <" CCPR3H equ 0F5Fh ;# ">
+"2677
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 2677: __asm("SLRCON equ 0F60h");
+[; <" SLRCON equ 0F60h ;# ">
+"2721
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 2721: __asm("WPUB equ 0F61h");
+[; <" WPUB equ 0F61h ;# ">
+"2783
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 2783: __asm("IOCB equ 0F62h");
+[; <" IOCB equ 0F62h ;# ">
+"2822
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 2822: __asm("PSTR2CON equ 0F63h");
+[; <" PSTR2CON equ 0F63h ;# ">
+"2962
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 2962: __asm("ECCP2AS equ 0F64h");
+[; <" ECCP2AS equ 0F64h ;# ">
+"2967
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 2967: __asm("CCP2AS equ 0F64h");
+[; <" CCP2AS equ 0F64h ;# ">
+"3204
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 3204: __asm("PWM2CON equ 0F65h");
+[; <" PWM2CON equ 0F65h ;# ">
+"3274
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 3274: __asm("CCP2CON equ 0F66h");
+[; <" CCP2CON equ 0F66h ;# ">
+"3356
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 3356: __asm("CCPR2 equ 0F67h");
+[; <" CCPR2 equ 0F67h ;# ">
+"3363
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 3363: __asm("CCPR2L equ 0F67h");
+[; <" CCPR2L equ 0F67h ;# ">
+"3383
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 3383: __asm("CCPR2H equ 0F68h");
+[; <" CCPR2H equ 0F68h ;# ">
+"3403
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 3403: __asm("SSP2CON3 equ 0F69h");
+[; <" SSP2CON3 equ 0F69h ;# ">
+"3465
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 3465: __asm("SSP2MSK equ 0F6Ah");
+[; <" SSP2MSK equ 0F6Ah ;# ">
+"3535
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 3535: __asm("SSP2CON2 equ 0F6Bh");
+[; <" SSP2CON2 equ 0F6Bh ;# ">
+"3680
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 3680: __asm("SSP2CON1 equ 0F6Ch");
+[; <" SSP2CON1 equ 0F6Ch ;# ">
+"3800
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 3800: __asm("SSP2STAT equ 0F6Dh");
+[; <" SSP2STAT equ 0F6Dh ;# ">
+"4200
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 4200: __asm("SSP2ADD equ 0F6Eh");
+[; <" SSP2ADD equ 0F6Eh ;# ">
+"4270
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 4270: __asm("SSP2BUF equ 0F6Fh");
+[; <" SSP2BUF equ 0F6Fh ;# ">
+"4290
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 4290: __asm("BAUDCON2 equ 0F70h");
+[; <" BAUDCON2 equ 0F70h ;# ">
+"4295
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 4295: __asm("BAUD2CON equ 0F70h");
+[; <" BAUD2CON equ 0F70h ;# ">
+"4552
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 4552: __asm("RCSTA2 equ 0F71h");
+[; <" RCSTA2 equ 0F71h ;# ">
+"4557
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 4557: __asm("RC2STA equ 0F71h");
+[; <" RC2STA equ 0F71h ;# ">
+"4840
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 4840: __asm("TXSTA2 equ 0F72h");
+[; <" TXSTA2 equ 0F72h ;# ">
+"4845
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 4845: __asm("TX2STA equ 0F72h");
+[; <" TX2STA equ 0F72h ;# ">
+"5092
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 5092: __asm("TXREG2 equ 0F73h");
+[; <" TXREG2 equ 0F73h ;# ">
+"5097
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 5097: __asm("TX2REG equ 0F73h");
+[; <" TX2REG equ 0F73h ;# ">
+"5130
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 5130: __asm("RCREG2 equ 0F74h");
+[; <" RCREG2 equ 0F74h ;# ">
+"5135
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 5135: __asm("RC2REG equ 0F74h");
+[; <" RC2REG equ 0F74h ;# ">
+"5168
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 5168: __asm("SPBRG2 equ 0F75h");
+[; <" SPBRG2 equ 0F75h ;# ">
+"5173
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 5173: __asm("SP2BRG equ 0F75h");
+[; <" SP2BRG equ 0F75h ;# ">
+"5206
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 5206: __asm("SPBRGH2 equ 0F76h");
+[; <" SPBRGH2 equ 0F76h ;# ">
+"5211
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 5211: __asm("SP2BRGH equ 0F76h");
+[; <" SP2BRGH equ 0F76h ;# ">
+"5244
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 5244: __asm("CM2CON1 equ 0F77h");
+[; <" CM2CON1 equ 0F77h ;# ">
+"5249
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 5249: __asm("CM12CON equ 0F77h");
+[; <" CM12CON equ 0F77h ;# ">
+"5366
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 5366: __asm("CM2CON0 equ 0F78h");
+[; <" CM2CON0 equ 0F78h ;# ">
+"5371
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 5371: __asm("CM2CON equ 0F78h");
+[; <" CM2CON equ 0F78h ;# ">
+"5646
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 5646: __asm("CM1CON0 equ 0F79h");
+[; <" CM1CON0 equ 0F79h ;# ">
+"5651
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 5651: __asm("CM1CON equ 0F79h");
+[; <" CM1CON equ 0F79h ;# ">
+"6068
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 6068: __asm("PIE4 equ 0F7Ah");
+[; <" PIE4 equ 0F7Ah ;# ">
+"6100
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 6100: __asm("PIR4 equ 0F7Bh");
+[; <" PIR4 equ 0F7Bh ;# ">
+"6132
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 6132: __asm("IPR4 equ 0F7Ch");
+[; <" IPR4 equ 0F7Ch ;# ">
+"6172
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 6172: __asm("PIE5 equ 0F7Dh");
+[; <" PIE5 equ 0F7Dh ;# ">
+"6204
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 6204: __asm("PIR5 equ 0F7Eh");
+[; <" PIR5 equ 0F7Eh ;# ">
+"6236
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 6236: __asm("IPR5 equ 0F7Fh");
+[; <" IPR5 equ 0F7Fh ;# ">
+"6282
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 6282: __asm("PORTA equ 0F80h");
+[; <" PORTA equ 0F80h ;# ">
+"6567
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 6567: __asm("PORTB equ 0F81h");
+[; <" PORTB equ 0F81h ;# ">
+"6837
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 6837: __asm("PORTC equ 0F82h");
+[; <" PORTC equ 0F82h ;# ">
+"7144
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 7144: __asm("PORTD equ 0F83h");
+[; <" PORTD equ 0F83h ;# ">
+"7387
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 7387: __asm("PORTE equ 0F84h");
+[; <" PORTE equ 0F84h ;# ">
+"7562
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 7562: __asm("LATA equ 0F89h");
+[; <" LATA equ 0F89h ;# ">
+"7674
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 7674: __asm("LATB equ 0F8Ah");
+[; <" LATB equ 0F8Ah ;# ">
+"7786
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 7786: __asm("LATC equ 0F8Bh");
+[; <" LATC equ 0F8Bh ;# ">
+"7898
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 7898: __asm("LATD equ 0F8Ch");
+[; <" LATD equ 0F8Ch ;# ">
+"8010
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 8010: __asm("LATE equ 0F8Dh");
+[; <" LATE equ 0F8Dh ;# ">
+"8062
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 8062: __asm("TRISA equ 0F92h");
+[; <" TRISA equ 0F92h ;# ">
+"8067
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 8067: __asm("DDRA equ 0F92h");
+[; <" DDRA equ 0F92h ;# ">
+"8284
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 8284: __asm("TRISB equ 0F93h");
+[; <" TRISB equ 0F93h ;# ">
+"8289
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 8289: __asm("DDRB equ 0F93h");
+[; <" DDRB equ 0F93h ;# ">
+"8506
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 8506: __asm("TRISC equ 0F94h");
+[; <" TRISC equ 0F94h ;# ">
+"8511
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 8511: __asm("DDRC equ 0F94h");
+[; <" DDRC equ 0F94h ;# ">
+"8728
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 8728: __asm("TRISD equ 0F95h");
+[; <" TRISD equ 0F95h ;# ">
+"8733
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 8733: __asm("DDRD equ 0F95h");
+[; <" DDRD equ 0F95h ;# ">
+"8950
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 8950: __asm("TRISE equ 0F96h");
+[; <" TRISE equ 0F96h ;# ">
+"8955
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 8955: __asm("DDRE equ 0F96h");
+[; <" DDRE equ 0F96h ;# ">
+"9066
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 9066: __asm("OSCTUNE equ 0F9Bh");
+[; <" OSCTUNE equ 0F9Bh ;# ">
+"9136
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 9136: __asm("HLVDCON equ 0F9Ch");
+[; <" HLVDCON equ 0F9Ch ;# ">
+"9141
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 9141: __asm("LVDCON equ 0F9Ch");
+[; <" LVDCON equ 0F9Ch ;# ">
+"9416
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 9416: __asm("PIE1 equ 0F9Dh");
+[; <" PIE1 equ 0F9Dh ;# ">
+"9493
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 9493: __asm("PIR1 equ 0F9Eh");
+[; <" PIR1 equ 0F9Eh ;# ">
+"9570
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 9570: __asm("IPR1 equ 0F9Fh");
+[; <" IPR1 equ 0F9Fh ;# ">
+"9647
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 9647: __asm("PIE2 equ 0FA0h");
+[; <" PIE2 equ 0FA0h ;# ">
+"9733
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 9733: __asm("PIR2 equ 0FA1h");
+[; <" PIR2 equ 0FA1h ;# ">
+"9819
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 9819: __asm("IPR2 equ 0FA2h");
+[; <" IPR2 equ 0FA2h ;# ">
+"9905
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 9905: __asm("PIE3 equ 0FA3h");
+[; <" PIE3 equ 0FA3h ;# ">
+"10015
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 10015: __asm("PIR3 equ 0FA4h");
+[; <" PIR3 equ 0FA4h ;# ">
+"10093
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 10093: __asm("IPR3 equ 0FA5h");
+[; <" IPR3 equ 0FA5h ;# ">
+"10171
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 10171: __asm("EECON1 equ 0FA6h");
+[; <" EECON1 equ 0FA6h ;# ">
+"10237
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 10237: __asm("EECON2 equ 0FA7h");
+[; <" EECON2 equ 0FA7h ;# ">
+"10257
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 10257: __asm("EEDATA equ 0FA8h");
+[; <" EEDATA equ 0FA8h ;# ">
+"10277
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 10277: __asm("EEADR equ 0FA9h");
+[; <" EEADR equ 0FA9h ;# ">
+"10347
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 10347: __asm("EEADRH equ 0FAAh");
+[; <" EEADRH equ 0FAAh ;# ">
+"10381
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 10381: __asm("RCSTA1 equ 0FABh");
+[; <" RCSTA1 equ 0FABh ;# ">
+"10386
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 10386: __asm("RCSTA equ 0FABh");
+[; <" RCSTA equ 0FABh ;# ">
+"10390
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 10390: __asm("RC1STA equ 0FABh");
+[; <" RC1STA equ 0FABh ;# ">
+"10837
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 10837: __asm("TXSTA1 equ 0FACh");
+[; <" TXSTA1 equ 0FACh ;# ">
+"10842
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 10842: __asm("TXSTA equ 0FACh");
+[; <" TXSTA equ 0FACh ;# ">
+"10846
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 10846: __asm("TX1STA equ 0FACh");
+[; <" TX1STA equ 0FACh ;# ">
+"11212
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 11212: __asm("TXREG1 equ 0FADh");
+[; <" TXREG1 equ 0FADh ;# ">
+"11217
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 11217: __asm("TXREG equ 0FADh");
+[; <" TXREG equ 0FADh ;# ">
+"11221
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 11221: __asm("TX1REG equ 0FADh");
+[; <" TX1REG equ 0FADh ;# ">
+"11290
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 11290: __asm("RCREG1 equ 0FAEh");
+[; <" RCREG1 equ 0FAEh ;# ">
+"11295
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 11295: __asm("RCREG equ 0FAEh");
+[; <" RCREG equ 0FAEh ;# ">
+"11299
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 11299: __asm("RC1REG equ 0FAEh");
+[; <" RC1REG equ 0FAEh ;# ">
+"11368
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 11368: __asm("SPBRG1 equ 0FAFh");
+[; <" SPBRG1 equ 0FAFh ;# ">
+"11373
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 11373: __asm("SPBRG equ 0FAFh");
+[; <" SPBRG equ 0FAFh ;# ">
+"11377
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 11377: __asm("SP1BRG equ 0FAFh");
+[; <" SP1BRG equ 0FAFh ;# ">
+"11446
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 11446: __asm("SPBRGH1 equ 0FB0h");
+[; <" SPBRGH1 equ 0FB0h ;# ">
+"11451
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 11451: __asm("SPBRGH equ 0FB0h");
+[; <" SPBRGH equ 0FB0h ;# ">
+"11455
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 11455: __asm("SP1BRGH equ 0FB0h");
+[; <" SP1BRGH equ 0FB0h ;# ">
+"11524
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 11524: __asm("T3CON equ 0FB1h");
+[; <" T3CON equ 0FB1h ;# ">
+"11632
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 11632: __asm("TMR3 equ 0FB2h");
+[; <" TMR3 equ 0FB2h ;# ">
+"11639
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 11639: __asm("TMR3L equ 0FB2h");
+[; <" TMR3L equ 0FB2h ;# ">
+"11659
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 11659: __asm("TMR3H equ 0FB3h");
+[; <" TMR3H equ 0FB3h ;# ">
+"11679
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 11679: __asm("T3GCON equ 0FB4h");
+[; <" T3GCON equ 0FB4h ;# ">
+"11774
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 11774: __asm("ECCP1AS equ 0FB6h");
+[; <" ECCP1AS equ 0FB6h ;# ">
+"11779
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 11779: __asm("ECCPAS equ 0FB6h");
+[; <" ECCPAS equ 0FB6h ;# ">
+"12156
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 12156: __asm("PWM1CON equ 0FB7h");
+[; <" PWM1CON equ 0FB7h ;# ">
+"12161
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 12161: __asm("PWMCON equ 0FB7h");
+[; <" PWMCON equ 0FB7h ;# ">
+"12410
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 12410: __asm("BAUDCON1 equ 0FB8h");
+[; <" BAUDCON1 equ 0FB8h ;# ">
+"12415
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 12415: __asm("BAUDCON equ 0FB8h");
+[; <" BAUDCON equ 0FB8h ;# ">
+"12419
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 12419: __asm("BAUDCTL equ 0FB8h");
+[; <" BAUDCTL equ 0FB8h ;# ">
+"12423
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 12423: __asm("BAUD1CON equ 0FB8h");
+[; <" BAUD1CON equ 0FB8h ;# ">
+"13084
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 13084: __asm("PSTR1CON equ 0FB9h");
+[; <" PSTR1CON equ 0FB9h ;# ">
+"13089
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 13089: __asm("PSTRCON equ 0FB9h");
+[; <" PSTRCON equ 0FB9h ;# ">
+"13234
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 13234: __asm("T2CON equ 0FBAh");
+[; <" T2CON equ 0FBAh ;# ">
+"13305
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 13305: __asm("PR2 equ 0FBBh");
+[; <" PR2 equ 0FBBh ;# ">
+"13325
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 13325: __asm("TMR2 equ 0FBCh");
+[; <" TMR2 equ 0FBCh ;# ">
+"13345
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 13345: __asm("CCP1CON equ 0FBDh");
+[; <" CCP1CON equ 0FBDh ;# ">
+"13427
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 13427: __asm("CCPR1 equ 0FBEh");
+[; <" CCPR1 equ 0FBEh ;# ">
+"13434
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 13434: __asm("CCPR1L equ 0FBEh");
+[; <" CCPR1L equ 0FBEh ;# ">
+"13454
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 13454: __asm("CCPR1H equ 0FBFh");
+[; <" CCPR1H equ 0FBFh ;# ">
+"13474
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 13474: __asm("ADCON2 equ 0FC0h");
+[; <" ADCON2 equ 0FC0h ;# ">
+"13545
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 13545: __asm("ADCON1 equ 0FC1h");
+[; <" ADCON1 equ 0FC1h ;# ">
+"13613
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 13613: __asm("ADCON0 equ 0FC2h");
+[; <" ADCON0 equ 0FC2h ;# ">
+"13738
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 13738: __asm("ADRES equ 0FC3h");
+[; <" ADRES equ 0FC3h ;# ">
+"13745
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 13745: __asm("ADRESL equ 0FC3h");
+[; <" ADRESL equ 0FC3h ;# ">
+"13765
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 13765: __asm("ADRESH equ 0FC4h");
+[; <" ADRESH equ 0FC4h ;# ">
+"13785
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 13785: __asm("SSP1CON2 equ 0FC5h");
+[; <" SSP1CON2 equ 0FC5h ;# ">
+"13790
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 13790: __asm("SSPCON2 equ 0FC5h");
+[; <" SSPCON2 equ 0FC5h ;# ">
+"14139
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 14139: __asm("SSP1CON1 equ 0FC6h");
+[; <" SSP1CON1 equ 0FC6h ;# ">
+"14144
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 14144: __asm("SSPCON1 equ 0FC6h");
+[; <" SSPCON1 equ 0FC6h ;# ">
+"14377
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 14377: __asm("SSP1STAT equ 0FC7h");
+[; <" SSP1STAT equ 0FC7h ;# ">
+"14382
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 14382: __asm("SSPSTAT equ 0FC7h");
+[; <" SSPSTAT equ 0FC7h ;# ">
+"15007
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 15007: __asm("SSP1ADD equ 0FC8h");
+[; <" SSP1ADD equ 0FC8h ;# ">
+"15012
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 15012: __asm("SSPADD equ 0FC8h");
+[; <" SSPADD equ 0FC8h ;# ">
+"15261
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 15261: __asm("SSP1BUF equ 0FC9h");
+[; <" SSP1BUF equ 0FC9h ;# ">
+"15266
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 15266: __asm("SSPBUF equ 0FC9h");
+[; <" SSPBUF equ 0FC9h ;# ">
+"15315
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 15315: __asm("SSP1MSK equ 0FCAh");
+[; <" SSP1MSK equ 0FCAh ;# ">
+"15320
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 15320: __asm("SSPMSK equ 0FCAh");
+[; <" SSPMSK equ 0FCAh ;# ">
+"15453
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 15453: __asm("SSP1CON3 equ 0FCBh");
+[; <" SSP1CON3 equ 0FCBh ;# ">
+"15458
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 15458: __asm("SSPCON3 equ 0FCBh");
+[; <" SSPCON3 equ 0FCBh ;# ">
+"15575
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 15575: __asm("T1GCON equ 0FCCh");
+[; <" T1GCON equ 0FCCh ;# ">
+"15670
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 15670: __asm("T1CON equ 0FCDh");
+[; <" T1CON equ 0FCDh ;# ">
+"15783
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 15783: __asm("TMR1 equ 0FCEh");
+[; <" TMR1 equ 0FCEh ;# ">
+"15790
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 15790: __asm("TMR1L equ 0FCEh");
+[; <" TMR1L equ 0FCEh ;# ">
+"15810
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 15810: __asm("TMR1H equ 0FCFh");
+[; <" TMR1H equ 0FCFh ;# ">
+"15830
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 15830: __asm("RCON equ 0FD0h");
+[; <" RCON equ 0FD0h ;# ">
+"15963
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 15963: __asm("WDTCON equ 0FD1h");
+[; <" WDTCON equ 0FD1h ;# ">
+"15991
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 15991: __asm("OSCCON2 equ 0FD2h");
+[; <" OSCCON2 equ 0FD2h ;# ">
+"16048
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 16048: __asm("OSCCON equ 0FD3h");
+[; <" OSCCON equ 0FD3h ;# ">
+"16131
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 16131: __asm("T0CON equ 0FD5h");
+[; <" T0CON equ 0FD5h ;# ">
+"16201
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 16201: __asm("TMR0 equ 0FD6h");
+[; <" TMR0 equ 0FD6h ;# ">
+"16208
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 16208: __asm("TMR0L equ 0FD6h");
+[; <" TMR0L equ 0FD6h ;# ">
+"16228
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 16228: __asm("TMR0H equ 0FD7h");
+[; <" TMR0H equ 0FD7h ;# ">
+"16248
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 16248: __asm("STATUS equ 0FD8h");
+[; <" STATUS equ 0FD8h ;# ">
+"16319
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 16319: __asm("FSR2 equ 0FD9h");
+[; <" FSR2 equ 0FD9h ;# ">
+"16326
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 16326: __asm("FSR2L equ 0FD9h");
+[; <" FSR2L equ 0FD9h ;# ">
+"16346
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 16346: __asm("FSR2H equ 0FDAh");
+[; <" FSR2H equ 0FDAh ;# ">
+"16353
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 16353: __asm("PLUSW2 equ 0FDBh");
+[; <" PLUSW2 equ 0FDBh ;# ">
+"16373
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 16373: __asm("PREINC2 equ 0FDCh");
+[; <" PREINC2 equ 0FDCh ;# ">
+"16393
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 16393: __asm("POSTDEC2 equ 0FDDh");
+[; <" POSTDEC2 equ 0FDDh ;# ">
+"16413
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 16413: __asm("POSTINC2 equ 0FDEh");
+[; <" POSTINC2 equ 0FDEh ;# ">
+"16433
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 16433: __asm("INDF2 equ 0FDFh");
+[; <" INDF2 equ 0FDFh ;# ">
+"16453
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 16453: __asm("BSR equ 0FE0h");
+[; <" BSR equ 0FE0h ;# ">
+"16460
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 16460: __asm("FSR1 equ 0FE1h");
+[; <" FSR1 equ 0FE1h ;# ">
+"16467
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 16467: __asm("FSR1L equ 0FE1h");
+[; <" FSR1L equ 0FE1h ;# ">
+"16487
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 16487: __asm("FSR1H equ 0FE2h");
+[; <" FSR1H equ 0FE2h ;# ">
+"16494
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 16494: __asm("PLUSW1 equ 0FE3h");
+[; <" PLUSW1 equ 0FE3h ;# ">
+"16514
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 16514: __asm("PREINC1 equ 0FE4h");
+[; <" PREINC1 equ 0FE4h ;# ">
+"16534
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 16534: __asm("POSTDEC1 equ 0FE5h");
+[; <" POSTDEC1 equ 0FE5h ;# ">
+"16554
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 16554: __asm("POSTINC1 equ 0FE6h");
+[; <" POSTINC1 equ 0FE6h ;# ">
+"16574
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 16574: __asm("INDF1 equ 0FE7h");
+[; <" INDF1 equ 0FE7h ;# ">
+"16594
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 16594: __asm("WREG equ 0FE8h");
+[; <" WREG equ 0FE8h ;# ">
+"16632
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 16632: __asm("FSR0 equ 0FE9h");
+[; <" FSR0 equ 0FE9h ;# ">
+"16639
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 16639: __asm("FSR0L equ 0FE9h");
+[; <" FSR0L equ 0FE9h ;# ">
+"16659
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 16659: __asm("FSR0H equ 0FEAh");
+[; <" FSR0H equ 0FEAh ;# ">
+"16666
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 16666: __asm("PLUSW0 equ 0FEBh");
+[; <" PLUSW0 equ 0FEBh ;# ">
+"16686
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 16686: __asm("PREINC0 equ 0FECh");
+[; <" PREINC0 equ 0FECh ;# ">
+"16706
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 16706: __asm("POSTDEC0 equ 0FEDh");
+[; <" POSTDEC0 equ 0FEDh ;# ">
+"16726
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 16726: __asm("POSTINC0 equ 0FEEh");
+[; <" POSTINC0 equ 0FEEh ;# ">
+"16746
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 16746: __asm("INDF0 equ 0FEFh");
+[; <" INDF0 equ 0FEFh ;# ">
+"16766
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 16766: __asm("INTCON3 equ 0FF0h");
+[; <" INTCON3 equ 0FF0h ;# ">
+"16858
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 16858: __asm("INTCON2 equ 0FF1h");
+[; <" INTCON2 equ 0FF1h ;# ">
+"16928
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 16928: __asm("INTCON equ 0FF2h");
+[; <" INTCON equ 0FF2h ;# ">
+"17045
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 17045: __asm("PROD equ 0FF3h");
+[; <" PROD equ 0FF3h ;# ">
+"17052
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 17052: __asm("PRODL equ 0FF3h");
+[; <" PRODL equ 0FF3h ;# ">
+"17072
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 17072: __asm("PRODH equ 0FF4h");
+[; <" PRODH equ 0FF4h ;# ">
+"17092
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 17092: __asm("TABLAT equ 0FF5h");
+[; <" TABLAT equ 0FF5h ;# ">
+"17114
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 17114: __asm("TBLPTR equ 0FF6h");
+[; <" TBLPTR equ 0FF6h ;# ">
+"17121
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 17121: __asm("TBLPTRL equ 0FF6h");
+[; <" TBLPTRL equ 0FF6h ;# ">
+"17141
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 17141: __asm("TBLPTRH equ 0FF7h");
+[; <" TBLPTRH equ 0FF7h ;# ">
+"17161
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 17161: __asm("TBLPTRU equ 0FF8h");
+[; <" TBLPTRU equ 0FF8h ;# ">
+"17192
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 17192: __asm("PCLAT equ 0FF9h");
+[; <" PCLAT equ 0FF9h ;# ">
+"17199
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 17199: __asm("PC equ 0FF9h");
+[; <" PC equ 0FF9h ;# ">
+"17206
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 17206: __asm("PCL equ 0FF9h");
+[; <" PCL equ 0FF9h ;# ">
+"17226
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 17226: __asm("PCLATH equ 0FFAh");
+[; <" PCLATH equ 0FFAh ;# ">
+"17246
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 17246: __asm("PCLATU equ 0FFBh");
+[; <" PCLATU equ 0FFBh ;# ">
+"17253
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 17253: __asm("STKPTR equ 0FFCh");
+[; <" STKPTR equ 0FFCh ;# ">
+"17359
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 17359: __asm("TOS equ 0FFDh");
+[; <" TOS equ 0FFDh ;# ">
+"17366
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 17366: __asm("TOSL equ 0FFDh");
+[; <" TOSL equ 0FFDh ;# ">
+"17386
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 17386: __asm("TOSH equ 0FFEh");
+[; <" TOSH equ 0FFEh ;# ">
+"17406
+[; ;T:\Programy\MPLAB\XC  Compiler\pic\include\pic18f46k22.h: 17406: __asm("TOSU equ 0FFFh");
+[; <" TOSU equ 0FFFh ;# ">
+"33 Projekt.c
+[; ;Projekt.c: 33: volatile uint16_t pot1;
+[v _pot1 `Vus ~T0 @X0 1 e ]
+"34
+[; ;Projekt.c: 34: volatile uint24_t n = 0;
+[v _n `Vum ~T0 @X0 1 e ]
+[i _n
+-> -> -> 0 `i `m `um
+]
+"36
+[; ;Projekt.c: 36: char text[17];
+[v _text `uc ~T0 @X0 -> 17 `i e ]
+"37
+[; ;Projekt.c: 37: char zapis[50];
+[v _zapis `uc ~T0 @X0 -> 50 `i e ]
+"38
+[; ;Projekt.c: 38: char nadpis1[17];
+[v _nadpis1 `uc ~T0 @X0 -> 17 `i e ]
+"39
+[; ;Projekt.c: 39: char nadpis2[17];
+[v _nadpis2 `uc ~T0 @X0 -> 17 `i e ]
+"66
+[; ;Projekt.c: 66: void init(void){
+[v _init `(v ~T0 @X0 1 ef ]
+{
+[e :U _init ]
+[f ]
+"67
+[; ;Projekt.c: 67:       LCD_Init();
+[e ( _LCD_Init ..  ]
+"69
+[; ;Projekt.c: 69:       TRISCbits.RC0 = 1;
+[e = . . _TRISCbits 1 0 -> -> 1 `i `uc ]
+"70
+[; ;Projekt.c: 70:       TRISAbits.RA2 = 1;
+[e = . . _TRISAbits 1 2 -> -> 1 `i `uc ]
+"71
+[; ;Projekt.c: 71:       TRISAbits.RA3 = 1;
+[e = . . _TRISAbits 1 3 -> -> 1 `i `uc ]
+"72
+[; ;Projekt.c: 72:       TRISAbits.RA4 = 1;
+[e = . . _TRISAbits 1 4 -> -> 1 `i `uc ]
+"73
+[; ;Projekt.c: 73:       ANSELA = 0;
+[e = _ANSELA -> -> 0 `i `uc ]
+"75
+[; ;Projekt.c: 75: }
+[e :UE 856 ]
+}
+"79
+[; ;Projekt.c: 79: void kr_init(void){
+[v _kr_init `(v ~T0 @X0 1 ef ]
+{
+[e :U _kr_init ]
+[f ]
+"80
+[; ;Projekt.c: 80:     int kr=1;
+[v _kr `i ~T0 @X0 1 a ]
+[e = _kr -> 1 `i ]
+"81
+[; ;Projekt.c: 81:     char k_r[17];
+[v _k_r `uc ~T0 @X0 -> 17 `i a ]
+"82
+[; ;Projekt.c: 82:     char mor[17];
+[v _mor `uc ~T0 @X0 -> 17 `i a ]
+"84
+[; ;Projekt.c: 84:     while(1){
+[e :U 859 ]
+{
+"85
+[; ;Projekt.c: 85:         if (PORTAbits.RA4){
+[e $ ! != -> . . _PORTAbits 0 4 `i -> 0 `i 861  ]
+{
+"86
+[; ;Projekt.c: 86:             kr=2;
+[e = _kr -> 2 `i ]
+"87
+[; ;Projekt.c: 87:             }
+}
+[e :U 861 ]
+"88
+[; ;Projekt.c: 88:         if (PORTCbits.RC0){
+[e $ ! != -> . . _PORTCbits 0 0 `i -> 0 `i 862  ]
+{
+"89
+[; ;Projekt.c: 89:             kr=1;
+[e = _kr -> 1 `i ]
+"90
+[; ;Projekt.c: 90:          }
+}
+[e :U 862 ]
+"91
+[; ;Projekt.c: 91:         switch(kr){
+[e $U 864  ]
+{
+"92
+[; ;Projekt.c: 92:                 case 1:
+[e :U 865 ]
+"93
+[; ;Projekt.c: 93:                 sprintf(k_r,"* Model 2000    ");
+[e ( _sprintf (1 , &U _k_r :s 1C ]
+"94
+[; ;Projekt.c: 94:                 LCD_ShowString(1,k_r);
+[e ( _LCD_ShowString (2 , -> -> 1 `i `uc &U _k_r ]
+"95
+[; ;Projekt.c: 95:                 sprintf(mor,"  Model 3000    ");
+[e ( _sprintf (1 , &U _mor :s 2C ]
+"96
+[; ;Projekt.c: 96:                 LCD_ShowString(2,mor);
+[e ( _LCD_ShowString (2 , -> -> 2 `i `uc &U _mor ]
+"97
+[; ;Projekt.c: 97:                  if (PORTAbits.RA3){
+[e $ ! != -> . . _PORTAbits 0 3 `i -> 0 `i 866  ]
+{
+"98
+[; ;Projekt.c: 98:                 Knight_rider_2000();
+[e ( _Knight_rider_2000 ..  ]
+"99
+[; ;Projekt.c: 99:                      }
+}
+[e :U 866 ]
+"100
+[; ;Projekt.c: 100:                 break;
+[e $U 863  ]
+"101
+[; ;Projekt.c: 101:                 case 2:
+[e :U 867 ]
+"102
+[; ;Projekt.c: 102:                 sprintf(k_r,"  Model 2000    ");
+[e ( _sprintf (1 , &U _k_r :s 3C ]
+"103
+[; ;Projekt.c: 103:                 LCD_ShowString(1,k_r);
+[e ( _LCD_ShowString (2 , -> -> 1 `i `uc &U _k_r ]
+"104
+[; ;Projekt.c: 104:                 sprintf(mor,"* Model 3000    ");
+[e ( _sprintf (1 , &U _mor :s 4C ]
+"105
+[; ;Projekt.c: 105:                 LCD_ShowString(2,mor);
+[e ( _LCD_ShowString (2 , -> -> 2 `i `uc &U _mor ]
+"106
+[; ;Projekt.c: 106:                 if (PORTAbits.RA3){
+[e $ ! != -> . . _PORTAbits 0 3 `i -> 0 `i 868  ]
+{
+"107
+[; ;Projekt.c: 107:                 Knight_rider_3000();
+[e ( _Knight_rider_3000 ..  ]
+"108
+[; ;Projekt.c: 108:                      }
+}
+[e :U 868 ]
+"109
+[; ;Projekt.c: 109:                 break;
+[e $U 863  ]
+"110
+[; ;Projekt.c: 110:                 }
+}
+[e $U 863  ]
+[e :U 864 ]
+[e [\ _kr , $ -> 1 `i 865
+ , $ -> 2 `i 867
+ 863 ]
+[e :U 863 ]
+"111
+[; ;Projekt.c: 111:                 if (PORTAbits.RA2){
+[e $ ! != -> . . _PORTAbits 0 2 `i -> 0 `i 869  ]
+{
+"112
+[; ;Projekt.c: 112:                 _delay((unsigned long)((300)*(32E6/4000.0)));
+[e ( __delay (1 -> * -> -> 300 `i `d / .32e6 .4000.0 `ul ]
+"113
+[; ;Projekt.c: 113:                     return;
+[e $UE 857  ]
+"114
+[; ;Projekt.c: 114:                 }
+}
+[e :U 869 ]
+"115
+[; ;Projekt.c: 115:                 _delay((unsigned long)((150)*(32E6/4000.0)));
+[e ( __delay (1 -> * -> -> 150 `i `d / .32e6 .4000.0 `ul ]
+"116
+[; ;Projekt.c: 116:     }
+}
+[e :U 858 ]
+[e $U 859  ]
+[e :U 860 ]
+"117
+[; ;Projekt.c: 117: }
+[e :UE 857 ]
+}
+"121
+[; ;Projekt.c: 121: void Morseovka_init(void){
+[v _Morseovka_init `(v ~T0 @X0 1 ef ]
+{
+[e :U _Morseovka_init ]
+[f ]
+"122
+[; ;Projekt.c: 122:     PEIE = 1;
+[e = _PEIE -> -> 1 `i `b ]
+"123
+[; ;Projekt.c: 123:     GIE = 1;
+[e = _GIE -> -> 1 `i `b ]
+"124
+[; ;Projekt.c: 124:     RC1IE = 1;
+[e = _RC1IE -> -> 1 `i `b ]
+"126
+[; ;Projekt.c: 126:     ANSELC = 0x00;
+[e = _ANSELC -> -> 0 `i `uc ]
+"128
+[; ;Projekt.c: 128:     TRISCbits.TRISC6 = 1;
+[e = . . _TRISCbits 0 6 -> -> 1 `i `uc ]
+"129
+[; ;Projekt.c: 129:     TRISCbits.TRISC7 = 1;
+[e = . . _TRISCbits 0 7 -> -> 1 `i `uc ]
+"131
+[; ;Projekt.c: 131:     SPBRG1 = 51;
+[e = _SPBRG1 -> -> 51 `i `uc ]
+"132
+[; ;Projekt.c: 132:     RCSTA1bits.SPEN = 1;
+[e = . . _RCSTA1bits 0 7 -> -> 1 `i `uc ]
+"133
+[; ;Projekt.c: 133:     TXSTA1bits.SYNC = 0;
+[e = . . _TXSTA1bits 0 4 -> -> 0 `i `uc ]
+"134
+[; ;Projekt.c: 134:     TXSTA1bits.TXEN = 1;
+[e = . . _TXSTA1bits 0 5 -> -> 1 `i `uc ]
+"135
+[; ;Projekt.c: 135:     RCSTA1bits.CREN = 1;
+[e = . . _RCSTA1bits 0 4 -> -> 1 `i `uc ]
+"136
+[; ;Projekt.c: 136: }
+[e :UE 870 ]
+}
+"140
+[; ;Projekt.c: 140: void PWM_init(void){
+[v _PWM_init `(v ~T0 @X0 1 ef ]
+{
+[e :U _PWM_init ]
+[f ]
+"141
+[; ;Projekt.c: 141:     TRISD = 0b10000011;
+[e = _TRISD -> -> 131 `i `uc ]
+"142
+[; ;Projekt.c: 142:     TRISCbits.RC4 = 0;
+[e = . . _TRISCbits 1 4 -> -> 0 `i `uc ]
+"144
+[; ;Projekt.c: 144:     TRISDbits.RD5 = 1;
+[e = . . _TRISDbits 1 5 -> -> 1 `i `uc ]
+"145
+[; ;Projekt.c: 145:     TRISCbits.RC2 = 1;
+[e = . . _TRISCbits 1 2 -> -> 1 `i `uc ]
+"146
+[; ;Projekt.c: 146:     PSTR1CONbits.STR1A = 1;
+[e = . . _PSTR1CONbits 0 0 -> -> 1 `i `uc ]
+"147
+[; ;Projekt.c: 147:     PSTR1CONbits.STR1B = 1;
+[e = . . _PSTR1CONbits 0 1 -> -> 1 `i `uc ]
+"149
+[; ;Projekt.c: 149:     CCPTMRS0bits.C1TSEL = 0b00;
+[e = . . _CCPTMRS0bits 0 0 -> -> 0 `i `uc ]
+"150
+[; ;Projekt.c: 150:     PR2 = 199;
+[e = _PR2 -> -> 199 `i `uc ]
+"151
+[; ;Projekt.c: 151:     CCP1CONbits.P1M = 0b00;
+[e = . . _CCP1CONbits 0 2 -> -> 0 `i `uc ]
+"152
+[; ;Projekt.c: 152:     CCP1CONbits.CCP1M = 0b1101;
+[e = . . _CCP1CONbits 0 0 -> -> 13 `i `uc ]
+"153
+[; ;Projekt.c: 153:     CCPR1L = 0;
+[e = _CCPR1L -> -> 0 `i `uc ]
+"154
+[; ;Projekt.c: 154:     T2CONbits.T2CKPS = 0b00;
+[e = . . _T2CONbits 0 0 -> -> 0 `i `uc ]
+"155
+[; ;Projekt.c: 155:     TMR2IF = 0;
+[e = _TMR2IF -> -> 0 `i `b ]
+"156
+[; ;Projekt.c: 156:     TMR2ON = 1;
+[e = _TMR2ON -> -> 1 `i `b ]
+"157
+[; ;Projekt.c: 157:     while(!TMR2IF){};
+[e $U 872  ]
+[e :U 873 ]
+{
+}
+[e :U 872 ]
+[e $ ! _TMR2IF 873  ]
+[e :U 874 ]
+"159
+[; ;Projekt.c: 159:     TRISDbits.RD5 = 0;
+[e = . . _TRISDbits 1 5 -> -> 0 `i `uc ]
+"160
+[; ;Projekt.c: 160:     TRISCbits.RC2 = 0;
+[e = . . _TRISCbits 1 2 -> -> 0 `i `uc ]
+"162
+[; ;Projekt.c: 162:     ANSELE = 0b1;
+[e = _ANSELE -> -> 1 `i `uc ]
+"163
+[; ;Projekt.c: 163:     ADCON2bits.ADFM = 1;
+[e = . . _ADCON2bits 0 3 -> -> 1 `i `uc ]
+"164
+[; ;Projekt.c: 164:     ADCON2bits.ADCS = 0b110;
+[e = . . _ADCON2bits 0 0 -> -> 6 `i `uc ]
+"165
+[; ;Projekt.c: 165:     ADCON2bits.ACQT = 0b110;
+[e = . . _ADCON2bits 0 1 -> -> 6 `i `uc ]
+"166
+[; ;Projekt.c: 166:     ADCON0bits.ADON = 1;
+[e = . . _ADCON0bits 1 0 -> -> 1 `i `uc ]
+"167
+[; ;Projekt.c: 167:     ADCON0bits.CHS = 5;
+[e = . . _ADCON0bits 1 2 -> -> 5 `i `uc ]
+"169
+[; ;Projekt.c: 169:     ADIF = 0;
+[e = _ADIF -> -> 0 `i `b ]
+"170
+[; ;Projekt.c: 170:     ADIE = 1;
+[e = _ADIE -> -> 1 `i `b ]
+"171
+[; ;Projekt.c: 171:     PEIE = 1;
+[e = _PEIE -> -> 1 `i `b ]
+"172
+[; ;Projekt.c: 172:     GIE = 1;
+[e = _GIE -> -> 1 `i `b ]
+"173
+[; ;Projekt.c: 173: }
+[e :UE 871 ]
+}
+"177
+[; ;Projekt.c: 177: void Bargraph_init(void){
+[v _Bargraph_init `(v ~T0 @X0 1 ef ]
+{
+[e :U _Bargraph_init ]
+[f ]
+"178
+[; ;Projekt.c: 178:     ANSELA |= (1 << 5);
+[e =| _ANSELA -> << -> 1 `i -> 5 `i `Vuc ]
+"179
+[; ;Projekt.c: 179:     ANSELE = 0b1;
+[e = _ANSELE -> -> 1 `i `uc ]
+"181
+[; ;Projekt.c: 181:     ADCON2bits.ADFM = 1;
+[e = . . _ADCON2bits 0 3 -> -> 1 `i `uc ]
+"182
+[; ;Projekt.c: 182:     ADCON2bits.ADCS = 0b110;
+[e = . . _ADCON2bits 0 0 -> -> 6 `i `uc ]
+"183
+[; ;Projekt.c: 183:     ADCON2bits.ACQT = 0b110;
+[e = . . _ADCON2bits 0 1 -> -> 6 `i `uc ]
+"184
+[; ;Projekt.c: 184:     ADCON0bits.ADON = 1;
+[e = . . _ADCON0bits 1 0 -> -> 1 `i `uc ]
+"185
+[; ;Projekt.c: 185:     ADCON0bits.CHS = 5;
+[e = . . _ADCON0bits 1 2 -> -> 5 `i `uc ]
+"187
+[; ;Projekt.c: 187:     ADIF = 0;
+[e = _ADIF -> -> 0 `i `b ]
+"188
+[; ;Projekt.c: 188:     PEIE = 1;
+[e = _PEIE -> -> 1 `i `b ]
+"189
+[; ;Projekt.c: 189:     ADIE = 1;
+[e = _ADIE -> -> 1 `i `b ]
+"190
+[; ;Projekt.c: 190:     GIE = 1;
+[e = _GIE -> -> 1 `i `b ]
+"191
+[; ;Projekt.c: 191: }
+[e :UE 875 ]
+}
+"194
+[; ;Projekt.c: 194: void Pong_init(void){
+[v _Pong_init `(v ~T0 @X0 1 ef ]
+{
+[e :U _Pong_init ]
+[f ]
+"195
+[; ;Projekt.c: 195:     TRISCbits.RC0 = 1;
+[e = . . _TRISCbits 1 0 -> -> 1 `i `uc ]
+"196
+[; ;Projekt.c: 196:     TRISAbits.RA2 = 1;
+[e = . . _TRISAbits 1 2 -> -> 1 `i `uc ]
+"197
+[; ;Projekt.c: 197:     ANSELAbits.ANSA2 = 0;
+[e = . . _ANSELAbits 0 2 -> -> 0 `i `uc ]
+"198
+[; ;Projekt.c: 198: }
+[e :UE 876 ]
+}
+[v $root$_ISR `(v ~T0 @X0 0 e ]
+"205
+[; ;Projekt.c: 205: void __attribute__((picinterrupt(("")))) ISR (){
+[v _ISR `(v ~T1 @X0 1 ef ]
+{
+[e :U _ISR ]
+[f ]
+"207
+[; ;Projekt.c: 207:     if (ADIF & ADIE) {
+[e $ ! & _ADIF _ADIE 878  ]
+{
+"208
+[; ;Projekt.c: 208:         pot1 = (ADRESH << 8) | (ADRESL);
+[e = _pot1 -> | << -> _ADRESH `i -> 8 `i -> _ADRESL `i `us ]
+"209
+[; ;Projekt.c: 209:               ADIF = 0;
+[e = _ADIF -> -> 0 `i `b ]
+"210
+[; ;Projekt.c: 210:     }
+}
+[e :U 878 ]
+"212
+[; ;Projekt.c: 212:      if(RC1IE && RC1IF){
+[e $ ! && _RC1IE _RC1IF 879  ]
+{
+"213
+[; ;Projekt.c: 213:            zapis[n] = RCREG1;
+[e = *U + &U _zapis * -> _n `ux -> -> # *U &U _zapis `ui `ux -> _RCREG1 `uc ]
+"214
+[; ;Projekt.c: 214:            n++;
+[e ++ _n -> -> 1 `i `Vum ]
+"215
+[; ;Projekt.c: 215:             }
+}
+[e :U 879 ]
+"216
+[; ;Projekt.c: 216:            }
+[e :UE 877 ]
+}
+[v $root$_main `(v ~T0 @X0 0 e ]
+"225
+[; ;Projekt.c: 225: void main(void){
+[v _main `(v ~T0 @X0 1 ef ]
+{
+[e :U _main ]
+[f ]
+"226
+[; ;Projekt.c: 226:     init();
+[e ( _init ..  ]
+"228
+[; ;Projekt.c: 228:     char k_r[17];
+[v _k_r `uc ~T0 @X0 -> 17 `i a ]
+"229
+[; ;Projekt.c: 229:     char mor[17];
+[v _mor `uc ~T0 @X0 -> 17 `i a ]
+"230
+[; ;Projekt.c: 230:     char pwm[17];
+[v _pwm `uc ~T0 @X0 -> 17 `i a ]
+"231
+[; ;Projekt.c: 231:     char barg[17];
+[v _barg `uc ~T0 @X0 -> 17 `i a ]
+"232
+[; ;Projekt.c: 232:     char pong[17];
+[v _pong `uc ~T0 @X0 -> 17 `i a ]
+"233
+[; ;Projekt.c: 233:     int m=1;
+[v _m `i ~T0 @X0 1 a ]
+[e = _m -> 1 `i ]
+"235
+[; ;Projekt.c: 235:     while(1){
+[e :U 882 ]
+{
+"236
+[; ;Projekt.c: 236:         LCD_Clear();
+[e ( _LCD_Clear ..  ]
+"237
+[; ;Projekt.c: 237:         if (PORTAbits.RA4){
+[e $ ! != -> . . _PORTAbits 0 4 `i -> 0 `i 884  ]
+{
+"238
+[; ;Projekt.c: 238:             m++;
+[e ++ _m -> 1 `i ]
+"239
+[; ;Projekt.c: 239:             if (m>8){
+[e $ ! > _m -> 8 `i 885  ]
+{
+"240
+[; ;Projekt.c: 240:                 m=8;
+[e = _m -> 8 `i ]
+"241
+[; ;Projekt.c: 241:             }
+}
+[e :U 885 ]
+"242
+[; ;Projekt.c: 242:         }
+}
+[e :U 884 ]
+"243
+[; ;Projekt.c: 243:          if (PORTCbits.RC0){
+[e $ ! != -> . . _PORTCbits 0 0 `i -> 0 `i 886  ]
+{
+"244
+[; ;Projekt.c: 244:             m--;
+[e -- _m -> 1 `i ]
+"245
+[; ;Projekt.c: 245:             if (m<1){
+[e $ ! < _m -> 1 `i 887  ]
+{
+"246
+[; ;Projekt.c: 246:                 m=1;
+[e = _m -> 1 `i ]
+"247
+[; ;Projekt.c: 247:             }
+}
+[e :U 887 ]
+"248
+[; ;Projekt.c: 248:          }
+}
+[e :U 886 ]
+"250
+[; ;Projekt.c: 250:         switch(m){
+[e $U 889  ]
+{
+"251
+[; ;Projekt.c: 251:             case 1:
+[e :U 890 ]
+"252
+[; ;Projekt.c: 252:             sprintf(k_r,"* Knight Rider  ");
+[e ( _sprintf (1 , &U _k_r :s 5C ]
+"253
+[; ;Projekt.c: 253:             LCD_ShowString(1,k_r);
+[e ( _LCD_ShowString (2 , -> -> 1 `i `uc &U _k_r ]
+"254
+[; ;Projekt.c: 254:             sprintf(mor,"  Morseovka     ");
+[e ( _sprintf (1 , &U _mor :s 6C ]
+"255
+[; ;Projekt.c: 255:             LCD_ShowString(2,mor);
+[e ( _LCD_ShowString (2 , -> -> 2 `i `uc &U _mor ]
+"256
+[; ;Projekt.c: 256:             if (PORTAbits.RA3){
+[e $ ! != -> . . _PORTAbits 0 3 `i -> 0 `i 891  ]
+{
+"257
+[; ;Projekt.c: 257:                 _delay((unsigned long)((250)*(32E6/4000.0)));
+[e ( __delay (1 -> * -> -> 250 `i `d / .32e6 .4000.0 `ul ]
+"258
+[; ;Projekt.c: 258:                 kr_init();
+[e ( _kr_init ..  ]
+"260
+[; ;Projekt.c: 260:             }
+}
+[e :U 891 ]
+"261
+[; ;Projekt.c: 261:             break;
+[e $U 888  ]
+"262
+[; ;Projekt.c: 262:             case 2:
+[e :U 892 ]
+"263
+[; ;Projekt.c: 263:             sprintf(k_r,"  Knight Rider  ");
+[e ( _sprintf (1 , &U _k_r :s 7C ]
+"264
+[; ;Projekt.c: 264:             LCD_ShowString(1,k_r);
+[e ( _LCD_ShowString (2 , -> -> 1 `i `uc &U _k_r ]
+"265
+[; ;Projekt.c: 265:             sprintf(mor,"* Morseovka     ");
+[e ( _sprintf (1 , &U _mor :s 8C ]
+"266
+[; ;Projekt.c: 266:             LCD_ShowString(2,mor);
+[e ( _LCD_ShowString (2 , -> -> 2 `i `uc &U _mor ]
+"267
+[; ;Projekt.c: 267:             if (PORTAbits.RA3){
+[e $ ! != -> . . _PORTAbits 0 3 `i -> 0 `i 893  ]
+{
+"268
+[; ;Projekt.c: 268:                 Morseovka();
+[e ( _Morseovka ..  ]
+"269
+[; ;Projekt.c: 269:             }
+}
+[e :U 893 ]
+"270
+[; ;Projekt.c: 270:             break;
+[e $U 888  ]
+"271
+[; ;Projekt.c: 271:             case 3:
+[e :U 894 ]
+"272
+[; ;Projekt.c: 272:             sprintf(mor,"* Morseovka     ");
+[e ( _sprintf (1 , &U _mor :s 9C ]
+"273
+[; ;Projekt.c: 273:             LCD_ShowString(1,mor);
+[e ( _LCD_ShowString (2 , -> -> 1 `i `uc &U _mor ]
+"274
+[; ;Projekt.c: 274:             sprintf(pwm,"  PWM motor     ");
+[e ( _sprintf (1 , &U _pwm :s 10C ]
+"275
+[; ;Projekt.c: 275:             LCD_ShowString(2,pwm);
+[e ( _LCD_ShowString (2 , -> -> 2 `i `uc &U _pwm ]
+"276
+[; ;Projekt.c: 276:             if (PORTAbits.RA3){
+[e $ ! != -> . . _PORTAbits 0 3 `i -> 0 `i 895  ]
+{
+"277
+[; ;Projekt.c: 277:                 Morseovka();
+[e ( _Morseovka ..  ]
+"278
+[; ;Projekt.c: 278:             }
+}
+[e :U 895 ]
+"279
+[; ;Projekt.c: 279:             break;
+[e $U 888  ]
+"280
+[; ;Projekt.c: 280:             case 4:
+[e :U 896 ]
+"281
+[; ;Projekt.c: 281:             sprintf(mor,"  Morseovka     ");
+[e ( _sprintf (1 , &U _mor :s 11C ]
+"282
+[; ;Projekt.c: 282:             LCD_ShowString(1,mor);
+[e ( _LCD_ShowString (2 , -> -> 1 `i `uc &U _mor ]
+"283
+[; ;Projekt.c: 283:             sprintf(pwm,"* PWM motor     ");
+[e ( _sprintf (1 , &U _pwm :s 12C ]
+"284
+[; ;Projekt.c: 284:             LCD_ShowString(2,pwm);
+[e ( _LCD_ShowString (2 , -> -> 2 `i `uc &U _pwm ]
+"285
+[; ;Projekt.c: 285:             if (PORTAbits.RA3){
+[e $ ! != -> . . _PORTAbits 0 3 `i -> 0 `i 897  ]
+{
+"286
+[; ;Projekt.c: 286:                PWM_motor_led();
+[e ( _PWM_motor_led ..  ]
+"287
+[; ;Projekt.c: 287:             }
+}
+[e :U 897 ]
+"288
+[; ;Projekt.c: 288:             break;
+[e $U 888  ]
+"289
+[; ;Projekt.c: 289:             case 5:
+[e :U 898 ]
+"290
+[; ;Projekt.c: 290:             sprintf(pwm,"* PWM motor     ");
+[e ( _sprintf (1 , &U _pwm :s 13C ]
+"291
+[; ;Projekt.c: 291:             LCD_ShowString(1,pwm);
+[e ( _LCD_ShowString (2 , -> -> 1 `i `uc &U _pwm ]
+"292
+[; ;Projekt.c: 292:             sprintf(barg,"  Bargraph      ");
+[e ( _sprintf (1 , &U _barg :s 14C ]
+"293
+[; ;Projekt.c: 293:             LCD_ShowString(2,barg);
+[e ( _LCD_ShowString (2 , -> -> 2 `i `uc &U _barg ]
+"294
+[; ;Projekt.c: 294:             if (PORTAbits.RA3){
+[e $ ! != -> . . _PORTAbits 0 3 `i -> 0 `i 899  ]
+{
+"295
+[; ;Projekt.c: 295:                 PWM_motor_led();
+[e ( _PWM_motor_led ..  ]
+"296
+[; ;Projekt.c: 296:             }
+}
+[e :U 899 ]
+"297
+[; ;Projekt.c: 297:             break;
+[e $U 888  ]
+"298
+[; ;Projekt.c: 298:             case 6:
+[e :U 900 ]
+"299
+[; ;Projekt.c: 299:             sprintf(pwm,"  PWM motor     ");
+[e ( _sprintf (1 , &U _pwm :s 15C ]
+"300
+[; ;Projekt.c: 300:             LCD_ShowString(1,pwm);
+[e ( _LCD_ShowString (2 , -> -> 1 `i `uc &U _pwm ]
+"301
+[; ;Projekt.c: 301:             sprintf(barg,"* Bargraph      ");
+[e ( _sprintf (1 , &U _barg :s 16C ]
+"302
+[; ;Projekt.c: 302:             LCD_ShowString(2,barg);
+[e ( _LCD_ShowString (2 , -> -> 2 `i `uc &U _barg ]
+"303
+[; ;Projekt.c: 303:             if (PORTAbits.RA3){
+[e $ ! != -> . . _PORTAbits 0 3 `i -> 0 `i 901  ]
+{
+"304
+[; ;Projekt.c: 304:                 Bargraph();
+[e ( _Bargraph ..  ]
+"305
+[; ;Projekt.c: 305:             }
+}
+[e :U 901 ]
+"306
+[; ;Projekt.c: 306:             break;
+[e $U 888  ]
+"307
+[; ;Projekt.c: 307:             case 7:
+[e :U 902 ]
+"308
+[; ;Projekt.c: 308:             sprintf(barg,"* Bargraph      ");
+[e ( _sprintf (1 , &U _barg :s 17C ]
+"309
+[; ;Projekt.c: 309:             LCD_ShowString(1,barg);
+[e ( _LCD_ShowString (2 , -> -> 1 `i `uc &U _barg ]
+"310
+[; ;Projekt.c: 310:             sprintf(pong,"  Pong-2 PLAYERS");
+[e ( _sprintf (1 , &U _pong :s 18C ]
+"311
+[; ;Projekt.c: 311:             LCD_ShowString(2,pong);
+[e ( _LCD_ShowString (2 , -> -> 2 `i `uc &U _pong ]
+"312
+[; ;Projekt.c: 312:             if (PORTAbits.RA3){
+[e $ ! != -> . . _PORTAbits 0 3 `i -> 0 `i 903  ]
+{
+"313
+[; ;Projekt.c: 313:                 Bargraph();
+[e ( _Bargraph ..  ]
+"314
+[; ;Projekt.c: 314:             }
+}
+[e :U 903 ]
+"315
+[; ;Projekt.c: 315:             break;
+[e $U 888  ]
+"316
+[; ;Projekt.c: 316:             case 8:
+[e :U 904 ]
+"317
+[; ;Projekt.c: 317:             sprintf(barg,"  Bargraph      ");
+[e ( _sprintf (1 , &U _barg :s 19C ]
+"318
+[; ;Projekt.c: 318:             LCD_ShowString(1,barg);
+[e ( _LCD_ShowString (2 , -> -> 1 `i `uc &U _barg ]
+"319
+[; ;Projekt.c: 319:             sprintf(pong,"* Pong-2 PLAYERS");
+[e ( _sprintf (1 , &U _pong :s 20C ]
+"320
+[; ;Projekt.c: 320:             LCD_ShowString(2,pong);
+[e ( _LCD_ShowString (2 , -> -> 2 `i `uc &U _pong ]
+"321
+[; ;Projekt.c: 321:             if (PORTAbits.RA3){
+[e $ ! != -> . . _PORTAbits 0 3 `i -> 0 `i 905  ]
+{
+"322
+[; ;Projekt.c: 322:                 Pong();
+[e ( _Pong ..  ]
+"323
+[; ;Projekt.c: 323:             }
+}
+[e :U 905 ]
+"324
+[; ;Projekt.c: 324:             break;
+[e $U 888  ]
+"325
+[; ;Projekt.c: 325:     }
+}
+[e $U 888  ]
+[e :U 889 ]
+[e [\ _m , $ -> 1 `i 890
+ , $ -> 2 `i 892
+ , $ -> 3 `i 894
+ , $ -> 4 `i 896
+ , $ -> 5 `i 898
+ , $ -> 6 `i 900
+ , $ -> 7 `i 902
+ , $ -> 8 `i 904
+ 888 ]
+[e :U 888 ]
+"326
+[; ;Projekt.c: 326:         if(PORTAbits.RA2){
+[e $ ! != -> . . _PORTAbits 0 2 `i -> 0 `i 906  ]
+{
+"327
+[; ;Projekt.c: 327:             m=1;
+[e = _m -> 1 `i ]
+"328
+[; ;Projekt.c: 328:         }
+}
+[e :U 906 ]
+"329
+[; ;Projekt.c: 329:     _delay((unsigned long)((150)*(32E6/4000.0)));
+[e ( __delay (1 -> * -> -> 150 `i `d / .32e6 .4000.0 `ul ]
+"330
+[; ;Projekt.c: 330:     }
+}
+[e :U 881 ]
+[e $U 882  ]
+[e :U 883 ]
+"331
+[; ;Projekt.c: 331: }
+[e :UE 880 ]
+}
+"340
+[; ;Projekt.c: 340: void Morseovka(void){
+[v _Morseovka `(v ~T0 @X0 1 ef ]
+{
+[e :U _Morseovka ]
+[f ]
+"341
+[; ;Projekt.c: 341:     Morseovka_init();
+[e ( _Morseovka_init ..  ]
+"342
+[; ;Projekt.c: 342:     LCD_Clear();
+[e ( _LCD_Clear ..  ]
+"343
+[; ;Projekt.c: 343:     int i = 0;
+[v _i `i ~T0 @X0 1 a ]
+[e = _i -> 0 `i ]
+"344
+[; ;Projekt.c: 344:     int j = 0;
+[v _j `i ~T0 @X0 1 a ]
+[e = _j -> 0 `i ]
+"346
+[; ;Projekt.c: 346:     printf("Enter only valid characters :)\n\n\n");
+[e ( _printf :s 21C ]
+"348
+[; ;Projekt.c: 348:     while(1){
+[e :U 909 ]
+{
+"349
+[; ;Projekt.c: 349:         sprintf(nadpis1,"Morse translator");
+[e ( _sprintf (1 , &U _nadpis1 :s 22C ]
+"350
+[; ;Projekt.c: 350:         LCD_ShowString(1,nadpis1);
+[e ( _LCD_ShowString (2 , -> -> 1 `i `uc &U _nadpis1 ]
+"351
+[; ;Projekt.c: 351:         sprintf(nadpis2,"translating...  ");
+[e ( _sprintf (1 , &U _nadpis2 :s 23C ]
+"352
+[; ;Projekt.c: 352:         LCD_ShowString(2,nadpis2);
+[e ( _LCD_ShowString (2 , -> -> 2 `i `uc &U _nadpis2 ]
+"353
+[; ;Projekt.c: 353:         if (n!=0){
+[e $ ! != _n -> -> -> 0 `i `m `um 911  ]
+{
+"354
+[; ;Projekt.c: 354:         printf("\nPREKLAD:  ");
+[e ( _printf :s 24C ]
+"355
+[; ;Projekt.c: 355:         for(i=0;i<n;i++){
+{
+[e = _i -> 0 `i ]
+[e $U 915  ]
+[e :U 912 ]
+{
+"356
+[; ;Projekt.c: 356:             switch (zapis[i]){
+[e $U 917  ]
+{
+"358
+[; ;Projekt.c: 358:                     case 'A':
+[e :U 918 ]
+"359
+[; ;Projekt.c: 359:                     case 'a':
+[e :U 919 ]
+"360
+[; ;Projekt.c: 360:                     printf(" . - |");
+[e ( _printf :s 25C ]
+"361
+[; ;Projekt.c: 361:                     break;
+[e $U 916  ]
+"362
+[; ;Projekt.c: 362:                     case 'B':
+[e :U 920 ]
+"363
+[; ;Projekt.c: 363:                     case 'b':
+[e :U 921 ]
+"364
+[; ;Projekt.c: 364:                     printf(" - . . . |");
+[e ( _printf :s 26C ]
+"365
+[; ;Projekt.c: 365:                     break;
+[e $U 916  ]
+"366
+[; ;Projekt.c: 366:                     case 'C':
+[e :U 922 ]
+"367
+[; ;Projekt.c: 367:                     case 'c':
+[e :U 923 ]
+"368
+[; ;Projekt.c: 368:                     printf(" - . - . |");
+[e ( _printf :s 27C ]
+"369
+[; ;Projekt.c: 369:                     break;
+[e $U 916  ]
+"370
+[; ;Projekt.c: 370:                     case 'D':
+[e :U 924 ]
+"371
+[; ;Projekt.c: 371:                     case 'd':
+[e :U 925 ]
+"372
+[; ;Projekt.c: 372:                     printf(" - . . |");
+[e ( _printf :s 28C ]
+"373
+[; ;Projekt.c: 373:                     break;
+[e $U 916  ]
+"374
+[; ;Projekt.c: 374:                     case 'E':
+[e :U 926 ]
+"375
+[; ;Projekt.c: 375:                     case 'e':
+[e :U 927 ]
+"376
+[; ;Projekt.c: 376:                     printf(" . |");
+[e ( _printf :s 29C ]
+"377
+[; ;Projekt.c: 377:                     break;
+[e $U 916  ]
+"378
+[; ;Projekt.c: 378:                     case 'F':
+[e :U 928 ]
+"379
+[; ;Projekt.c: 379:                     case 'f':
+[e :U 929 ]
+"380
+[; ;Projekt.c: 380:                     printf(" . . - . |");
+[e ( _printf :s 30C ]
+"381
+[; ;Projekt.c: 381:                     break;
+[e $U 916  ]
+"382
+[; ;Projekt.c: 382:                     case 'G':
+[e :U 930 ]
+"383
+[; ;Projekt.c: 383:                     case 'g':
+[e :U 931 ]
+"384
+[; ;Projekt.c: 384:                     printf(" - - . |");
+[e ( _printf :s 31C ]
+"385
+[; ;Projekt.c: 385:                     break;
+[e $U 916  ]
+"386
+[; ;Projekt.c: 386:                     case 'H':
+[e :U 932 ]
+"387
+[; ;Projekt.c: 387:                     case 'h':
+[e :U 933 ]
+"388
+[; ;Projekt.c: 388:                     printf(" . . . . |");
+[e ( _printf :s 32C ]
+"389
+[; ;Projekt.c: 389:                     break;
+[e $U 916  ]
+"390
+[; ;Projekt.c: 390:                     case 'I':
+[e :U 934 ]
+"391
+[; ;Projekt.c: 391:                     case 'i':
+[e :U 935 ]
+"392
+[; ;Projekt.c: 392:                     printf(" . . |");
+[e ( _printf :s 33C ]
+"393
+[; ;Projekt.c: 393:                     break;
+[e $U 916  ]
+"394
+[; ;Projekt.c: 394:                     case 'J':
+[e :U 936 ]
+"395
+[; ;Projekt.c: 395:                     case 'j':
+[e :U 937 ]
+"396
+[; ;Projekt.c: 396:                     printf(" . - - - |");
+[e ( _printf :s 34C ]
+"397
+[; ;Projekt.c: 397:                     break;
+[e $U 916  ]
+"398
+[; ;Projekt.c: 398:                     case 'K':
+[e :U 938 ]
+"399
+[; ;Projekt.c: 399:                     case 'k':
+[e :U 939 ]
+"400
+[; ;Projekt.c: 400:                     printf(" - . - |");
+[e ( _printf :s 35C ]
+"401
+[; ;Projekt.c: 401:                     break;
+[e $U 916  ]
+"402
+[; ;Projekt.c: 402:                     case 'L':
+[e :U 940 ]
+"403
+[; ;Projekt.c: 403:                     case 'l':
+[e :U 941 ]
+"404
+[; ;Projekt.c: 404:                     printf(" . - . . |");
+[e ( _printf :s 36C ]
+"405
+[; ;Projekt.c: 405:                     break;
+[e $U 916  ]
+"406
+[; ;Projekt.c: 406:                     case 'M':
+[e :U 942 ]
+"407
+[; ;Projekt.c: 407:                     case 'm':
+[e :U 943 ]
+"408
+[; ;Projekt.c: 408:                     printf(" - - |");
+[e ( _printf :s 37C ]
+"409
+[; ;Projekt.c: 409:                     break;
+[e $U 916  ]
+"410
+[; ;Projekt.c: 410:                     case 'N':
+[e :U 944 ]
+"411
+[; ;Projekt.c: 411:                     case 'n':
+[e :U 945 ]
+"412
+[; ;Projekt.c: 412:                     printf(" - . |");
+[e ( _printf :s 38C ]
+"413
+[; ;Projekt.c: 413:                     break;
+[e $U 916  ]
+"414
+[; ;Projekt.c: 414:                     case 'O':
+[e :U 946 ]
+"415
+[; ;Projekt.c: 415:                     case 'o':
+[e :U 947 ]
+"416
+[; ;Projekt.c: 416:                     printf(" - - - |");
+[e ( _printf :s 39C ]
+"417
+[; ;Projekt.c: 417:                     break;
+[e $U 916  ]
+"418
+[; ;Projekt.c: 418:                     case 'P':
+[e :U 948 ]
+"419
+[; ;Projekt.c: 419:                     case 'p':
+[e :U 949 ]
+"420
+[; ;Projekt.c: 420:                     printf(" . - - . |");
+[e ( _printf :s 40C ]
+"421
+[; ;Projekt.c: 421:                     break;
+[e $U 916  ]
+"422
+[; ;Projekt.c: 422:                     case 'Q':
+[e :U 950 ]
+"423
+[; ;Projekt.c: 423:                     case 'q':
+[e :U 951 ]
+"424
+[; ;Projekt.c: 424:                     printf(" - - . - |");
+[e ( _printf :s 41C ]
+"425
+[; ;Projekt.c: 425:                     break;
+[e $U 916  ]
+"426
+[; ;Projekt.c: 426:                     case 'R':
+[e :U 952 ]
+"427
+[; ;Projekt.c: 427:                     case 'r':
+[e :U 953 ]
+"428
+[; ;Projekt.c: 428:                     printf(" . - . |");
+[e ( _printf :s 42C ]
+"429
+[; ;Projekt.c: 429:                     break;
+[e $U 916  ]
+"430
+[; ;Projekt.c: 430:                     case 'S':
+[e :U 954 ]
+"431
+[; ;Projekt.c: 431:                     case 's':
+[e :U 955 ]
+"432
+[; ;Projekt.c: 432:                     printf(" . . . |");
+[e ( _printf :s 43C ]
+"433
+[; ;Projekt.c: 433:                     break;
+[e $U 916  ]
+"434
+[; ;Projekt.c: 434:                     case 'T':
+[e :U 956 ]
+"435
+[; ;Projekt.c: 435:                     case 't':
+[e :U 957 ]
+"436
+[; ;Projekt.c: 436:                     printf(" - |");
+[e ( _printf :s 44C ]
+"437
+[; ;Projekt.c: 437:                     break;
+[e $U 916  ]
+"438
+[; ;Projekt.c: 438:                     case 'U':
+[e :U 958 ]
+"439
+[; ;Projekt.c: 439:                     case 'u':
+[e :U 959 ]
+"440
+[; ;Projekt.c: 440:                     printf(" . . - |");
+[e ( _printf :s 45C ]
+"441
+[; ;Projekt.c: 441:                     break;
+[e $U 916  ]
+"442
+[; ;Projekt.c: 442:                     case 'V':
+[e :U 960 ]
+"443
+[; ;Projekt.c: 443:                     case 'v':
+[e :U 961 ]
+"444
+[; ;Projekt.c: 444:                     printf(" . . . - |");
+[e ( _printf :s 46C ]
+"445
+[; ;Projekt.c: 445:                     break;
+[e $U 916  ]
+"446
+[; ;Projekt.c: 446:                     case 'W':
+[e :U 962 ]
+"447
+[; ;Projekt.c: 447:                     case 'w':
+[e :U 963 ]
+"448
+[; ;Projekt.c: 448:                     printf(" . - - |");
+[e ( _printf :s 47C ]
+"449
+[; ;Projekt.c: 449:                     break;
+[e $U 916  ]
+"450
+[; ;Projekt.c: 450:                     case 'X':
+[e :U 964 ]
+"451
+[; ;Projekt.c: 451:                     case 'x':
+[e :U 965 ]
+"452
+[; ;Projekt.c: 452:                     printf(" - . . - |");
+[e ( _printf :s 48C ]
+"453
+[; ;Projekt.c: 453:                     break;
+[e $U 916  ]
+"454
+[; ;Projekt.c: 454:                     case 'Y':
+[e :U 966 ]
+"455
+[; ;Projekt.c: 455:                     case 'y':
+[e :U 967 ]
+"456
+[; ;Projekt.c: 456:                     printf(" - . - - |");
+[e ( _printf :s 49C ]
+"457
+[; ;Projekt.c: 457:                     break;
+[e $U 916  ]
+"458
+[; ;Projekt.c: 458:                     case 'Z':
+[e :U 968 ]
+"459
+[; ;Projekt.c: 459:                     case 'z':
+[e :U 969 ]
+"460
+[; ;Projekt.c: 460:                     printf(" - - . . |");
+[e ( _printf :s 50C ]
+"461
+[; ;Projekt.c: 461:                     break;
+[e $U 916  ]
+"462
+[; ;Projekt.c: 462:                     case '0':
+[e :U 970 ]
+"463
+[; ;Projekt.c: 463:                     printf(" - - - - - |");
+[e ( _printf :s 51C ]
+"464
+[; ;Projekt.c: 464:                     break;
+[e $U 916  ]
+"465
+[; ;Projekt.c: 465:                     case '1':
+[e :U 971 ]
+"466
+[; ;Projekt.c: 466:                     printf(" . - - - - |");
+[e ( _printf :s 52C ]
+"467
+[; ;Projekt.c: 467:                     break;
+[e $U 916  ]
+"468
+[; ;Projekt.c: 468:                     case '2':
+[e :U 972 ]
+"469
+[; ;Projekt.c: 469:                     printf(" . . - - - |");
+[e ( _printf :s 53C ]
+"470
+[; ;Projekt.c: 470:                     break;
+[e $U 916  ]
+"471
+[; ;Projekt.c: 471:                     case '3':
+[e :U 973 ]
+"472
+[; ;Projekt.c: 472:                     printf(" . . . - - |");
+[e ( _printf :s 54C ]
+"473
+[; ;Projekt.c: 473:                     break;
+[e $U 916  ]
+"474
+[; ;Projekt.c: 474:                     case '4':
+[e :U 974 ]
+"475
+[; ;Projekt.c: 475:                     printf(" . . . . - |");
+[e ( _printf :s 55C ]
+"476
+[; ;Projekt.c: 476:                     break;
+[e $U 916  ]
+"477
+[; ;Projekt.c: 477:                     case '5':
+[e :U 975 ]
+"478
+[; ;Projekt.c: 478:                     printf(" . . . . . |");
+[e ( _printf :s 56C ]
+"479
+[; ;Projekt.c: 479:                     break;
+[e $U 916  ]
+"480
+[; ;Projekt.c: 480:                     case '6':
+[e :U 976 ]
+"481
+[; ;Projekt.c: 481:                     printf(" - . . . . |");
+[e ( _printf :s 57C ]
+"482
+[; ;Projekt.c: 482:                     break;
+[e $U 916  ]
+"483
+[; ;Projekt.c: 483:                     case '7':
+[e :U 977 ]
+"484
+[; ;Projekt.c: 484:                     printf(" - - . . . |");
+[e ( _printf :s 58C ]
+"485
+[; ;Projekt.c: 485:                     break;
+[e $U 916  ]
+"486
+[; ;Projekt.c: 486:                     case '8':
+[e :U 978 ]
+"487
+[; ;Projekt.c: 487:                     printf(" - - - . . |");
+[e ( _printf :s 59C ]
+"488
+[; ;Projekt.c: 488:                     break;
+[e $U 916  ]
+"489
+[; ;Projekt.c: 489:                     case '9':
+[e :U 979 ]
+"490
+[; ;Projekt.c: 490:                     printf(" - - - - . |");
+[e ( _printf :s 60C ]
+"491
+[; ;Projekt.c: 491:                     break;
+[e $U 916  ]
+"492
+[; ;Projekt.c: 492:                     case '.':
+[e :U 980 ]
+"493
+[; ;Projekt.c: 493:                     printf(" . - . - . - . |");
+[e ( _printf :s 61C ]
+"494
+[; ;Projekt.c: 494:                     break;
+[e $U 916  ]
+"495
+[; ;Projekt.c: 495:                     case ',':
+[e :U 981 ]
+"496
+[; ;Projekt.c: 496:                     printf(" - - . . - - |");
+[e ( _printf :s 62C ]
+"497
+[; ;Projekt.c: 497:                     break;
+[e $U 916  ]
+"498
+[; ;Projekt.c: 498:                     case '!':
+[e :U 982 ]
+"499
+[; ;Projekt.c: 499:                     printf(" - - . . - |");
+[e ( _printf :s 63C ]
+"500
+[; ;Projekt.c: 500:                     break;
+[e $U 916  ]
+"501
+[; ;Projekt.c: 501:                     case '?':
+[e :U 983 ]
+"502
+[; ;Projekt.c: 502:                     printf(" . . - - . . |");
+[e ( _printf :s 64C ]
+"503
+[; ;Projekt.c: 503:                     break;
+[e $U 916  ]
+"504
+[; ;Projekt.c: 504:                     case ' ':
+[e :U 984 ]
+"505
+[; ;Projekt.c: 505:                     printf("|");
+[e ( _printf :s 65C ]
+"506
+[; ;Projekt.c: 506:                     break;
+[e $U 916  ]
+"507
+[; ;Projekt.c: 507:                     }
+}
+[e $U 916  ]
+[e :U 917 ]
+[e [\ -> *U + &U _zapis * -> -> _i `ui `ux -> -> # *U &U _zapis `ui `ux `i , $ -> -> 65 `ui `i 918
+ , $ -> -> 97 `ui `i 919
+ , $ -> -> 66 `ui `i 920
+ , $ -> -> 98 `ui `i 921
+ , $ -> -> 67 `ui `i 922
+ , $ -> -> 99 `ui `i 923
+ , $ -> -> 68 `ui `i 924
+ , $ -> -> 100 `ui `i 925
+ , $ -> -> 69 `ui `i 926
+ , $ -> -> 101 `ui `i 927
+ , $ -> -> 70 `ui `i 928
+ , $ -> -> 102 `ui `i 929
+ , $ -> -> 71 `ui `i 930
+ , $ -> -> 103 `ui `i 931
+ , $ -> -> 72 `ui `i 932
+ , $ -> -> 104 `ui `i 933
+ , $ -> -> 73 `ui `i 934
+ , $ -> -> 105 `ui `i 935
+ , $ -> -> 74 `ui `i 936
+ , $ -> -> 106 `ui `i 937
+ , $ -> -> 75 `ui `i 938
+ , $ -> -> 107 `ui `i 939
+ , $ -> -> 76 `ui `i 940
+ , $ -> -> 108 `ui `i 941
+ , $ -> -> 77 `ui `i 942
+ , $ -> -> 109 `ui `i 943
+ , $ -> -> 78 `ui `i 944
+ , $ -> -> 110 `ui `i 945
+ , $ -> -> 79 `ui `i 946
+ , $ -> -> 111 `ui `i 947
+ , $ -> -> 80 `ui `i 948
+ , $ -> -> 112 `ui `i 949
+ , $ -> -> 81 `ui `i 950
+ , $ -> -> 113 `ui `i 951
+ , $ -> -> 82 `ui `i 952
+ , $ -> -> 114 `ui `i 953
+ , $ -> -> 83 `ui `i 954
+ , $ -> -> 115 `ui `i 955
+ , $ -> -> 84 `ui `i 956
+ , $ -> -> 116 `ui `i 957
+ , $ -> -> 85 `ui `i 958
+ , $ -> -> 117 `ui `i 959
+ , $ -> -> 86 `ui `i 960
+ , $ -> -> 118 `ui `i 961
+ , $ -> -> 87 `ui `i 962
+ , $ -> -> 119 `ui `i 963
+ , $ -> -> 88 `ui `i 964
+ , $ -> -> 120 `ui `i 965
+ , $ -> -> 89 `ui `i 966
+ , $ -> -> 121 `ui `i 967
+ , $ -> -> 90 `ui `i 968
+ , $ -> -> 122 `ui `i 969
+ , $ -> -> 48 `ui `i 970
+ , $ -> -> 49 `ui `i 971
+ , $ -> -> 50 `ui `i 972
+ , $ -> -> 51 `ui `i 973
+ , $ -> -> 52 `ui `i 974
+ , $ -> -> 53 `ui `i 975
+ , $ -> -> 54 `ui `i 976
+ , $ -> -> 55 `ui `i 977
+ , $ -> -> 56 `ui `i 978
+ , $ -> -> 57 `ui `i 979
+ , $ -> -> 46 `ui `i 980
+ , $ -> -> 44 `ui `i 981
+ , $ -> -> 33 `ui `i 982
+ , $ -> -> 63 `ui `i 983
+ , $ -> -> 32 `ui `i 984
+ 916 ]
+[e :U 916 ]
+"508
+[; ;Projekt.c: 508:         }
+}
+[e ++ _i -> 1 `i ]
+[e :U 915 ]
+[e $ < -> -> _i `m `um _n 912  ]
+[e :U 913 ]
+}
+"509
+[; ;Projekt.c: 509:         n=0;
+[e = _n -> -> -> 0 `i `m `um ]
+"510
+[; ;Projekt.c: 510:         i=0;
+[e = _i -> 0 `i ]
+"511
+[; ;Projekt.c: 511:         printf("\n\n");
+[e ( _printf :s 66C ]
+"512
+[; ;Projekt.c: 512:         }
+}
+[e :U 911 ]
+"513
+[; ;Projekt.c: 513:         if (PORTAbits.RA2){
+[e $ ! != -> . . _PORTAbits 0 2 `i -> 0 `i 985  ]
+{
+"514
+[; ;Projekt.c: 514:             _delay((unsigned long)((200)*(32E6/4000.0)));
+[e ( __delay (1 -> * -> -> 200 `i `d / .32e6 .4000.0 `ul ]
+"515
+[; ;Projekt.c: 515:             return;
+[e $UE 907  ]
+"516
+[; ;Projekt.c: 516:         }
+}
+[e :U 985 ]
+"517
+[; ;Projekt.c: 517: }
+}
+[e :U 908 ]
+[e $U 909  ]
+[e :U 910 ]
+"518
+[; ;Projekt.c: 518: }
+[e :UE 907 ]
+}
+"526
+[; ;Projekt.c: 526: void PWM_motor_led(void) {
+[v _PWM_motor_led `(v ~T0 @X0 1 ef ]
+{
+[e :U _PWM_motor_led ]
+[f ]
+"527
+[; ;Projekt.c: 527:     PWM_init();
+[e ( _PWM_init ..  ]
+"528
+[; ;Projekt.c: 528:     LCD_Clear();
+[e ( _LCD_Clear ..  ]
+"530
+[; ;Projekt.c: 530:     LATDbits.LATD2 = 1;
+[e = . . _LATDbits 0 2 -> -> 1 `i `uc ]
+"531
+[; ;Projekt.c: 531:     LATDbits.LATD3 = 1;
+[e = . . _LATDbits 0 3 -> -> 1 `i `uc ]
+"532
+[; ;Projekt.c: 532:     LATCbits.LATC4 = 1;
+[e = . . _LATCbits 0 4 -> -> 1 `i `uc ]
+"533
+[; ;Projekt.c: 533:     LATDbits.LATD4 = 1;
+[e = . . _LATDbits 0 4 -> -> 1 `i `uc ]
+"534
+[; ;Projekt.c: 534:     LATDbits.LATD5 = 1;
+[e = . . _LATDbits 0 5 -> -> 1 `i `uc ]
+"535
+[; ;Projekt.c: 535:     LATDbits.LATD6 = 1;
+[e = . . _LATDbits 0 6 -> -> 1 `i `uc ]
+"537
+[; ;Projekt.c: 537:     int strida;
+[v _strida `i ~T0 @X0 1 a ]
+"539
+[; ;Projekt.c: 539:     while (1){
+[e :U 988 ]
+{
+"540
+[; ;Projekt.c: 540:         sprintf(nadpis1,"PMW Control     ");
+[e ( _sprintf (1 , &U _nadpis1 :s 67C ]
+"541
+[; ;Projekt.c: 541:         LCD_ShowString(1,nadpis1);
+[e ( _LCD_ShowString (2 , -> -> 1 `i `uc &U _nadpis1 ]
+"542
+[; ;Projekt.c: 542:         GODONE = 1;
+[e = _GODONE -> -> 1 `i `b ]
+"543
+[; ;Projekt.c: 543:         while(GODONE){};
+[e $U 990  ]
+[e :U 991 ]
+{
+}
+[e :U 990 ]
+[e $ _GODONE 991  ]
+[e :U 992 ]
+"544
+[; ;Projekt.c: 544:         strida=pot1/4;
+[e = _strida -> / -> _pot1 `ui -> -> 4 `i `ui `i ]
+"545
+[; ;Projekt.c: 545:         CCPR1L = strida;
+[e = _CCPR1L -> _strida `uc ]
+"546
+[; ;Projekt.c: 546:         sprintf(text, "Duty = %d             ", strida);
+[e ( _sprintf (1 , (. , &U _text :s 68C _strida ]
+"547
+[; ;Projekt.c: 547:         LCD_ShowString(2, text);
+[e ( _LCD_ShowString (2 , -> -> 2 `i `uc &U _text ]
+"549
+[; ;Projekt.c: 549:         if (PORTAbits.RA2){
+[e $ ! != -> . . _PORTAbits 0 2 `i -> 0 `i 993  ]
+{
+"550
+[; ;Projekt.c: 550:              PSTR1CONbits.STR1B = 0;
+[e = . . _PSTR1CONbits 0 1 -> -> 0 `i `uc ]
+"551
+[; ;Projekt.c: 551:              TRISCbits.RC2 = 1;
+[e = . . _TRISCbits 1 2 -> -> 1 `i `uc ]
+"552
+[; ;Projekt.c: 552:              LATDbits.LATD2=0;
+[e = . . _LATDbits 0 2 -> -> 0 `i `uc ]
+"553
+[; ;Projekt.c: 553:              LATDbits.LATD3=0;
+[e = . . _LATDbits 0 3 -> -> 0 `i `uc ]
+"554
+[; ;Projekt.c: 554:              LATCbits.LATC4=0;
+[e = . . _LATCbits 0 4 -> -> 0 `i `uc ]
+"555
+[; ;Projekt.c: 555:              LATDbits.LATD4=0;
+[e = . . _LATDbits 0 4 -> -> 0 `i `uc ]
+"556
+[; ;Projekt.c: 556:              LATDbits.LATD5=0;
+[e = . . _LATDbits 0 5 -> -> 0 `i `uc ]
+"557
+[; ;Projekt.c: 557:              LATDbits.LATD6=0;
+[e = . . _LATDbits 0 6 -> -> 0 `i `uc ]
+"558
+[; ;Projekt.c: 558:              _delay((unsigned long)((200)*(32E6/4000.0)));
+[e ( __delay (1 -> * -> -> 200 `i `d / .32e6 .4000.0 `ul ]
+"559
+[; ;Projekt.c: 559:              return;
+[e $UE 986  ]
+"560
+[; ;Projekt.c: 560:         }
+}
+[e :U 993 ]
+"561
+[; ;Projekt.c: 561:     }
+}
+[e :U 987 ]
+[e $U 988  ]
+[e :U 989 ]
+"562
+[; ;Projekt.c: 562: }
+[e :UE 986 ]
+}
+"569
+[; ;Projekt.c: 569: void Knight_rider_3000(void){
+[v _Knight_rider_3000 `(v ~T0 @X0 1 ef ]
+{
+[e :U _Knight_rider_3000 ]
+[f ]
+"570
+[; ;Projekt.c: 570:     LCD_Clear;
+[e &U _LCD_Clear ]
+"571
+[; ;Projekt.c: 571:     TRISDbits.TRISD2 = 0;
+[e = . . _TRISDbits 0 2 -> -> 0 `i `uc ]
+"572
+[; ;Projekt.c: 572:     TRISDbits.TRISD3 = 0;
+[e = . . _TRISDbits 0 3 -> -> 0 `i `uc ]
+"573
+[; ;Projekt.c: 573:     TRISCbits.TRISC4 = 0;
+[e = . . _TRISCbits 0 4 -> -> 0 `i `uc ]
+"574
+[; ;Projekt.c: 574:     TRISDbits.TRISD4 = 0;
+[e = . . _TRISDbits 0 4 -> -> 0 `i `uc ]
+"575
+[; ;Projekt.c: 575:     TRISDbits.TRISD5 = 0;
+[e = . . _TRISDbits 0 5 -> -> 0 `i `uc ]
+"576
+[; ;Projekt.c: 576:     TRISDbits.TRISD6 = 0;
+[e = . . _TRISDbits 0 6 -> -> 0 `i `uc ]
+"578
+[; ;Projekt.c: 578:     LATDbits.LATD2 = 1;
+[e = . . _LATDbits 0 2 -> -> 1 `i `uc ]
+"579
+[; ;Projekt.c: 579:     LATDbits.LATD3 = 1;
+[e = . . _LATDbits 0 3 -> -> 1 `i `uc ]
+"580
+[; ;Projekt.c: 580:     LATCbits.LATC4 = 1;
+[e = . . _LATCbits 0 4 -> -> 1 `i `uc ]
+"581
+[; ;Projekt.c: 581:     LATDbits.LATD4 = 1;
+[e = . . _LATDbits 0 4 -> -> 1 `i `uc ]
+"582
+[; ;Projekt.c: 582:     LATDbits.LATD5 = 1;
+[e = . . _LATDbits 0 5 -> -> 1 `i `uc ]
+"583
+[; ;Projekt.c: 583:     LATDbits.LATD6 = 1;
+[e = . . _LATDbits 0 6 -> -> 1 `i `uc ]
+"585
+[; ;Projekt.c: 585:     int i=0;
+[v _i `i ~T0 @X0 1 a ]
+[e = _i -> 0 `i ]
+"586
+[; ;Projekt.c: 586:     int j=2;
+[v _j `i ~T0 @X0 1 a ]
+[e = _j -> 2 `i ]
+"588
+[; ;Projekt.c: 588:     while (1){
+[e :U 996 ]
+{
+"589
+[; ;Projekt.c: 589:         sprintf(nadpis1,"Knight Rider    ");
+[e ( _sprintf (1 , &U _nadpis1 :s 69C ]
+"590
+[; ;Projekt.c: 590:         LCD_ShowString(1,nadpis1);
+[e ( _LCD_ShowString (2 , -> -> 1 `i `uc &U _nadpis1 ]
+"591
+[; ;Projekt.c: 591:         sprintf(nadpis2,"On the way...   ");
+[e ( _sprintf (1 , &U _nadpis2 :s 70C ]
+"592
+[; ;Projekt.c: 592:         LCD_ShowString(2,nadpis2);
+[e ( _LCD_ShowString (2 , -> -> 2 `i `uc &U _nadpis2 ]
+"594
+[; ;Projekt.c: 594:         for(i;i<=2;i++){
+{
+[e _i ]
+[e $ <= _i -> 2 `i 998  ]
+[e $U 999  ]
+[e :U 998 ]
+{
+"595
+[; ;Projekt.c: 595:             _delay((unsigned long)((75)*(32E6/4000.0)));
+[e ( __delay (1 -> * -> -> 75 `i `d / .32e6 .4000.0 `ul ]
+"596
+[; ;Projekt.c: 596:             switch (i){
+[e $U 1002  ]
+{
+"598
+[; ;Projekt.c: 598:                     case 0:
+[e :U 1003 ]
+"599
+[; ;Projekt.c: 599:                         LATCbits.LATC4 = 0;
+[e = . . _LATCbits 0 4 -> -> 0 `i `uc ]
+"600
+[; ;Projekt.c: 600:                         LATDbits.LATD4 = 0;
+[e = . . _LATDbits 0 4 -> -> 0 `i `uc ]
+"601
+[; ;Projekt.c: 601:                         break;
+[e $U 1001  ]
+"602
+[; ;Projekt.c: 602:                     case 1:
+[e :U 1004 ]
+"603
+[; ;Projekt.c: 603:                         LATDbits.LATD5 = 0;
+[e = . . _LATDbits 0 5 -> -> 0 `i `uc ]
+"604
+[; ;Projekt.c: 604:                         LATDbits.LATD3 = 0;
+[e = . . _LATDbits 0 3 -> -> 0 `i `uc ]
+"605
+[; ;Projekt.c: 605:                         break;
+[e $U 1001  ]
+"606
+[; ;Projekt.c: 606:                     case 2:
+[e :U 1005 ]
+"607
+[; ;Projekt.c: 607:                         LATDbits.LATD6 = 0;
+[e = . . _LATDbits 0 6 -> -> 0 `i `uc ]
+"608
+[; ;Projekt.c: 608:                         LATDbits.LATD2 = 0;
+[e = . . _LATDbits 0 2 -> -> 0 `i `uc ]
+"609
+[; ;Projekt.c: 609:                         break;
+[e $U 1001  ]
+"610
+[; ;Projekt.c: 610:                     }
+}
+[e $U 1001  ]
+[e :U 1002 ]
+[e [\ _i , $ -> 0 `i 1003
+ , $ -> 1 `i 1004
+ , $ -> 2 `i 1005
+ 1001 ]
+[e :U 1001 ]
+"611
+[; ;Projekt.c: 611:         if (PORTAbits.RA2){
+[e $ ! != -> . . _PORTAbits 0 2 `i -> 0 `i 1006  ]
+{
+"612
+[; ;Projekt.c: 612:          LATDbits.LATD2 = 0;
+[e = . . _LATDbits 0 2 -> -> 0 `i `uc ]
+"613
+[; ;Projekt.c: 613:          LATDbits.LATD3 = 0;
+[e = . . _LATDbits 0 3 -> -> 0 `i `uc ]
+"614
+[; ;Projekt.c: 614:          LATCbits.LATC4 = 0;
+[e = . . _LATCbits 0 4 -> -> 0 `i `uc ]
+"615
+[; ;Projekt.c: 615:          LATDbits.LATD4 = 0;
+[e = . . _LATDbits 0 4 -> -> 0 `i `uc ]
+"616
+[; ;Projekt.c: 616:          LATDbits.LATD5 = 0;
+[e = . . _LATDbits 0 5 -> -> 0 `i `uc ]
+"617
+[; ;Projekt.c: 617:          LATDbits.LATD6 = 0;
+[e = . . _LATDbits 0 6 -> -> 0 `i `uc ]
+"618
+[; ;Projekt.c: 618:          _delay((unsigned long)((200)*(32E6/4000.0)));
+[e ( __delay (1 -> * -> -> 200 `i `d / .32e6 .4000.0 `ul ]
+"619
+[; ;Projekt.c: 619:          return;
+[e $UE 994  ]
+"620
+[; ;Projekt.c: 620:         }
+}
+[e :U 1006 ]
+"621
+[; ;Projekt.c: 621:     }
+}
+[e ++ _i -> 1 `i ]
+[e $ <= _i -> 2 `i 998  ]
+[e :U 999 ]
+}
+"622
+[; ;Projekt.c: 622:    for(j;j>=0;j--){
+{
+[e _j ]
+[e $ >= _j -> 0 `i 1007  ]
+[e $U 1008  ]
+[e :U 1007 ]
+{
+"623
+[; ;Projekt.c: 623:         switch (j){
+[e $U 1011  ]
+{
+"624
+[; ;Projekt.c: 624:             case 0:
+[e :U 1012 ]
+"625
+[; ;Projekt.c: 625:                LATCbits.LATC4 = 1;
+[e = . . _LATCbits 0 4 -> -> 1 `i `uc ]
+"626
+[; ;Projekt.c: 626:                LATDbits.LATD4 = 1;
+[e = . . _LATDbits 0 4 -> -> 1 `i `uc ]
+"627
+[; ;Projekt.c: 627:                break;
+[e $U 1010  ]
+"628
+[; ;Projekt.c: 628:             case 1:
+[e :U 1013 ]
+"629
+[; ;Projekt.c: 629:                 LATDbits.LATD5 = 1;
+[e = . . _LATDbits 0 5 -> -> 1 `i `uc ]
+"630
+[; ;Projekt.c: 630:                 LATDbits.LATD3 = 1;
+[e = . . _LATDbits 0 3 -> -> 1 `i `uc ]
+"631
+[; ;Projekt.c: 631:                 break;
+[e $U 1010  ]
+"632
+[; ;Projekt.c: 632:             case 2:
+[e :U 1014 ]
+"633
+[; ;Projekt.c: 633:                 LATDbits.LATD6 = 1;
+[e = . . _LATDbits 0 6 -> -> 1 `i `uc ]
+"634
+[; ;Projekt.c: 634:                 LATDbits.LATD2 = 1;
+[e = . . _LATDbits 0 2 -> -> 1 `i `uc ]
+"635
+[; ;Projekt.c: 635:                 break;
+[e $U 1010  ]
+"636
+[; ;Projekt.c: 636:             }
+}
+[e $U 1010  ]
+[e :U 1011 ]
+[e [\ _j , $ -> 0 `i 1012
+ , $ -> 1 `i 1013
+ , $ -> 2 `i 1014
+ 1010 ]
+[e :U 1010 ]
+"637
+[; ;Projekt.c: 637:         if (PORTAbits.RA2){
+[e $ ! != -> . . _PORTAbits 0 2 `i -> 0 `i 1015  ]
+{
+"638
+[; ;Projekt.c: 638:          LATDbits.LATD2 = 0;
+[e = . . _LATDbits 0 2 -> -> 0 `i `uc ]
+"639
+[; ;Projekt.c: 639:          LATDbits.LATD3 = 0;
+[e = . . _LATDbits 0 3 -> -> 0 `i `uc ]
+"640
+[; ;Projekt.c: 640:          LATCbits.LATC4 = 0;
+[e = . . _LATCbits 0 4 -> -> 0 `i `uc ]
+"641
+[; ;Projekt.c: 641:          LATDbits.LATD4 = 0;
+[e = . . _LATDbits 0 4 -> -> 0 `i `uc ]
+"642
+[; ;Projekt.c: 642:          LATDbits.LATD5 = 0;
+[e = . . _LATDbits 0 5 -> -> 0 `i `uc ]
+"643
+[; ;Projekt.c: 643:          LATDbits.LATD6 = 0;
+[e = . . _LATDbits 0 6 -> -> 0 `i `uc ]
+"644
+[; ;Projekt.c: 644:          _delay((unsigned long)((200)*(32E6/4000.0)));
+[e ( __delay (1 -> * -> -> 200 `i `d / .32e6 .4000.0 `ul ]
+"645
+[; ;Projekt.c: 645:          return;
+[e $UE 994  ]
+"646
+[; ;Projekt.c: 646:         }
+}
+[e :U 1015 ]
+"647
+[; ;Projekt.c: 647:         _delay((unsigned long)((75)*(32E6/4000.0)));
+[e ( __delay (1 -> * -> -> 75 `i `d / .32e6 .4000.0 `ul ]
+"648
+[; ;Projekt.c: 648:         }
+}
+[e -- _j -> 1 `i ]
+[e $ >= _j -> 0 `i 1007  ]
+[e :U 1008 ]
+}
+"649
+[; ;Projekt.c: 649:       i=0;
+[e = _i -> 0 `i ]
+"650
+[; ;Projekt.c: 650:       j=5;
+[e = _j -> 5 `i ]
+"651
+[; ;Projekt.c: 651:     }
+}
+[e :U 995 ]
+[e $U 996  ]
+[e :U 997 ]
+"652
+[; ;Projekt.c: 652: }
+[e :UE 994 ]
+}
+"660
+[; ;Projekt.c: 660: void Knight_rider_2000(void){
+[v _Knight_rider_2000 `(v ~T0 @X0 1 ef ]
+{
+[e :U _Knight_rider_2000 ]
+[f ]
+"661
+[; ;Projekt.c: 661:     LCD_Clear();
+[e ( _LCD_Clear ..  ]
+"662
+[; ;Projekt.c: 662:     TRISDbits.TRISD2 = 0;
+[e = . . _TRISDbits 0 2 -> -> 0 `i `uc ]
+"663
+[; ;Projekt.c: 663:     TRISDbits.TRISD3 = 0;
+[e = . . _TRISDbits 0 3 -> -> 0 `i `uc ]
+"664
+[; ;Projekt.c: 664:     TRISCbits.TRISC4 = 0;
+[e = . . _TRISCbits 0 4 -> -> 0 `i `uc ]
+"665
+[; ;Projekt.c: 665:     TRISDbits.TRISD4 = 0;
+[e = . . _TRISDbits 0 4 -> -> 0 `i `uc ]
+"666
+[; ;Projekt.c: 666:     TRISDbits.TRISD5 = 0;
+[e = . . _TRISDbits 0 5 -> -> 0 `i `uc ]
+"667
+[; ;Projekt.c: 667:     TRISDbits.TRISD6 = 0;
+[e = . . _TRISDbits 0 6 -> -> 0 `i `uc ]
+"669
+[; ;Projekt.c: 669:     LATDbits.LATD2 = 1;
+[e = . . _LATDbits 0 2 -> -> 1 `i `uc ]
+"670
+[; ;Projekt.c: 670:     LATDbits.LATD3 = 1;
+[e = . . _LATDbits 0 3 -> -> 1 `i `uc ]
+"671
+[; ;Projekt.c: 671:     LATCbits.LATC4 = 1;
+[e = . . _LATCbits 0 4 -> -> 1 `i `uc ]
+"672
+[; ;Projekt.c: 672:     LATDbits.LATD4 = 1;
+[e = . . _LATDbits 0 4 -> -> 1 `i `uc ]
+"673
+[; ;Projekt.c: 673:     LATDbits.LATD5 = 1;
+[e = . . _LATDbits 0 5 -> -> 1 `i `uc ]
+"674
+[; ;Projekt.c: 674:     LATDbits.LATD6 = 1;
+[e = . . _LATDbits 0 6 -> -> 1 `i `uc ]
+"677
+[; ;Projekt.c: 677:     int i=0;
+[v _i `i ~T0 @X0 1 a ]
+[e = _i -> 0 `i ]
+"678
+[; ;Projekt.c: 678:     int j=5;
+[v _j `i ~T0 @X0 1 a ]
+[e = _j -> 5 `i ]
+"679
+[; ;Projekt.c: 679:     int r=0;
+[v _r `i ~T0 @X0 1 a ]
+[e = _r -> 0 `i ]
+"680
+[; ;Projekt.c: 680:     while (1){
+[e :U 1018 ]
+{
+"681
+[; ;Projekt.c: 681:         sprintf(nadpis1,"Knight Rider    ");
+[e ( _sprintf (1 , &U _nadpis1 :s 71C ]
+"682
+[; ;Projekt.c: 682:         LCD_ShowString(1,nadpis1);
+[e ( _LCD_ShowString (2 , -> -> 1 `i `uc &U _nadpis1 ]
+"683
+[; ;Projekt.c: 683:         sprintf(nadpis2,"On the way...   ");
+[e ( _sprintf (1 , &U _nadpis2 :s 72C ]
+"684
+[; ;Projekt.c: 684:         LCD_ShowString(2,nadpis2);
+[e ( _LCD_ShowString (2 , -> -> 2 `i `uc &U _nadpis2 ]
+"685
+[; ;Projekt.c: 685:         while(r<2){
+[e $U 1020  ]
+[e :U 1021 ]
+{
+"686
+[; ;Projekt.c: 686:         for(i;i<=5;i++){
+{
+[e _i ]
+[e $ <= _i -> 5 `i 1023  ]
+[e $U 1024  ]
+[e :U 1023 ]
+{
+"687
+[; ;Projekt.c: 687:         switch (i){
+[e $U 1027  ]
+{
+"688
+[; ;Projekt.c: 688:             case 0:
+[e :U 1028 ]
+"689
+[; ;Projekt.c: 689:                 LATDbits.LATD2 ^= 1;
+[e =^ . . _LATDbits 0 2 -> -> 1 `i `Vuc ]
+"690
+[; ;Projekt.c: 690:                 break;
+[e $U 1026  ]
+"691
+[; ;Projekt.c: 691:             case 1:
+[e :U 1029 ]
+"692
+[; ;Projekt.c: 692:                 LATDbits.LATD3 ^= 1;
+[e =^ . . _LATDbits 0 3 -> -> 1 `i `Vuc ]
+"693
+[; ;Projekt.c: 693:                 break;
+[e $U 1026  ]
+"694
+[; ;Projekt.c: 694:             case 2:
+[e :U 1030 ]
+"695
+[; ;Projekt.c: 695:                 LATCbits.LATC4 ^= 1;
+[e =^ . . _LATCbits 0 4 -> -> 1 `i `Vuc ]
+"696
+[; ;Projekt.c: 696:                 break;
+[e $U 1026  ]
+"697
+[; ;Projekt.c: 697:             case 3:
+[e :U 1031 ]
+"698
+[; ;Projekt.c: 698:                 LATDbits.LATD4 ^= 1;
+[e =^ . . _LATDbits 0 4 -> -> 1 `i `Vuc ]
+"699
+[; ;Projekt.c: 699:                 break;
+[e $U 1026  ]
+"700
+[; ;Projekt.c: 700:             case 4:
+[e :U 1032 ]
+"701
+[; ;Projekt.c: 701:                 LATDbits.LATD5 ^= 1;
+[e =^ . . _LATDbits 0 5 -> -> 1 `i `Vuc ]
+"702
+[; ;Projekt.c: 702:                 break;
+[e $U 1026  ]
+"703
+[; ;Projekt.c: 703:             case 5:
+[e :U 1033 ]
+"704
+[; ;Projekt.c: 704:                 LATDbits.LATD6 ^= 1;
+[e =^ . . _LATDbits 0 6 -> -> 1 `i `Vuc ]
+"705
+[; ;Projekt.c: 705:                 break;
+[e $U 1026  ]
+"706
+[; ;Projekt.c: 706:             }
+}
+[e $U 1026  ]
+[e :U 1027 ]
+[e [\ _i , $ -> 0 `i 1028
+ , $ -> 1 `i 1029
+ , $ -> 2 `i 1030
+ , $ -> 3 `i 1031
+ , $ -> 4 `i 1032
+ , $ -> 5 `i 1033
+ 1026 ]
+[e :U 1026 ]
+"707
+[; ;Projekt.c: 707:          if (PORTAbits.RA2){
+[e $ ! != -> . . _PORTAbits 0 2 `i -> 0 `i 1034  ]
+{
+"708
+[; ;Projekt.c: 708:          LATDbits.LATD2 = 0;
+[e = . . _LATDbits 0 2 -> -> 0 `i `uc ]
+"709
+[; ;Projekt.c: 709:          LATDbits.LATD3 = 0;
+[e = . . _LATDbits 0 3 -> -> 0 `i `uc ]
+"710
+[; ;Projekt.c: 710:          LATCbits.LATC4 = 0;
+[e = . . _LATCbits 0 4 -> -> 0 `i `uc ]
+"711
+[; ;Projekt.c: 711:          LATDbits.LATD4 = 0;
+[e = . . _LATDbits 0 4 -> -> 0 `i `uc ]
+"712
+[; ;Projekt.c: 712:          LATDbits.LATD5 = 0;
+[e = . . _LATDbits 0 5 -> -> 0 `i `uc ]
+"713
+[; ;Projekt.c: 713:          LATDbits.LATD6 = 0;
+[e = . . _LATDbits 0 6 -> -> 0 `i `uc ]
+"714
+[; ;Projekt.c: 714:          _delay((unsigned long)((200)*(32E6/4000.0)));
+[e ( __delay (1 -> * -> -> 200 `i `d / .32e6 .4000.0 `ul ]
+"715
+[; ;Projekt.c: 715:          return;
+[e $UE 1016  ]
+"716
+[; ;Projekt.c: 716:         }
+}
+[e :U 1034 ]
+"717
+[; ;Projekt.c: 717:         _delay((unsigned long)((50)*(32E6/4000.0)));
+[e ( __delay (1 -> * -> -> 50 `i `d / .32e6 .4000.0 `ul ]
+"719
+[; ;Projekt.c: 719:        }
+}
+[e ++ _i -> 1 `i ]
+[e $ <= _i -> 5 `i 1023  ]
+[e :U 1024 ]
+}
+"720
+[; ;Projekt.c: 720:          r++;
+[e ++ _r -> 1 `i ]
+"721
+[; ;Projekt.c: 721:          i=0;
+[e = _i -> 0 `i ]
+"722
+[; ;Projekt.c: 722:         }
+}
+[e :U 1020 ]
+"685
+[; ;Projekt.c: 685:         while(r<2){
+[e $ < _r -> 2 `i 1021  ]
+[e :U 1022 ]
+"723
+[; ;Projekt.c: 723:         r=0;
+[e = _r -> 0 `i ]
+"724
+[; ;Projekt.c: 724:         while(r<2){
+[e $U 1035  ]
+[e :U 1036 ]
+{
+"725
+[; ;Projekt.c: 725:         for(j;j>=0;j--){
+{
+[e _j ]
+[e $ >= _j -> 0 `i 1038  ]
+[e $U 1039  ]
+[e :U 1038 ]
+{
+"726
+[; ;Projekt.c: 726:         switch (j){
+[e $U 1042  ]
+{
+"727
+[; ;Projekt.c: 727:             case 0:
+[e :U 1043 ]
+"728
+[; ;Projekt.c: 728:                 LATDbits.LATD2 ^= 1;
+[e =^ . . _LATDbits 0 2 -> -> 1 `i `Vuc ]
+"729
+[; ;Projekt.c: 729:                 break;
+[e $U 1041  ]
+"730
+[; ;Projekt.c: 730:             case 1:
+[e :U 1044 ]
+"731
+[; ;Projekt.c: 731:                 LATDbits.LATD3 ^= 1;
+[e =^ . . _LATDbits 0 3 -> -> 1 `i `Vuc ]
+"732
+[; ;Projekt.c: 732:                 break;
+[e $U 1041  ]
+"733
+[; ;Projekt.c: 733:             case 2:
+[e :U 1045 ]
+"734
+[; ;Projekt.c: 734:                 LATCbits.LATC4 ^= 1;
+[e =^ . . _LATCbits 0 4 -> -> 1 `i `Vuc ]
+"735
+[; ;Projekt.c: 735:                 break;
+[e $U 1041  ]
+"736
+[; ;Projekt.c: 736:             case 3:
+[e :U 1046 ]
+"737
+[; ;Projekt.c: 737:                 LATDbits.LATD4 ^= 1;
+[e =^ . . _LATDbits 0 4 -> -> 1 `i `Vuc ]
+"738
+[; ;Projekt.c: 738:                 break;
+[e $U 1041  ]
+"739
+[; ;Projekt.c: 739:             case 4:
+[e :U 1047 ]
+"740
+[; ;Projekt.c: 740:                 LATDbits.LATD5 ^= 1;
+[e =^ . . _LATDbits 0 5 -> -> 1 `i `Vuc ]
+"741
+[; ;Projekt.c: 741:                 break;
+[e $U 1041  ]
+"742
+[; ;Projekt.c: 742:             case 5:
+[e :U 1048 ]
+"743
+[; ;Projekt.c: 743:                 LATDbits.LATD6 ^= 1;
+[e =^ . . _LATDbits 0 6 -> -> 1 `i `Vuc ]
+"744
+[; ;Projekt.c: 744:                 break;
+[e $U 1041  ]
+"745
+[; ;Projekt.c: 745:             }
+}
+[e $U 1041  ]
+[e :U 1042 ]
+[e [\ _j , $ -> 0 `i 1043
+ , $ -> 1 `i 1044
+ , $ -> 2 `i 1045
+ , $ -> 3 `i 1046
+ , $ -> 4 `i 1047
+ , $ -> 5 `i 1048
+ 1041 ]
+[e :U 1041 ]
+"746
+[; ;Projekt.c: 746:          if (PORTAbits.RA2){
+[e $ ! != -> . . _PORTAbits 0 2 `i -> 0 `i 1049  ]
+{
+"747
+[; ;Projekt.c: 747:          LATDbits.LATD2 = 0;
+[e = . . _LATDbits 0 2 -> -> 0 `i `uc ]
+"748
+[; ;Projekt.c: 748:          LATDbits.LATD3 = 0;
+[e = . . _LATDbits 0 3 -> -> 0 `i `uc ]
+"749
+[; ;Projekt.c: 749:          LATCbits.LATC4 = 0;
+[e = . . _LATCbits 0 4 -> -> 0 `i `uc ]
+"750
+[; ;Projekt.c: 750:          LATDbits.LATD4 = 0;
+[e = . . _LATDbits 0 4 -> -> 0 `i `uc ]
+"751
+[; ;Projekt.c: 751:          LATDbits.LATD5 = 0;
+[e = . . _LATDbits 0 5 -> -> 0 `i `uc ]
+"752
+[; ;Projekt.c: 752:          LATDbits.LATD6 = 0;
+[e = . . _LATDbits 0 6 -> -> 0 `i `uc ]
+"753
+[; ;Projekt.c: 753:          _delay((unsigned long)((200)*(32E6/4000.0)));
+[e ( __delay (1 -> * -> -> 200 `i `d / .32e6 .4000.0 `ul ]
+"754
+[; ;Projekt.c: 754:          return;
+[e $UE 1016  ]
+"755
+[; ;Projekt.c: 755:         }
+}
+[e :U 1049 ]
+"756
+[; ;Projekt.c: 756:         _delay((unsigned long)((50)*(32E6/4000.0)));
+[e ( __delay (1 -> * -> -> 50 `i `d / .32e6 .4000.0 `ul ]
+"757
+[; ;Projekt.c: 757:         }
+}
+[e -- _j -> 1 `i ]
+[e $ >= _j -> 0 `i 1038  ]
+[e :U 1039 ]
+}
+"758
+[; ;Projekt.c: 758:       j=5;
+[e = _j -> 5 `i ]
+"759
+[; ;Projekt.c: 759:        r++;
+[e ++ _r -> 1 `i ]
+"760
+[; ;Projekt.c: 760:         }
+}
+[e :U 1035 ]
+"724
+[; ;Projekt.c: 724:         while(r<2){
+[e $ < _r -> 2 `i 1036  ]
+[e :U 1037 ]
+"761
+[; ;Projekt.c: 761:         r=0;
+[e = _r -> 0 `i ]
+"762
+[; ;Projekt.c: 762:     }
+}
+[e :U 1017 ]
+[e $U 1018  ]
+[e :U 1019 ]
+"763
+[; ;Projekt.c: 763: }
+[e :UE 1016 ]
+}
+"771
+[; ;Projekt.c: 771: void Bargraph(void){
+[v _Bargraph `(v ~T0 @X0 1 ef ]
+{
+[e :U _Bargraph ]
+[f ]
+"772
+[; ;Projekt.c: 772:     Bargraph_init();
+[e ( _Bargraph_init ..  ]
+"773
+[; ;Projekt.c: 773:     LCD_Clear();
+[e ( _LCD_Clear ..  ]
+"775
+[; ;Projekt.c: 775:     char text[17];
+[v _text `uc ~T0 @X0 -> 17 `i a ]
+"776
+[; ;Projekt.c: 776:     int i;
+[v _i `i ~T0 @X0 1 a ]
+"777
+[; ;Projekt.c: 777:     int n;
+[v _n `i ~T0 @X0 1 a ]
+"778
+[; ;Projekt.c: 778:     char graph[17];
+[v _graph `uc ~T0 @X0 -> 17 `i a ]
+"780
+[; ;Projekt.c: 780:     while(1){
+[e :U 1052 ]
+{
+"781
+[; ;Projekt.c: 781:          GODONE = 1;
+[e = _GODONE -> -> 1 `i `b ]
+"782
+[; ;Projekt.c: 782:         _delay((unsigned long)((50)*(32E6/4000.0)));
+[e ( __delay (1 -> * -> -> 50 `i `d / .32e6 .4000.0 `ul ]
+"783
+[; ;Projekt.c: 783:         sprintf(text, "VALUE = %d       ",pot1);
+[e ( _sprintf (1 , (. , &U _text :s 73C -> _pot1 `ui ]
+"784
+[; ;Projekt.c: 784:         LCD_ShowString(1, text);
+[e ( _LCD_ShowString (2 , -> -> 1 `i `uc &U _text ]
+"786
+[; ;Projekt.c: 786:         if ((pot1>1) && (pot1<65)){
+[e $ ! && > -> _pot1 `ui -> -> 1 `i `ui < -> _pot1 `ui -> -> 65 `i `ui 1054  ]
+{
+"787
+[; ;Projekt.c: 787:         sprintf(graph, "O               ");
+[e ( _sprintf (1 , &U _graph :s 74C ]
+"788
+[; ;Projekt.c: 788:         LCD_ShowString(2, graph);
+[e ( _LCD_ShowString (2 , -> -> 2 `i `uc &U _graph ]
+"789
+[; ;Projekt.c: 789:         }
+}
+[e $U 1055  ]
+"791
+[; ;Projekt.c: 791:         else if ((pot1>65) && (pot1<130)){
+[e :U 1054 ]
+[e $ ! && > -> _pot1 `ui -> -> 65 `i `ui < -> _pot1 `ui -> -> 130 `i `ui 1056  ]
+{
+"792
+[; ;Projekt.c: 792:         sprintf(graph, "OO              ");
+[e ( _sprintf (1 , &U _graph :s 75C ]
+"793
+[; ;Projekt.c: 793:         LCD_ShowString(2, graph);
+[e ( _LCD_ShowString (2 , -> -> 2 `i `uc &U _graph ]
+"794
+[; ;Projekt.c: 794:         }
+}
+[e $U 1057  ]
+"795
+[; ;Projekt.c: 795:         else if ((pot1>130) && (pot1<195)){
+[e :U 1056 ]
+[e $ ! && > -> _pot1 `ui -> -> 130 `i `ui < -> _pot1 `ui -> -> 195 `i `ui 1058  ]
+{
+"796
+[; ;Projekt.c: 796:         sprintf(graph, "OOO             ");
+[e ( _sprintf (1 , &U _graph :s 76C ]
+"797
+[; ;Projekt.c: 797:         LCD_ShowString(2, graph);
+[e ( _LCD_ShowString (2 , -> -> 2 `i `uc &U _graph ]
+"798
+[; ;Projekt.c: 798:         }
+}
+[e $U 1059  ]
+"799
+[; ;Projekt.c: 799:         else if ((pot1>195) && (pot1<260)){
+[e :U 1058 ]
+[e $ ! && > -> _pot1 `ui -> -> 195 `i `ui < -> _pot1 `ui -> -> 260 `i `ui 1060  ]
+{
+"800
+[; ;Projekt.c: 800:         sprintf(graph, "OOOO            ");
+[e ( _sprintf (1 , &U _graph :s 77C ]
+"801
+[; ;Projekt.c: 801:         LCD_ShowString(2, graph);
+[e ( _LCD_ShowString (2 , -> -> 2 `i `uc &U _graph ]
+"802
+[; ;Projekt.c: 802:         }
+}
+[e $U 1061  ]
+"803
+[; ;Projekt.c: 803:         else if ((pot1>260) && (pot1<325)){
+[e :U 1060 ]
+[e $ ! && > -> _pot1 `ui -> -> 260 `i `ui < -> _pot1 `ui -> -> 325 `i `ui 1062  ]
+{
+"804
+[; ;Projekt.c: 804:         sprintf(graph, "OOOOO           ");
+[e ( _sprintf (1 , &U _graph :s 78C ]
+"805
+[; ;Projekt.c: 805:         LCD_ShowString(2, graph);
+[e ( _LCD_ShowString (2 , -> -> 2 `i `uc &U _graph ]
+"806
+[; ;Projekt.c: 806:         }
+}
+[e $U 1063  ]
+"807
+[; ;Projekt.c: 807:         else if ((pot1>325) && (pot1<390)){
+[e :U 1062 ]
+[e $ ! && > -> _pot1 `ui -> -> 325 `i `ui < -> _pot1 `ui -> -> 390 `i `ui 1064  ]
+{
+"808
+[; ;Projekt.c: 808:         sprintf(graph, "OOOOOO          ");
+[e ( _sprintf (1 , &U _graph :s 79C ]
+"809
+[; ;Projekt.c: 809:         LCD_ShowString(2, graph);
+[e ( _LCD_ShowString (2 , -> -> 2 `i `uc &U _graph ]
+"810
+[; ;Projekt.c: 810:         }
+}
+[e $U 1065  ]
+"811
+[; ;Projekt.c: 811:         else if ((pot1>390) && (pot1<455)){
+[e :U 1064 ]
+[e $ ! && > -> _pot1 `ui -> -> 390 `i `ui < -> _pot1 `ui -> -> 455 `i `ui 1066  ]
+{
+"812
+[; ;Projekt.c: 812:         sprintf(graph, "OOOOOOO         ");
+[e ( _sprintf (1 , &U _graph :s 80C ]
+"813
+[; ;Projekt.c: 813:         LCD_ShowString(2, graph);
+[e ( _LCD_ShowString (2 , -> -> 2 `i `uc &U _graph ]
+"814
+[; ;Projekt.c: 814:         }
+}
+[e $U 1067  ]
+"815
+[; ;Projekt.c: 815:         else if ((pot1>455) && (pot1<520)){
+[e :U 1066 ]
+[e $ ! && > -> _pot1 `ui -> -> 455 `i `ui < -> _pot1 `ui -> -> 520 `i `ui 1068  ]
+{
+"816
+[; ;Projekt.c: 816:         sprintf(graph, "OOOOOOOO        ");
+[e ( _sprintf (1 , &U _graph :s 81C ]
+"817
+[; ;Projekt.c: 817:         LCD_ShowString(2, graph);
+[e ( _LCD_ShowString (2 , -> -> 2 `i `uc &U _graph ]
+"818
+[; ;Projekt.c: 818:         }
+}
+[e $U 1069  ]
+"819
+[; ;Projekt.c: 819:         else if ((pot1>520) && (pot1<585)){
+[e :U 1068 ]
+[e $ ! && > -> _pot1 `ui -> -> 520 `i `ui < -> _pot1 `ui -> -> 585 `i `ui 1070  ]
+{
+"820
+[; ;Projekt.c: 820:         sprintf(graph, "OOOOOOOOO       ");
+[e ( _sprintf (1 , &U _graph :s 82C ]
+"821
+[; ;Projekt.c: 821:         LCD_ShowString(2, graph);
+[e ( _LCD_ShowString (2 , -> -> 2 `i `uc &U _graph ]
+"822
+[; ;Projekt.c: 822:         }
+}
+[e $U 1071  ]
+"823
+[; ;Projekt.c: 823:         else if ((pot1>585) && (pot1<650)){
+[e :U 1070 ]
+[e $ ! && > -> _pot1 `ui -> -> 585 `i `ui < -> _pot1 `ui -> -> 650 `i `ui 1072  ]
+{
+"824
+[; ;Projekt.c: 824:         sprintf(graph, "OOOOOOOOOO      ");
+[e ( _sprintf (1 , &U _graph :s 83C ]
+"825
+[; ;Projekt.c: 825:         LCD_ShowString(2, graph);
+[e ( _LCD_ShowString (2 , -> -> 2 `i `uc &U _graph ]
+"826
+[; ;Projekt.c: 826:         }
+}
+[e $U 1073  ]
+"827
+[; ;Projekt.c: 827:         else if ((pot1>650) && (pot1<715)){
+[e :U 1072 ]
+[e $ ! && > -> _pot1 `ui -> -> 650 `i `ui < -> _pot1 `ui -> -> 715 `i `ui 1074  ]
+{
+"828
+[; ;Projekt.c: 828:         sprintf(graph, "OOOOOOOOOOO     ");
+[e ( _sprintf (1 , &U _graph :s 84C ]
+"829
+[; ;Projekt.c: 829:         LCD_ShowString(2, graph);
+[e ( _LCD_ShowString (2 , -> -> 2 `i `uc &U _graph ]
+"830
+[; ;Projekt.c: 830:         }
+}
+[e $U 1075  ]
+"831
+[; ;Projekt.c: 831:         else if ((pot1>715) && (pot1<780)){
+[e :U 1074 ]
+[e $ ! && > -> _pot1 `ui -> -> 715 `i `ui < -> _pot1 `ui -> -> 780 `i `ui 1076  ]
+{
+"832
+[; ;Projekt.c: 832:         sprintf(graph, "OOOOOOOOOOOO    ");
+[e ( _sprintf (1 , &U _graph :s 85C ]
+"833
+[; ;Projekt.c: 833:         LCD_ShowString(2, graph);
+[e ( _LCD_ShowString (2 , -> -> 2 `i `uc &U _graph ]
+"834
+[; ;Projekt.c: 834:         }
+}
+[e $U 1077  ]
+"835
+[; ;Projekt.c: 835:         else if ((pot1>780) && (pot1<845)){
+[e :U 1076 ]
+[e $ ! && > -> _pot1 `ui -> -> 780 `i `ui < -> _pot1 `ui -> -> 845 `i `ui 1078  ]
+{
+"836
+[; ;Projekt.c: 836:         sprintf(graph, "OOOOOOOOOOOOO   ");
+[e ( _sprintf (1 , &U _graph :s 86C ]
+"837
+[; ;Projekt.c: 837:         LCD_ShowString(2, graph);
+[e ( _LCD_ShowString (2 , -> -> 2 `i `uc &U _graph ]
+"838
+[; ;Projekt.c: 838:         }
+}
+[e $U 1079  ]
+"839
+[; ;Projekt.c: 839:         else if ((pot1>845) && (pot1<910)){
+[e :U 1078 ]
+[e $ ! && > -> _pot1 `ui -> -> 845 `i `ui < -> _pot1 `ui -> -> 910 `i `ui 1080  ]
+{
+"840
+[; ;Projekt.c: 840:         sprintf(graph, "OOOOOOOOOOOOOO  ");
+[e ( _sprintf (1 , &U _graph :s 87C ]
+"841
+[; ;Projekt.c: 841:         LCD_ShowString(2, graph);
+[e ( _LCD_ShowString (2 , -> -> 2 `i `uc &U _graph ]
+"842
+[; ;Projekt.c: 842:         }
+}
+[e $U 1081  ]
+"843
+[; ;Projekt.c: 843:         else if ((pot1>910) && (pot1<975)){
+[e :U 1080 ]
+[e $ ! && > -> _pot1 `ui -> -> 910 `i `ui < -> _pot1 `ui -> -> 975 `i `ui 1082  ]
+{
+"844
+[; ;Projekt.c: 844:         sprintf(graph, "OOOOOOOOOOOOOOO ");
+[e ( _sprintf (1 , &U _graph :s 88C ]
+"845
+[; ;Projekt.c: 845:         LCD_ShowString(2, graph);
+[e ( _LCD_ShowString (2 , -> -> 2 `i `uc &U _graph ]
+"846
+[; ;Projekt.c: 846:         }
+}
+[e $U 1083  ]
+"847
+[; ;Projekt.c: 847:         else if (pot1>975){
+[e :U 1082 ]
+[e $ ! > -> _pot1 `ui -> -> 975 `i `ui 1084  ]
+{
+"848
+[; ;Projekt.c: 848:         sprintf(graph, "OOOOOOOOOOOOOOOO");
+[e ( _sprintf (1 , &U _graph :s 89C ]
+"849
+[; ;Projekt.c: 849:         LCD_ShowString(2, graph);
+[e ( _LCD_ShowString (2 , -> -> 2 `i `uc &U _graph ]
+"850
+[; ;Projekt.c: 850:         }
+}
+[e :U 1084 ]
+[e :U 1083 ]
+[e :U 1081 ]
+[e :U 1079 ]
+[e :U 1077 ]
+[e :U 1075 ]
+[e :U 1073 ]
+[e :U 1071 ]
+[e :U 1069 ]
+[e :U 1067 ]
+[e :U 1065 ]
+[e :U 1063 ]
+[e :U 1061 ]
+[e :U 1059 ]
+[e :U 1057 ]
+[e :U 1055 ]
+"852
+[; ;Projekt.c: 852:      if (PORTAbits.RA2){
+[e $ ! != -> . . _PORTAbits 0 2 `i -> 0 `i 1085  ]
+{
+"853
+[; ;Projekt.c: 853:          _delay((unsigned long)((200)*(32E6/4000.0)));
+[e ( __delay (1 -> * -> -> 200 `i `d / .32e6 .4000.0 `ul ]
+"854
+[; ;Projekt.c: 854:          return;
+[e $UE 1050  ]
+"855
+[; ;Projekt.c: 855:         }
+}
+[e :U 1085 ]
+"856
+[; ;Projekt.c: 856:     }
+}
+[e :U 1051 ]
+[e $U 1052  ]
+[e :U 1053 ]
+"857
+[; ;Projekt.c: 857: }
+[e :UE 1050 ]
+}
+"865
+[; ;Projekt.c: 865: void Pong(void){
+[v _Pong `(v ~T0 @X0 1 ef ]
+{
+[e :U _Pong ]
+[f ]
+"866
+[; ;Projekt.c: 866:     Pong_init();
+[e ( _Pong_init ..  ]
+"867
+[; ;Projekt.c: 867:     LCD_Clear();
+[e ( _LCD_Clear ..  ]
+"869
+[; ;Projekt.c: 869:     int P1=3;
+[v _P1 `i ~T0 @X0 1 a ]
+[e = _P1 -> 3 `i ]
+"870
+[; ;Projekt.c: 870:     int P2=3;
+[v _P2 `i ~T0 @X0 1 a ]
+[e = _P2 -> 3 `i ]
+"871
+[; ;Projekt.c: 871:     int i=1;
+[v _i `i ~T0 @X0 1 a ]
+[e = _i -> 1 `i ]
+"872
+[; ;Projekt.c: 872:     int j=14;
+[v _j `i ~T0 @X0 1 a ]
+[e = _j -> 14 `i ]
+"873
+[; ;Projekt.c: 873:     char micek[17];
+[v _micek `uc ~T0 @X0 -> 17 `i a ]
+"874
+[; ;Projekt.c: 874:     char zivoty[17];
+[v _zivoty `uc ~T0 @X0 -> 17 `i a ]
+"875
+[; ;Projekt.c: 875:     char gameover[17];
+[v _gameover `uc ~T0 @X0 -> 17 `i a ]
+"876
+[; ;Projekt.c: 876:     char vitez[17];
+[v _vitez `uc ~T0 @X0 -> 17 `i a ]
+"877
+[; ;Projekt.c: 877:     int n=0;
+[v _n `i ~T0 @X0 1 a ]
+[e = _n -> 0 `i ]
+"878
+[; ;Projekt.c: 878:     int r=0;
+[v _r `i ~T0 @X0 1 a ]
+[e = _r -> 0 `i ]
+"879
+[; ;Projekt.c: 879:     int z=20;
+[v _z `i ~T0 @X0 1 a ]
+[e = _z -> 20 `i ]
+"880
+[; ;Projekt.c: 880:     int t=20;
+[v _t `i ~T0 @X0 1 a ]
+[e = _t -> 20 `i ]
+"882
+[; ;Projekt.c: 882:     while(1){
+[e :U 1088 ]
+{
+"884
+[; ;Projekt.c: 884:         if (n==0){
+[e $ ! == _n -> 0 `i 1090  ]
+{
+"885
+[; ;Projekt.c: 885:          sprintf(zivoty,"P1 ***    *** P2");
+[e ( _sprintf (1 , &U _zivoty :s 90C ]
+"886
+[; ;Projekt.c: 886:          LCD_ShowString(1, zivoty);
+[e ( _LCD_ShowString (2 , -> -> 1 `i `uc &U _zivoty ]
+"887
+[; ;Projekt.c: 887:         }
+}
+[e :U 1090 ]
+"888
+[; ;Projekt.c: 888:         if (r==1){
+[e $ ! == _r -> 1 `i 1091  ]
+{
+"889
+[; ;Projekt.c: 889:             i=2;
+[e = _i -> 2 `i ]
+"890
+[; ;Projekt.c: 890:         }
+}
+[e :U 1091 ]
+"892
+[; ;Projekt.c: 892:         for(i;i<15;i++){
+{
+[e _i ]
+[e $ < _i -> 15 `i 1092  ]
+[e $U 1093  ]
+[e :U 1092 ]
+{
+"893
+[; ;Projekt.c: 893:             switch (i){
+[e $U 1096  ]
+{
+"895
+[; ;Projekt.c: 895:                 case 1:
+[e :U 1097 ]
+"896
+[; ;Projekt.c: 896:                     sprintf(micek,"%co             %c",219,219);
+[e ( _sprintf (1 , , (. , &U _micek :s 91C -> 219 `i -> 219 `i ]
+"897
+[; ;Projekt.c: 897:                      LCD_ShowString(2, micek);
+[e ( _LCD_ShowString (2 , -> -> 2 `i `uc &U _micek ]
+"898
+[; ;Projekt.c: 898:                      r=1;
+[e = _r -> 1 `i ]
+"899
+[; ;Projekt.c: 899:                 break;
+[e $U 1095  ]
+"900
+[; ;Projekt.c: 900:                 case 2:
+[e :U 1098 ]
+"901
+[; ;Projekt.c: 901:                     sprintf(micek,"%c o            %c",219,219);
+[e ( _sprintf (1 , , (. , &U _micek :s 92C -> 219 `i -> 219 `i ]
+"902
+[; ;Projekt.c: 902:                      LCD_ShowString(2, micek);
+[e ( _LCD_ShowString (2 , -> -> 2 `i `uc &U _micek ]
+"903
+[; ;Projekt.c: 903:                 break;
+[e $U 1095  ]
+"904
+[; ;Projekt.c: 904:                 case 3:
+[e :U 1099 ]
+"905
+[; ;Projekt.c: 905:                     sprintf(micek,"%c  o           %c",219,219);
+[e ( _sprintf (1 , , (. , &U _micek :s 93C -> 219 `i -> 219 `i ]
+"906
+[; ;Projekt.c: 906:                      LCD_ShowString(2, micek);
+[e ( _LCD_ShowString (2 , -> -> 2 `i `uc &U _micek ]
+"907
+[; ;Projekt.c: 907:                 break;
+[e $U 1095  ]
+"908
+[; ;Projekt.c: 908:                 case 4:
+[e :U 1100 ]
+"909
+[; ;Projekt.c: 909:                     sprintf(micek,"%c   o          %c",219,219);
+[e ( _sprintf (1 , , (. , &U _micek :s 94C -> 219 `i -> 219 `i ]
+"910
+[; ;Projekt.c: 910:                      LCD_ShowString(2, micek);
+[e ( _LCD_ShowString (2 , -> -> 2 `i `uc &U _micek ]
+"911
+[; ;Projekt.c: 911:                 break;
+[e $U 1095  ]
+"912
+[; ;Projekt.c: 912:                 case 5:
+[e :U 1101 ]
+"913
+[; ;Projekt.c: 913:                     sprintf(micek,"%c    o         %c",219,219);
+[e ( _sprintf (1 , , (. , &U _micek :s 95C -> 219 `i -> 219 `i ]
+"914
+[; ;Projekt.c: 914:                      LCD_ShowString(2, micek);
+[e ( _LCD_ShowString (2 , -> -> 2 `i `uc &U _micek ]
+"915
+[; ;Projekt.c: 915:                 break;
+[e $U 1095  ]
+"916
+[; ;Projekt.c: 916:                 case 6:
+[e :U 1102 ]
+"917
+[; ;Projekt.c: 917:                     sprintf(micek,"%c     o        %c",219,219);
+[e ( _sprintf (1 , , (. , &U _micek :s 96C -> 219 `i -> 219 `i ]
+"918
+[; ;Projekt.c: 918:                      LCD_ShowString(2, micek);
+[e ( _LCD_ShowString (2 , -> -> 2 `i `uc &U _micek ]
+"919
+[; ;Projekt.c: 919:                 break;
+[e $U 1095  ]
+"920
+[; ;Projekt.c: 920:                 case 7:
+[e :U 1103 ]
+"921
+[; ;Projekt.c: 921:                     sprintf(micek,"%c      o       %c",219,219);
+[e ( _sprintf (1 , , (. , &U _micek :s 97C -> 219 `i -> 219 `i ]
+"922
+[; ;Projekt.c: 922:                      LCD_ShowString(2, micek);
+[e ( _LCD_ShowString (2 , -> -> 2 `i `uc &U _micek ]
+"923
+[; ;Projekt.c: 923:                 break;
+[e $U 1095  ]
+"924
+[; ;Projekt.c: 924:                 case 8:
+[e :U 1104 ]
+"925
+[; ;Projekt.c: 925:                     sprintf(micek,"%c       o      %c",219,219);
+[e ( _sprintf (1 , , (. , &U _micek :s 98C -> 219 `i -> 219 `i ]
+"926
+[; ;Projekt.c: 926:                      LCD_ShowString(2, micek);
+[e ( _LCD_ShowString (2 , -> -> 2 `i `uc &U _micek ]
+"927
+[; ;Projekt.c: 927:                 break;
+[e $U 1095  ]
+"928
+[; ;Projekt.c: 928:                 case 9:
+[e :U 1105 ]
+"929
+[; ;Projekt.c: 929:                     sprintf(micek,"%c        o     %c",219,219);
+[e ( _sprintf (1 , , (. , &U _micek :s 99C -> 219 `i -> 219 `i ]
+"930
+[; ;Projekt.c: 930:                      LCD_ShowString(2, micek);
+[e ( _LCD_ShowString (2 , -> -> 2 `i `uc &U _micek ]
+"931
+[; ;Projekt.c: 931:                 break;
+[e $U 1095  ]
+"932
+[; ;Projekt.c: 932:                 case 10:
+[e :U 1106 ]
+"933
+[; ;Projekt.c: 933:                     sprintf(micek,"%c         o    %c",219,219);
+[e ( _sprintf (1 , , (. , &U _micek :s 100C -> 219 `i -> 219 `i ]
+"934
+[; ;Projekt.c: 934:                      LCD_ShowString(2, micek);
+[e ( _LCD_ShowString (2 , -> -> 2 `i `uc &U _micek ]
+"935
+[; ;Projekt.c: 935:                 break;
+[e $U 1095  ]
+"936
+[; ;Projekt.c: 936:                 case 11:
+[e :U 1107 ]
+"937
+[; ;Projekt.c: 937:                     sprintf(micek,"%c          o   %c",219,219);
+[e ( _sprintf (1 , , (. , &U _micek :s 101C -> 219 `i -> 219 `i ]
+"938
+[; ;Projekt.c: 938:                      LCD_ShowString(2, micek);
+[e ( _LCD_ShowString (2 , -> -> 2 `i `uc &U _micek ]
+"939
+[; ;Projekt.c: 939:                 break;
+[e $U 1095  ]
+"940
+[; ;Projekt.c: 940:                 case 12:
+[e :U 1108 ]
+"941
+[; ;Projekt.c: 941:                     sprintf(micek,"%c           o  %c",219,219);
+[e ( _sprintf (1 , , (. , &U _micek :s 102C -> 219 `i -> 219 `i ]
+"942
+[; ;Projekt.c: 942:                      LCD_ShowString(2, micek);
+[e ( _LCD_ShowString (2 , -> -> 2 `i `uc &U _micek ]
+"943
+[; ;Projekt.c: 943:                 break;
+[e $U 1095  ]
+"944
+[; ;Projekt.c: 944:                 case 13:
+[e :U 1109 ]
+"945
+[; ;Projekt.c: 945:                     sprintf(micek,"%c            o %c",219,219);
+[e ( _sprintf (1 , , (. , &U _micek :s 103C -> 219 `i -> 219 `i ]
+"946
+[; ;Projekt.c: 946:                      LCD_ShowString(2, micek);
+[e ( _LCD_ShowString (2 , -> -> 2 `i `uc &U _micek ]
+"947
+[; ;Projekt.c: 947:                      if(PORTAbits.RA2){
+[e $ ! != -> . . _PORTAbits 0 2 `i -> 0 `i 1110  ]
+{
+"948
+[; ;Projekt.c: 948:                          TRISAbits.RA2 = 0;
+[e = . . _TRISAbits 1 2 -> -> 0 `i `uc ]
+"949
+[; ;Projekt.c: 949:                      }
+}
+[e :U 1110 ]
+"950
+[; ;Projekt.c: 950:                      break;
+[e $U 1095  ]
+"951
+[; ;Projekt.c: 951:                 case 14:
+[e :U 1111 ]
+"952
+[; ;Projekt.c: 952:                     sprintf(micek,"%c             o%c",219,219);
+[e ( _sprintf (1 , , (. , &U _micek :s 104C -> 219 `i -> 219 `i ]
+"953
+[; ;Projekt.c: 953:                      LCD_ShowString(2, micek);
+[e ( _LCD_ShowString (2 , -> -> 2 `i `uc &U _micek ]
+"954
+[; ;Projekt.c: 954:                      t--;
+[e -- _t -> 1 `i ]
+"955
+[; ;Projekt.c: 955:                      r=1;
+[e = _r -> 1 `i ]
+"956
+[; ;Projekt.c: 956:                      if (!PORTAbits.RA2){
+[e $ ! ! != -> . . _PORTAbits 0 2 `i -> 0 `i 1112  ]
+{
+"957
+[; ;Projekt.c: 957:                          i=0;
+[e = _i -> 0 `i ]
+"958
+[; ;Projekt.c: 958:                          P2--;
+[e -- _P2 -> 1 `i ]
+"959
+[; ;Projekt.c: 959:                          n=1;
+[e = _n -> 1 `i ]
+"960
+[; ;Projekt.c: 960:                          r=0;
+[e = _r -> 0 `i ]
+"961
+[; ;Projekt.c: 961:                          t=20;
+[e = _t -> 20 `i ]
+"962
+[; ;Projekt.c: 962:                          z=20;
+[e = _z -> 20 `i ]
+"963
+[; ;Projekt.c: 963:                          TRISAbits.RA2 = 1;
+[e = . . _TRISAbits 1 2 -> -> 1 `i `uc ]
+"964
+[; ;Projekt.c: 964:                          switch (P2){
+[e $U 1114  ]
+{
+"965
+[; ;Projekt.c: 965:                              case 2:
+[e :U 1115 ]
+"966
+[; ;Projekt.c: 966:                                  zivoty[10]=' ';
+[e = *U + &U _zivoty * -> -> -> 10 `i `ui `ux -> -> # *U &U _zivoty `ui `ux -> -> 32 `ui `uc ]
+"967
+[; ;Projekt.c: 967:                                  LCD_ShowString(1, zivoty);
+[e ( _LCD_ShowString (2 , -> -> 1 `i `uc &U _zivoty ]
+"968
+[; ;Projekt.c: 968:                                  break;
+[e $U 1113  ]
+"969
+[; ;Projekt.c: 969:                              case 1:
+[e :U 1116 ]
+"970
+[; ;Projekt.c: 970:                                  zivoty[11]=' ';
+[e = *U + &U _zivoty * -> -> -> 11 `i `ui `ux -> -> # *U &U _zivoty `ui `ux -> -> 32 `ui `uc ]
+"971
+[; ;Projekt.c: 971:                                  LCD_ShowString(1, zivoty);
+[e ( _LCD_ShowString (2 , -> -> 1 `i `uc &U _zivoty ]
+"972
+[; ;Projekt.c: 972:                                  break;
+[e $U 1113  ]
+"973
+[; ;Projekt.c: 973:                              case 0:
+[e :U 1117 ]
+"974
+[; ;Projekt.c: 974:                                  zivoty[12]=' ';
+[e = *U + &U _zivoty * -> -> -> 12 `i `ui `ux -> -> # *U &U _zivoty `ui `ux -> -> 32 `ui `uc ]
+"975
+[; ;Projekt.c: 975:                                  LCD_ShowString(1, zivoty);
+[e ( _LCD_ShowString (2 , -> -> 1 `i `uc &U _zivoty ]
+"976
+[; ;Projekt.c: 976:                                  _delay((unsigned long)((500)*(32E6/4000.0)));
+[e ( __delay (1 -> * -> -> 500 `i `d / .32e6 .4000.0 `ul ]
+"977
+[; ;Projekt.c: 977:                                  LCD_Clear();
+[e ( _LCD_Clear ..  ]
+"978
+[; ;Projekt.c: 978:                                  _delay((unsigned long)((250)*(32E6/4000.0)));
+[e ( __delay (1 -> * -> -> 250 `i `d / .32e6 .4000.0 `ul ]
+"979
+[; ;Projekt.c: 979:                                  LCD_ShowString(1, zivoty);
+[e ( _LCD_ShowString (2 , -> -> 1 `i `uc &U _zivoty ]
+"980
+[; ;Projekt.c: 980:                                  _delay((unsigned long)((250)*(32E6/4000.0)));
+[e ( __delay (1 -> * -> -> 250 `i `d / .32e6 .4000.0 `ul ]
+"981
+[; ;Projekt.c: 981:                                  LCD_Clear();
+[e ( _LCD_Clear ..  ]
+"982
+[; ;Projekt.c: 982:                                  _delay((unsigned long)((250)*(32E6/4000.0)));
+[e ( __delay (1 -> * -> -> 250 `i `d / .32e6 .4000.0 `ul ]
+"983
+[; ;Projekt.c: 983:                                  LCD_ShowString(1, zivoty);
+[e ( _LCD_ShowString (2 , -> -> 1 `i `uc &U _zivoty ]
+"984
+[; ;Projekt.c: 984:                                  _delay((unsigned long)((250)*(32E6/4000.0)));
+[e ( __delay (1 -> * -> -> 250 `i `d / .32e6 .4000.0 `ul ]
+"985
+[; ;Projekt.c: 985:                                   LCD_Clear();
+[e ( _LCD_Clear ..  ]
+"986
+[; ;Projekt.c: 986:                                  _delay((unsigned long)((250)*(32E6/4000.0)));
+[e ( __delay (1 -> * -> -> 250 `i `d / .32e6 .4000.0 `ul ]
+"987
+[; ;Projekt.c: 987:                                  LCD_ShowString(1, zivoty);
+[e ( _LCD_ShowString (2 , -> -> 1 `i `uc &U _zivoty ]
+"988
+[; ;Projekt.c: 988:                                  _delay((unsigned long)((250)*(32E6/4000.0)));
+[e ( __delay (1 -> * -> -> 250 `i `d / .32e6 .4000.0 `ul ]
+"989
+[; ;Projekt.c: 989:                                  sprintf(gameover,"   GAME OVER!   ");
+[e ( _sprintf (1 , &U _gameover :s 105C ]
+"990
+[; ;Projekt.c: 990:                                  sprintf(vitez," PLAYER 1 WINS ");
+[e ( _sprintf (1 , &U _vitez :s 106C ]
+"991
+[; ;Projekt.c: 991:                                  LCD_ShowString(1, gameover);
+[e ( _LCD_ShowString (2 , -> -> 1 `i `uc &U _gameover ]
+"992
+[; ;Projekt.c: 992:                                  LCD_ShowString(2, vitez);
+[e ( _LCD_ShowString (2 , -> -> 2 `i `uc &U _vitez ]
+"993
+[; ;Projekt.c: 993:                                  _delay((unsigned long)((2000)*(32E6/4000.0)));
+[e ( __delay (1 -> * -> -> 2000 `i `d / .32e6 .4000.0 `ul ]
+"994
+[; ;Projekt.c: 994:                                  return;
+[e $UE 1086  ]
+"995
+[; ;Projekt.c: 995:                          }
+}
+[e $U 1113  ]
+[e :U 1114 ]
+[e [\ _P2 , $ -> 2 `i 1115
+ , $ -> 1 `i 1116
+ , $ -> 0 `i 1117
+ 1113 ]
+[e :U 1113 ]
+"996
+[; ;Projekt.c: 996:                          _delay((unsigned long)((500)*(32E6/4000.0)));
+[e ( __delay (1 -> * -> -> 500 `i `d / .32e6 .4000.0 `ul ]
+"997
+[; ;Projekt.c: 997:                      }
+}
+[e :U 1112 ]
+"998
+[; ;Projekt.c: 998:                 break;
+[e $U 1095  ]
+"999
+[; ;Projekt.c: 999:             }
+}
+[e $U 1095  ]
+[e :U 1096 ]
+[e [\ _i , $ -> 1 `i 1097
+ , $ -> 2 `i 1098
+ , $ -> 3 `i 1099
+ , $ -> 4 `i 1100
+ , $ -> 5 `i 1101
+ , $ -> 6 `i 1102
+ , $ -> 7 `i 1103
+ , $ -> 8 `i 1104
+ , $ -> 9 `i 1105
+ , $ -> 10 `i 1106
+ , $ -> 11 `i 1107
+ , $ -> 12 `i 1108
+ , $ -> 13 `i 1109
+ , $ -> 14 `i 1111
+ 1095 ]
+[e :U 1095 ]
+"1000
+[; ;Projekt.c: 1000:                 for(z;z>1;z--){
+{
+[e _z ]
+[e $ > _z -> 1 `i 1118  ]
+[e $U 1119  ]
+[e :U 1118 ]
+{
+"1001
+[; ;Projekt.c: 1001:             _delay((unsigned long)((15)*(32E6/4000.0)));
+[e ( __delay (1 -> * -> -> 15 `i `d / .32e6 .4000.0 `ul ]
+"1002
+[; ;Projekt.c: 1002:             }
+}
+[e -- _z -> 1 `i ]
+[e $ > _z -> 1 `i 1118  ]
+[e :U 1119 ]
+}
+"1003
+[; ;Projekt.c: 1003:             z=t;
+[e = _z _t ]
+"1004
+[; ;Projekt.c: 1004:         }
+}
+[e ++ _i -> 1 `i ]
+[e $ < _i -> 15 `i 1092  ]
+[e :U 1093 ]
+}
+"1005
+[; ;Projekt.c: 1005:          if (r==1){
+[e $ ! == _r -> 1 `i 1121  ]
+{
+"1006
+[; ;Projekt.c: 1006:             j=13;
+[e = _j -> 13 `i ]
+"1007
+[; ;Projekt.c: 1007:         }
+}
+[e :U 1121 ]
+"1008
+[; ;Projekt.c: 1008:         for(j;j>=1;j--) {
+{
+[e _j ]
+[e $ >= _j -> 1 `i 1122  ]
+[e $U 1123  ]
+[e :U 1122 ]
+{
+"1009
+[; ;Projekt.c: 1009:             switch (j){
+[e $U 1126  ]
+{
+"1011
+[; ;Projekt.c: 1011:                 case 1:
+[e :U 1127 ]
+"1012
+[; ;Projekt.c: 1012:                     sprintf(micek,"%co             %c",219,219);
+[e ( _sprintf (1 , , (. , &U _micek :s 107C -> 219 `i -> 219 `i ]
+"1013
+[; ;Projekt.c: 1013:                      LCD_ShowString(2, micek);
+[e ( _LCD_ShowString (2 , -> -> 2 `i `uc &U _micek ]
+"1014
+[; ;Projekt.c: 1014:                      t--;
+[e -- _t -> 1 `i ]
+"1015
+[; ;Projekt.c: 1015:                      r=1;
+[e = _r -> 1 `i ]
+"1016
+[; ;Projekt.c: 1016:                      if (!PORTCbits.RC0){
+[e $ ! ! != -> . . _PORTCbits 0 0 `i -> 0 `i 1128  ]
+{
+"1017
+[; ;Projekt.c: 1017:                          j=15;
+[e = _j -> 15 `i ]
+"1018
+[; ;Projekt.c: 1018:                          P1--;
+[e -- _P1 -> 1 `i ]
+"1019
+[; ;Projekt.c: 1019:                          n=1;
+[e = _n -> 1 `i ]
+"1020
+[; ;Projekt.c: 1020:                          r=0;
+[e = _r -> 0 `i ]
+"1021
+[; ;Projekt.c: 1021:                          t=20;
+[e = _t -> 20 `i ]
+"1022
+[; ;Projekt.c: 1022:                          z=20;
+[e = _z -> 20 `i ]
+"1023
+[; ;Projekt.c: 1023:                          TRISCbits.RC0 = 1;
+[e = . . _TRISCbits 1 0 -> -> 1 `i `uc ]
+"1025
+[; ;Projekt.c: 1025:                          switch (P1){
+[e $U 1130  ]
+{
+"1027
+[; ;Projekt.c: 1027:                              case 2:
+[e :U 1131 ]
+"1028
+[; ;Projekt.c: 1028:                                  zivoty[5]=' ';
+[e = *U + &U _zivoty * -> -> -> 5 `i `ui `ux -> -> # *U &U _zivoty `ui `ux -> -> 32 `ui `uc ]
+"1029
+[; ;Projekt.c: 1029:                                  LCD_ShowString(1, zivoty);
+[e ( _LCD_ShowString (2 , -> -> 1 `i `uc &U _zivoty ]
+"1030
+[; ;Projekt.c: 1030:                                  break;
+[e $U 1129  ]
+"1031
+[; ;Projekt.c: 1031:                              case 1:
+[e :U 1132 ]
+"1032
+[; ;Projekt.c: 1032:                                  zivoty[4]=' ';
+[e = *U + &U _zivoty * -> -> -> 4 `i `ui `ux -> -> # *U &U _zivoty `ui `ux -> -> 32 `ui `uc ]
+"1033
+[; ;Projekt.c: 1033:                                  LCD_ShowString(1, zivoty);
+[e ( _LCD_ShowString (2 , -> -> 1 `i `uc &U _zivoty ]
+"1034
+[; ;Projekt.c: 1034:                                  break;
+[e $U 1129  ]
+"1035
+[; ;Projekt.c: 1035:                              case 0:
+[e :U 1133 ]
+"1036
+[; ;Projekt.c: 1036:                                  zivoty[3]=' ';
+[e = *U + &U _zivoty * -> -> -> 3 `i `ui `ux -> -> # *U &U _zivoty `ui `ux -> -> 32 `ui `uc ]
+"1037
+[; ;Projekt.c: 1037:                                  LCD_ShowString(1, zivoty);
+[e ( _LCD_ShowString (2 , -> -> 1 `i `uc &U _zivoty ]
+"1038
+[; ;Projekt.c: 1038:                                  _delay((unsigned long)((500)*(32E6/4000.0)));
+[e ( __delay (1 -> * -> -> 500 `i `d / .32e6 .4000.0 `ul ]
+"1039
+[; ;Projekt.c: 1039:                                  LCD_Clear();
+[e ( _LCD_Clear ..  ]
+"1040
+[; ;Projekt.c: 1040:                                  _delay((unsigned long)((250)*(32E6/4000.0)));
+[e ( __delay (1 -> * -> -> 250 `i `d / .32e6 .4000.0 `ul ]
+"1041
+[; ;Projekt.c: 1041:                                  LCD_ShowString(1, zivoty);
+[e ( _LCD_ShowString (2 , -> -> 1 `i `uc &U _zivoty ]
+"1042
+[; ;Projekt.c: 1042:                                  _delay((unsigned long)((250)*(32E6/4000.0)));
+[e ( __delay (1 -> * -> -> 250 `i `d / .32e6 .4000.0 `ul ]
+"1043
+[; ;Projekt.c: 1043:                                  LCD_Clear();
+[e ( _LCD_Clear ..  ]
+"1044
+[; ;Projekt.c: 1044:                                  _delay((unsigned long)((250)*(32E6/4000.0)));
+[e ( __delay (1 -> * -> -> 250 `i `d / .32e6 .4000.0 `ul ]
+"1045
+[; ;Projekt.c: 1045:                                  LCD_ShowString(1, zivoty);
+[e ( _LCD_ShowString (2 , -> -> 1 `i `uc &U _zivoty ]
+"1046
+[; ;Projekt.c: 1046:                                  _delay((unsigned long)((250)*(32E6/4000.0)));
+[e ( __delay (1 -> * -> -> 250 `i `d / .32e6 .4000.0 `ul ]
+"1047
+[; ;Projekt.c: 1047:                                   LCD_Clear();
+[e ( _LCD_Clear ..  ]
+"1048
+[; ;Projekt.c: 1048:                                  _delay((unsigned long)((250)*(32E6/4000.0)));
+[e ( __delay (1 -> * -> -> 250 `i `d / .32e6 .4000.0 `ul ]
+"1049
+[; ;Projekt.c: 1049:                                  LCD_ShowString(1, zivoty);
+[e ( _LCD_ShowString (2 , -> -> 1 `i `uc &U _zivoty ]
+"1050
+[; ;Projekt.c: 1050:                                  _delay((unsigned long)((250)*(32E6/4000.0)));
+[e ( __delay (1 -> * -> -> 250 `i `d / .32e6 .4000.0 `ul ]
+"1051
+[; ;Projekt.c: 1051:                                  sprintf(gameover,"   GAME OVER!   ");
+[e ( _sprintf (1 , &U _gameover :s 108C ]
+"1052
+[; ;Projekt.c: 1052:                                  sprintf(vitez," PLAYER 2 WINS ");
+[e ( _sprintf (1 , &U _vitez :s 109C ]
+"1053
+[; ;Projekt.c: 1053:                                  LCD_ShowString(1, gameover);
+[e ( _LCD_ShowString (2 , -> -> 1 `i `uc &U _gameover ]
+"1054
+[; ;Projekt.c: 1054:                                  LCD_ShowString(2, vitez);
+[e ( _LCD_ShowString (2 , -> -> 2 `i `uc &U _vitez ]
+"1055
+[; ;Projekt.c: 1055:                                  _delay((unsigned long)((2000)*(32E6/4000.0)));
+[e ( __delay (1 -> * -> -> 2000 `i `d / .32e6 .4000.0 `ul ]
+"1056
+[; ;Projekt.c: 1056:                                  return;
+[e $UE 1086  ]
+"1057
+[; ;Projekt.c: 1057:                          }
+}
+[e $U 1129  ]
+[e :U 1130 ]
+[e [\ _P1 , $ -> 2 `i 1131
+ , $ -> 1 `i 1132
+ , $ -> 0 `i 1133
+ 1129 ]
+[e :U 1129 ]
+"1058
+[; ;Projekt.c: 1058:                       _delay((unsigned long)((500)*(32E6/4000.0)));
+[e ( __delay (1 -> * -> -> 500 `i `d / .32e6 .4000.0 `ul ]
+"1059
+[; ;Projekt.c: 1059:                       }
+}
+[e :U 1128 ]
+"1060
+[; ;Projekt.c: 1060:                      break;
+[e $U 1125  ]
+"1061
+[; ;Projekt.c: 1061:                 case 2:
+[e :U 1134 ]
+"1062
+[; ;Projekt.c: 1062:                     sprintf(micek,"%c o            %c",219,219);
+[e ( _sprintf (1 , , (. , &U _micek :s 110C -> 219 `i -> 219 `i ]
+"1063
+[; ;Projekt.c: 1063:                      LCD_ShowString(2, micek);
+[e ( _LCD_ShowString (2 , -> -> 2 `i `uc &U _micek ]
+"1064
+[; ;Projekt.c: 1064:                      if(PORTCbits.RC0){
+[e $ ! != -> . . _PORTCbits 0 0 `i -> 0 `i 1135  ]
+{
+"1065
+[; ;Projekt.c: 1065:                          TRISCbits.RC0 = 0;
+[e = . . _TRISCbits 1 0 -> -> 0 `i `uc ]
+"1066
+[; ;Projekt.c: 1066:                      }
+}
+[e :U 1135 ]
+"1067
+[; ;Projekt.c: 1067:                 break;
+[e $U 1125  ]
+"1068
+[; ;Projekt.c: 1068:                 case 3:
+[e :U 1136 ]
+"1069
+[; ;Projekt.c: 1069:                     sprintf(micek,"%c  o           %c",219,219);
+[e ( _sprintf (1 , , (. , &U _micek :s 111C -> 219 `i -> 219 `i ]
+"1070
+[; ;Projekt.c: 1070:                      LCD_ShowString(2, micek);
+[e ( _LCD_ShowString (2 , -> -> 2 `i `uc &U _micek ]
+"1071
+[; ;Projekt.c: 1071:                 break;
+[e $U 1125  ]
+"1072
+[; ;Projekt.c: 1072:                 case 4:
+[e :U 1137 ]
+"1073
+[; ;Projekt.c: 1073:                     sprintf(micek,"%c   o          %c",219,219);
+[e ( _sprintf (1 , , (. , &U _micek :s 112C -> 219 `i -> 219 `i ]
+"1074
+[; ;Projekt.c: 1074:                      LCD_ShowString(2, micek);
+[e ( _LCD_ShowString (2 , -> -> 2 `i `uc &U _micek ]
+"1075
+[; ;Projekt.c: 1075:                 break;
+[e $U 1125  ]
+"1076
+[; ;Projekt.c: 1076:                 case 5:
+[e :U 1138 ]
+"1077
+[; ;Projekt.c: 1077:                     sprintf(micek,"%c    o         %c",219,219);
+[e ( _sprintf (1 , , (. , &U _micek :s 113C -> 219 `i -> 219 `i ]
+"1078
+[; ;Projekt.c: 1078:                      LCD_ShowString(2, micek);
+[e ( _LCD_ShowString (2 , -> -> 2 `i `uc &U _micek ]
+"1079
+[; ;Projekt.c: 1079:                 break;
+[e $U 1125  ]
+"1080
+[; ;Projekt.c: 1080:                 case 6:
+[e :U 1139 ]
+"1081
+[; ;Projekt.c: 1081:                     sprintf(micek,"%c     o        %c",219,219);
+[e ( _sprintf (1 , , (. , &U _micek :s 114C -> 219 `i -> 219 `i ]
+"1082
+[; ;Projekt.c: 1082:                      LCD_ShowString(2, micek);
+[e ( _LCD_ShowString (2 , -> -> 2 `i `uc &U _micek ]
+"1083
+[; ;Projekt.c: 1083:                 break;
+[e $U 1125  ]
+"1084
+[; ;Projekt.c: 1084:                 case 7:
+[e :U 1140 ]
+"1085
+[; ;Projekt.c: 1085:                     sprintf(micek,"%c      o       %c",219,219);
+[e ( _sprintf (1 , , (. , &U _micek :s 115C -> 219 `i -> 219 `i ]
+"1086
+[; ;Projekt.c: 1086:                      LCD_ShowString(2, micek);
+[e ( _LCD_ShowString (2 , -> -> 2 `i `uc &U _micek ]
+"1087
+[; ;Projekt.c: 1087:                 break;
+[e $U 1125  ]
+"1088
+[; ;Projekt.c: 1088:                 case 8:
+[e :U 1141 ]
+"1089
+[; ;Projekt.c: 1089:                     sprintf(micek,"%c       o      %c",219,219);
+[e ( _sprintf (1 , , (. , &U _micek :s 116C -> 219 `i -> 219 `i ]
+"1090
+[; ;Projekt.c: 1090:                      LCD_ShowString(2, micek);
+[e ( _LCD_ShowString (2 , -> -> 2 `i `uc &U _micek ]
+"1091
+[; ;Projekt.c: 1091:                 break;
+[e $U 1125  ]
+"1092
+[; ;Projekt.c: 1092:                 case 9:
+[e :U 1142 ]
+"1093
+[; ;Projekt.c: 1093:                     sprintf(micek,"%c        o     %c",219,219);
+[e ( _sprintf (1 , , (. , &U _micek :s 117C -> 219 `i -> 219 `i ]
+"1094
+[; ;Projekt.c: 1094:                      LCD_ShowString(2, micek);
+[e ( _LCD_ShowString (2 , -> -> 2 `i `uc &U _micek ]
+"1095
+[; ;Projekt.c: 1095:                 break;
+[e $U 1125  ]
+"1096
+[; ;Projekt.c: 1096:                 case 10:
+[e :U 1143 ]
+"1097
+[; ;Projekt.c: 1097:                     sprintf(micek,"%c         o    %c",219,219);
+[e ( _sprintf (1 , , (. , &U _micek :s 118C -> 219 `i -> 219 `i ]
+"1098
+[; ;Projekt.c: 1098:                      LCD_ShowString(2, micek);
+[e ( _LCD_ShowString (2 , -> -> 2 `i `uc &U _micek ]
+"1099
+[; ;Projekt.c: 1099:                 break;
+[e $U 1125  ]
+"1100
+[; ;Projekt.c: 1100:                 case 11:
+[e :U 1144 ]
+"1101
+[; ;Projekt.c: 1101:                     sprintf(micek,"%c          o   %c",219,219);
+[e ( _sprintf (1 , , (. , &U _micek :s 119C -> 219 `i -> 219 `i ]
+"1102
+[; ;Projekt.c: 1102:                      LCD_ShowString(2, micek);
+[e ( _LCD_ShowString (2 , -> -> 2 `i `uc &U _micek ]
+"1103
+[; ;Projekt.c: 1103:                 break;
+[e $U 1125  ]
+"1104
+[; ;Projekt.c: 1104:                 case 12:
+[e :U 1145 ]
+"1105
+[; ;Projekt.c: 1105:                     sprintf(micek,"%c           o  %c",219,219);
+[e ( _sprintf (1 , , (. , &U _micek :s 120C -> 219 `i -> 219 `i ]
+"1106
+[; ;Projekt.c: 1106:                      LCD_ShowString(2, micek);
+[e ( _LCD_ShowString (2 , -> -> 2 `i `uc &U _micek ]
+"1107
+[; ;Projekt.c: 1107:                 break;
+[e $U 1125  ]
+"1108
+[; ;Projekt.c: 1108:                 case 13:
+[e :U 1146 ]
+"1109
+[; ;Projekt.c: 1109:                     sprintf(micek,"%c            o %c",219,219);
+[e ( _sprintf (1 , , (. , &U _micek :s 121C -> 219 `i -> 219 `i ]
+"1110
+[; ;Projekt.c: 1110:                      LCD_ShowString(2, micek);
+[e ( _LCD_ShowString (2 , -> -> 2 `i `uc &U _micek ]
+"1111
+[; ;Projekt.c: 1111:                 break;
+[e $U 1125  ]
+"1112
+[; ;Projekt.c: 1112:                 case 14:
+[e :U 1147 ]
+"1113
+[; ;Projekt.c: 1113:                     sprintf(micek,"%c             o%c",219,219);
+[e ( _sprintf (1 , , (. , &U _micek :s 122C -> 219 `i -> 219 `i ]
+"1114
+[; ;Projekt.c: 1114:                      LCD_ShowString(2, micek);
+[e ( _LCD_ShowString (2 , -> -> 2 `i `uc &U _micek ]
+"1115
+[; ;Projekt.c: 1115:                      r=1;
+[e = _r -> 1 `i ]
+"1116
+[; ;Projekt.c: 1116:                 break;
+[e $U 1125  ]
+"1117
+[; ;Projekt.c: 1117:             }
+}
+[e $U 1125  ]
+[e :U 1126 ]
+[e [\ _j , $ -> 1 `i 1127
+ , $ -> 2 `i 1134
+ , $ -> 3 `i 1136
+ , $ -> 4 `i 1137
+ , $ -> 5 `i 1138
+ , $ -> 6 `i 1139
+ , $ -> 7 `i 1140
+ , $ -> 8 `i 1141
+ , $ -> 9 `i 1142
+ , $ -> 10 `i 1143
+ , $ -> 11 `i 1144
+ , $ -> 12 `i 1145
+ , $ -> 13 `i 1146
+ , $ -> 14 `i 1147
+ 1125 ]
+[e :U 1125 ]
+"1118
+[; ;Projekt.c: 1118:             for(z;z>1;z--){
+{
+[e _z ]
+[e $ > _z -> 1 `i 1148  ]
+[e $U 1149  ]
+[e :U 1148 ]
+{
+"1119
+[; ;Projekt.c: 1119:             _delay((unsigned long)((15)*(32E6/4000.0)));
+[e ( __delay (1 -> * -> -> 15 `i `d / .32e6 .4000.0 `ul ]
+"1120
+[; ;Projekt.c: 1120:             }
+}
+[e -- _z -> 1 `i ]
+[e $ > _z -> 1 `i 1148  ]
+[e :U 1149 ]
+}
+"1121
+[; ;Projekt.c: 1121:             z=t;
+[e = _z _t ]
+"1122
+[; ;Projekt.c: 1122:         }
+}
+[e -- _j -> 1 `i ]
+[e $ >= _j -> 1 `i 1122  ]
+[e :U 1123 ]
+}
+"1123
+[; ;Projekt.c: 1123:      i=1;
+[e = _i -> 1 `i ]
+"1124
+[; ;Projekt.c: 1124:      j=14;
+[e = _j -> 14 `i ]
+"1125
+[; ;Projekt.c: 1125:      }
+}
+[e :U 1087 ]
+[e $U 1088  ]
+[e :U 1089 ]
+"1126
+[; ;Projekt.c: 1126:     }
+[e :UE 1086 ]
+}
+"1131
+[; ;Projekt.c: 1131: void putch(unsigned char data){
+[v _putch `(v ~T0 @X0 1 ef1`uc ]
+{
+[e :U _putch ]
+[v _data `uc ~T0 @X0 1 r1 ]
+[f ]
+"1132
+[; ;Projekt.c: 1132:     while(!TX1IF);
+[e $U 1152  ]
+[e :U 1153 ]
+[e :U 1152 ]
+[e $ ! _TX1IF 1153  ]
+[e :U 1154 ]
+"1133
+[; ;Projekt.c: 1133:     TXREG1 = data;
+[e = _TXREG1 _data ]
+"1134
+[; ;Projekt.c: 1134: }
+[e :UE 1151 ]
+}
+[p f _printf 8388608 ]
+[p f _sprintf 8913024 ]
+[a 56C 32 46 32 46 32 46 32 46 32 46 32 124 0 ]
+[a 57C 32 45 32 46 32 46 32 46 32 46 32 124 0 ]
+[a 32C 32 46 32 46 32 46 32 46 32 124 0 ]
+[a 58C 32 45 32 45 32 46 32 46 32 46 32 124 0 ]
+[a 26C 32 45 32 46 32 46 32 46 32 124 0 ]
+[a 43C 32 46 32 46 32 46 32 124 0 ]
+[a 36C 32 46 32 45 32 46 32 46 32 124 0 ]
+[a 64C 32 46 32 46 32 45 32 45 32 46 32 46 32 124 0 ]
+[a 59C 32 45 32 45 32 45 32 46 32 46 32 124 0 ]
+[a 50C 32 45 32 45 32 46 32 46 32 124 0 ]
+[a 28C 32 45 32 46 32 46 32 124 0 ]
+[a 33C 32 46 32 46 32 124 0 ]
+[a 30C 32 46 32 46 32 45 32 46 32 124 0 ]
+[a 61C 32 46 32 45 32 46 32 45 32 46 32 45 32 46 32 124 0 ]
+[a 27C 32 45 32 46 32 45 32 46 32 124 0 ]
+[a 42C 32 46 32 45 32 46 32 124 0 ]
+[a 40C 32 46 32 45 32 45 32 46 32 124 0 ]
+[a 60C 32 45 32 45 32 45 32 45 32 46 32 124 0 ]
+[a 31C 32 45 32 45 32 46 32 124 0 ]
+[a 38C 32 45 32 46 32 124 0 ]
+[a 29C 32 46 32 124 0 ]
+[a 55C 32 46 32 46 32 46 32 46 32 45 32 124 0 ]
+[a 46C 32 46 32 46 32 46 32 45 32 124 0 ]
+[a 63C 32 45 32 45 32 46 32 46 32 45 32 124 0 ]
+[a 48C 32 45 32 46 32 46 32 45 32 124 0 ]
+[a 45C 32 46 32 46 32 45 32 124 0 ]
+[a 41C 32 45 32 45 32 46 32 45 32 124 0 ]
+[a 35C 32 45 32 46 32 45 32 124 0 ]
+[a 25C 32 46 32 45 32 124 0 ]
+[a 54C 32 46 32 46 32 46 32 45 32 45 32 124 0 ]
+[a 62C 32 45 32 45 32 46 32 46 32 45 32 45 32 124 0 ]
+[a 49C 32 45 32 46 32 45 32 45 32 124 0 ]
+[a 47C 32 46 32 45 32 45 32 124 0 ]
+[a 53C 32 46 32 46 32 45 32 45 32 45 32 124 0 ]
+[a 34C 32 46 32 45 32 45 32 45 32 124 0 ]
+[a 52C 32 46 32 45 32 45 32 45 32 45 32 124 0 ]
+[a 51C 32 45 32 45 32 45 32 45 32 45 32 124 0 ]
+[a 39C 32 45 32 45 32 45 32 124 0 ]
+[a 37C 32 45 32 45 32 124 0 ]
+[a 44C 32 45 32 124 0 ]
+[a 65C 124 0 ]
+[a 22C 77 111 114 115 101 32 116 114 97 110 115 108 97 116 111 114 0 ]
+[a 104C 37 99 32 32 32 32 32 32 32 32 32 32 32 32 32 111 37 99 0 ]
+[a 122C 37 99 32 32 32 32 32 32 32 32 32 32 32 32 32 111 37 99 0 ]
+[a 103C 37 99 32 32 32 32 32 32 32 32 32 32 32 32 111 32 37 99 0 ]
+[a 121C 37 99 32 32 32 32 32 32 32 32 32 32 32 32 111 32 37 99 0 ]
+[a 102C 37 99 32 32 32 32 32 32 32 32 32 32 32 111 32 32 37 99 0 ]
+[a 120C 37 99 32 32 32 32 32 32 32 32 32 32 32 111 32 32 37 99 0 ]
+[a 101C 37 99 32 32 32 32 32 32 32 32 32 32 111 32 32 32 37 99 0 ]
+[a 119C 37 99 32 32 32 32 32 32 32 32 32 32 111 32 32 32 37 99 0 ]
+[a 100C 37 99 32 32 32 32 32 32 32 32 32 111 32 32 32 32 37 99 0 ]
+[a 118C 37 99 32 32 32 32 32 32 32 32 32 111 32 32 32 32 37 99 0 ]
+[a 99C 37 99 32 32 32 32 32 32 32 32 111 32 32 32 32 32 37 99 0 ]
+[a 117C 37 99 32 32 32 32 32 32 32 32 111 32 32 32 32 32 37 99 0 ]
+[a 98C 37 99 32 32 32 32 32 32 32 111 32 32 32 32 32 32 37 99 0 ]
+[a 116C 37 99 32 32 32 32 32 32 32 111 32 32 32 32 32 32 37 99 0 ]
+[a 97C 37 99 32 32 32 32 32 32 111 32 32 32 32 32 32 32 37 99 0 ]
+[a 115C 37 99 32 32 32 32 32 32 111 32 32 32 32 32 32 32 37 99 0 ]
+[a 96C 37 99 32 32 32 32 32 111 32 32 32 32 32 32 32 32 37 99 0 ]
+[a 114C 37 99 32 32 32 32 32 111 32 32 32 32 32 32 32 32 37 99 0 ]
+[a 95C 37 99 32 32 32 32 111 32 32 32 32 32 32 32 32 32 37 99 0 ]
+[a 113C 37 99 32 32 32 32 111 32 32 32 32 32 32 32 32 32 37 99 0 ]
+[a 94C 37 99 32 32 32 111 32 32 32 32 32 32 32 32 32 32 37 99 0 ]
+[a 112C 37 99 32 32 32 111 32 32 32 32 32 32 32 32 32 32 37 99 0 ]
+[a 93C 37 99 32 32 111 32 32 32 32 32 32 32 32 32 32 32 37 99 0 ]
+[a 111C 37 99 32 32 111 32 32 32 32 32 32 32 32 32 32 32 37 99 0 ]
+[a 92C 37 99 32 111 32 32 32 32 32 32 32 32 32 32 32 32 37 99 0 ]
+[a 110C 37 99 32 111 32 32 32 32 32 32 32 32 32 32 32 32 37 99 0 ]
+[a 91C 37 99 111 32 32 32 32 32 32 32 32 32 32 32 32 32 37 99 0 ]
+[a 107C 37 99 111 32 32 32 32 32 32 32 32 32 32 32 32 32 37 99 0 ]
+[a 20C 42 32 80 111 110 103 45 50 32 80 76 65 89 69 82 83 0 ]
+[a 18C 32 32 80 111 110 103 45 50 32 80 76 65 89 69 82 83 0 ]
+[a 89C 79 79 79 79 79 79 79 79 79 79 79 79 79 79 79 79 0 ]
+[a 90C 80 49 32 42 42 42 32 32 32 32 42 42 42 32 80 50 0 ]
+[a 109C 32 80 76 65 89 69 82 32 50 32 87 73 78 83 32 0 ]
+[a 106C 32 80 76 65 89 69 82 32 49 32 87 73 78 83 32 0 ]
+[a 88C 79 79 79 79 79 79 79 79 79 79 79 79 79 79 79 32 0 ]
+[a 5C 42 32 75 110 105 103 104 116 32 82 105 100 101 114 32 32 0 ]
+[a 7C 32 32 75 110 105 103 104 116 32 82 105 100 101 114 32 32 0 ]
+[a 87C 79 79 79 79 79 79 79 79 79 79 79 79 79 79 32 32 0 ]
+[a 24C 10 80 82 69 75 76 65 68 58 32 32 0 ]
+[a 23C 116 114 97 110 115 108 97 116 105 110 103 46 46 46 32 32 0 ]
+[a 86C 79 79 79 79 79 79 79 79 79 79 79 79 79 32 32 32 0 ]
+[a 70C 79 110 32 116 104 101 32 119 97 121 46 46 46 32 32 32 0 ]
+[a 72C 79 110 32 116 104 101 32 119 97 121 46 46 46 32 32 32 0 ]
+[a 105C 32 32 32 71 65 77 69 32 79 86 69 82 33 32 32 32 0 ]
+[a 108C 32 32 32 71 65 77 69 32 79 86 69 82 33 32 32 32 0 ]
+[a 69C 75 110 105 103 104 116 32 82 105 100 101 114 32 32 32 32 0 ]
+[a 71C 75 110 105 103 104 116 32 82 105 100 101 114 32 32 32 32 0 ]
+[a 85C 79 79 79 79 79 79 79 79 79 79 79 79 32 32 32 32 0 ]
+[a 4C 42 32 77 111 100 101 108 32 51 48 48 48 32 32 32 32 0 ]
+[a 2C 32 32 77 111 100 101 108 32 51 48 48 48 32 32 32 32 0 ]
+[a 1C 42 32 77 111 100 101 108 32 50 48 48 48 32 32 32 32 0 ]
+[a 3C 32 32 77 111 100 101 108 32 50 48 48 48 32 32 32 32 0 ]
+[a 12C 42 32 80 87 77 32 109 111 116 111 114 32 32 32 32 32 0 ]
+[a 13C 42 32 80 87 77 32 109 111 116 111 114 32 32 32 32 32 0 ]
+[a 10C 32 32 80 87 77 32 109 111 116 111 114 32 32 32 32 32 0 ]
+[a 15C 32 32 80 87 77 32 109 111 116 111 114 32 32 32 32 32 0 ]
+[a 67C 80 77 87 32 67 111 110 116 114 111 108 32 32 32 32 32 0 ]
+[a 8C 42 32 77 111 114 115 101 111 118 107 97 32 32 32 32 32 0 ]
+[a 9C 42 32 77 111 114 115 101 111 118 107 97 32 32 32 32 32 0 ]
+[a 6C 32 32 77 111 114 115 101 111 118 107 97 32 32 32 32 32 0 ]
+[a 11C 32 32 77 111 114 115 101 111 118 107 97 32 32 32 32 32 0 ]
+[a 84C 79 79 79 79 79 79 79 79 79 79 79 32 32 32 32 32 0 ]
+[a 16C 42 32 66 97 114 103 114 97 112 104 32 32 32 32 32 32 0 ]
+[a 17C 42 32 66 97 114 103 114 97 112 104 32 32 32 32 32 32 0 ]
+[a 14C 32 32 66 97 114 103 114 97 112 104 32 32 32 32 32 32 0 ]
+[a 19C 32 32 66 97 114 103 114 97 112 104 32 32 32 32 32 32 0 ]
+[a 83C 79 79 79 79 79 79 79 79 79 79 32 32 32 32 32 32 0 ]
+[a 73C 86 65 76 85 69 32 61 32 37 100 32 32 32 32 32 32 32 0 ]
+[a 82C 79 79 79 79 79 79 79 79 79 32 32 32 32 32 32 32 0 ]
+[a 81C 79 79 79 79 79 79 79 79 32 32 32 32 32 32 32 32 0 ]
+[a 80C 79 79 79 79 79 79 79 32 32 32 32 32 32 32 32 32 0 ]
+[a 79C 79 79 79 79 79 79 32 32 32 32 32 32 32 32 32 32 0 ]
+[a 78C 79 79 79 79 79 32 32 32 32 32 32 32 32 32 32 32 0 ]
+[a 77C 79 79 79 79 32 32 32 32 32 32 32 32 32 32 32 32 0 ]
+[a 68C 68 117 116 121 32 61 32 37 100 32 32 32 32 32 32 32 32 32 32 32 32 32 0 ]
+[a 76C 79 79 79 32 32 32 32 32 32 32 32 32 32 32 32 32 0 ]
+[a 75C 79 79 32 32 32 32 32 32 32 32 32 32 32 32 32 32 0 ]
+[a 74C 79 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 0 ]
+[a 21C 69 110 116 101 114 32 111 110 108 121 32 118 97 108 105 100 32 99 104 97 114 97 99 116 101 114 115 32 58 41 10 10 10 0 ]
+[a 66C 10 10 0 ]
